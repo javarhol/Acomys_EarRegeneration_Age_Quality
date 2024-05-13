@@ -1,0 +1,8 @@
+"0",""
+"0","ggplot(hairregen, aes(Slide_per, Num.points, color = AgeCat)) +"
+"0","  geom_point()+"
+"0","  geom_smooth(method = lm, se=FALSE)+"
+"0","  scale_color_social()+"
+"0","  scale_x_continuous(labels=function(x) paste0(x,""%""))+"
+"0","  ylab(""Mean # of Hairs"") + xlab(""Depth of Injury"") +"
+"0","  theme_cowplot()"

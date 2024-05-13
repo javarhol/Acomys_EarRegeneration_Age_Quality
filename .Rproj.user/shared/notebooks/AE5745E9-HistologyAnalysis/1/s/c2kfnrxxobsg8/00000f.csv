@@ -1,0 +1,4 @@
+"0","measures <- read_excel(""data/measurements_020924.xlsx"")"
+"0","daystoclose <- read.csv(""data/EarDaysToClose_Data.csv"")"
+"0","muscle <- read.csv(""data/muscle.csv"")"
+"0","hairs <- read_excel(""data/hairfollicles.xlsx"")"

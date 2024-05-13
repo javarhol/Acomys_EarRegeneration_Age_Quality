@@ -1,0 +1,43 @@
+"0","##cartilage count"
+"0","#hist(cartregen$Count.x)"
+"0","shapiro.test(cartregen$Count.x)"
+"1","
+"
+"1","	Shapiro-Wilk normality test"
+"1","
+"
+"1","
+"
+"1","data:  "
+"1",""
+"1","cartregen$Count.x"
+"1",""
+"1","
+"
+"1","W = 0.90704, p-value = 2.636e-11"
+"1","
+"
+"1","
+"
+"0","ccountpositionm <- glmer(Count.x ~ AgeCat + Slide_per + AgeCat*Slide_per + (1|AnimalID), data = cartregen)"
+"2","Warning: calling glmer() with family=gaussian (identity link) as a shortcut to lmer() is deprecated; please call lmer() directly"
+"0","report(ccountpositionm)"
+"1","We fitted a linear mixed model (estimated using REML and nloptwrap optimizer) to predict Count.x with AgeCat and Slide_per (formula: Count.x ~ AgeCat + Slide_per + AgeCat * Slide_per). The model included
+AnimalID as random effect (formula: ~1 | AnimalID). The model's total explanatory power is substantial (conditional R2 = 0.59) and the part related to the fixed effects alone (marginal R2) is of 0.50.
+The model's intercept, corresponding to AgeCat = Uninjured Tissue and Slide_per = 0, is at 1.37 (95% CI [0.11, 2.62], t(237) = 2.15, p = 0.033). Within this model:
+
+  - The effect of AgeCat [Injured at 3-4mo] is statistically significant and positive (beta = 3.41, 95% CI [1.46, 5.35], t(237) = 3.45, p < .001; Std. beta = 1.65, 95% CI [1.17, 2.13])
+  - The effect of AgeCat [Injured at 4-6mo] is statistically significant and positive (beta = 5.67, 95% CI [3.71, 7.63], t(237) = 5.70, p < .001; Std. beta = 1.56, 95% CI [1.08, 2.05])
+  - The effect of AgeCat [Injured at 6-9mo] is statistically significant and positive (beta = 3.64, 95% CI [1.45, 5.83], t(237) = 3.27, p = 0.001; Std. beta = 1.21, 95% CI [0.71, 1.71])
+  - The effect of AgeCat [Injured at ≥ 22mo] is statistically significant and positive (beta = 4.87, 95% CI [2.96, 6.78], t(237) = 5.01, p < .001; Std. beta = 1.20, 95% CI [0.72, 1.68])
+  - The effect of Slide per is statistically non-significant and positive (beta = 7.69e-04, 95% CI [-0.01, 0.02], t(237) = 0.10, p = 0.919; Std. beta = 7.49e-03, 95% CI [-0.14, 0.15])
+  - The effect of AgeCat [Injured at 3-4mo] × Slide per is statistically significant and positive (beta = 0.03, 95% CI [4.45e-03, 0.05], t(237) = 2.34, p = 0.020; Std. beta = 0.28, 95% CI [0.04, 0.51])
+  - The effect of AgeCat [Injured at 4-6mo] × Slide per is statistically non-significant and negative (beta = -0.02, 95% CI [-0.04, 5.88e-03], t(237) = -1.50, p = 0.135; Std. beta = -0.18, 95% CI [-0.42,
+0.06])
+  - The effect of AgeCat [Injured at 6-9mo] × Slide per is statistically non-significant and negative (beta = -3.01e-04, 95% CI [-0.03, 0.03], t(237) = -0.02, p = 0.983; Std. beta = -2.93e-03, 95% CI
+[-0.28, 0.27])
+  - The effect of AgeCat [Injured at ≥ 22mo] × Slide per is statistically significant and negative (beta = -0.02, 95% CI [-0.05, -3.08e-05], t(237) = -1.97, p = 0.050; Std. beta = -0.23, 95% CI [-0.47,
+-2.99e-04])
+
+Standardized parameters were obtained by fitting the model on a standardized version of the dataset. 95% Confidence Intervals (CIs) and p-values were computed using a Wald t-distribution approximation.
+"

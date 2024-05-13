@@ -1,0 +1,309 @@
+Image,AnimalID,Slide,Object ID,Name,Class,Parent,ROI,Centroid X µm,Centroid Y µm,Num points,Area µm^2,Perimeter µm
+Aco_ear_922587-1_1.tif - Aco_ear_922587-1_1.tif #1,922587-1,1,021984d1-4618-4316-81dc-f989f255e381,Cartilage,Cartilage,Image,Polygon,93254.4,913563.4,,6498606165,526936
+Aco_ear_922587-1_1.tif - Aco_ear_922587-1_1.tif #1,922587-1,1,ed2fc1a3-31ce-41f7-947d-c5ce1c685e34,Cartilage,Cartilage,Image,Polygon,259959.4,769830.1,,2051294996,226813.4
+Aco_ear_922587-1_1.tif - Aco_ear_922587-1_1.tif #1,922587-1,1,abfc0886-71cd-43d8-a1ac-da12e5fc8da6,Adipocytes,Adipocytes,Image,Points,126440.1,900813.2,18,,
+Aco_ear_922587-1_1.tif - Aco_ear_922587-1_1.tif #1,922587-1,1,6ddedb74-9bec-4a91-b6cd-739b5f682f7d,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,165439.7,859722,,36835640273,1045476.9
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,777590db-3fe2-4cea-abca-388d4cf911f6,Cartilage,Cartilage,Image,Polygon,324073.6,618945.7,,1512805091,192983.3
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,9334b6ae-65d5-4122-8e2d-51b8d7d9ba76,Cartilage,Cartilage,Image,Polygon,431170,552669.2,,1521657397,185191.1
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,dbf8eee0-de4f-462a-bf00-a8e37d2bba18,Cartilage,Cartilage,Image,Polygon,516204.5,477800.3,,1386202143,206522.9
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,0c886ab8-8935-45a9-a965-6d3b055f41aa,Cartilage,Cartilage,Image,Polygon,584616.7,425947.6,,627764793.1,99392.4
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,956c3e42-0036-47c0-be6c-7674d0aec177,Cartilage,Cartilage,Image,Polygon,650623.3,413351.2,,868712208,113888.8
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,f97e0d6f-c437-4f3d-a78e-9eb650f1d9c8,Cartilage,Cartilage,Image,Polygon,750326.8,355718.2,,1975143953,293785.2
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,215506b0-afe7-4d9e-9e76-72094d3495c5,Adipocytes,Adipocytes,Image,Points,354326.3,601300,118,,
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,fdee65d9-485c-4591-994c-cfdc5675db75,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,452900.8,530159.8,,71309298033,1917376.7
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,6069d785-59bc-4426-ad4a-0c3699291ec6,Cartilage,Cartilage,Image,Polygon,152340.9,666107.6,,3019792896,387861.5
+Aco_ear_922587-1_13.tif - Aco_ear_922587-1_13.tif #1,922587-1,13,758cb380-d230-443e-9722-b2e07fce4265,Cartilage,Cartilage,Image,Polygon,281523.6,564981.1,,137733539.5,43251.7
+Aco_ear_922587-1_13.tif - Aco_ear_922587-1_13.tif #1,922587-1,13,42b779f7-08a7-439d-b4a8-bed4d0252d24,Cartilage,Cartilage,Image,Polygon,439638.3,469059.6,,5571466594,726739.7
+Aco_ear_922587-1_13.tif - Aco_ear_922587-1_13.tif #1,922587-1,13,4a9da4df-f1df-42b6-9f57-b6337eb666fc,Cartilage,Cartilage,Image,Polygon,650601.2,363348.3,,1035953607,141832.4
+Aco_ear_922587-1_13.tif - Aco_ear_922587-1_13.tif #1,922587-1,13,25aa3090-8eaf-4510-97ef-61f5055d6704,Cartilage,Cartilage,Image,Polygon,857298.2,299456.3,,351162732.8,83494.7
+Aco_ear_922587-1_13.tif - Aco_ear_922587-1_13.tif #1,922587-1,13,5a4eddf8-3965-44dd-9140-d2bb2c24d2d5,Adipocytes,Adipocytes,Image,Points,318423.8,558472.4,73,,
+Aco_ear_922587-1_13.tif - Aco_ear_922587-1_13.tif #1,922587-1,13,13f1c37f-2db9-4bc2-b9ad-d7334a9d1ec2,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,522844.6,443109.4,,74047035580,1984451.1
+Aco_ear_922587-1_13.tif - Aco_ear_922587-1_13.tif #1,922587-1,19,da4e4ecd-42aa-4a63-8d74-aeb8c493ac83,Cartilage,Cartilage,Image,Polygon,192486,630506.8,,2137795513,312070.4
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,7dbb65ad-1963-43ac-bb54-2edf489cae67,Cartilage,Cartilage,Image,Polygon,237329.9,446624.7,,657036041.5,106833.2
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,570d387d-4a97-4019-a066-9253fc20881c,Cartilage,Cartilage,Image,Polygon,397063.5,393420.7,,3692931182,488336.1
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,0ca79c87-dfbb-40cc-8488-97e5dd3bdcf9,Cartilage,Cartilage,Image,Polygon,645206.9,295726.2,,3926912109,532420.9
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,146fd443-6d7d-4762-a5dc-604584d20ec6,Cartilage,Cartilage,Image,Polygon,826394.8,211640.9,,431093365.1,79743
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,1cb0bcb2-efb2-446b-88b1-24a696ff9419,Cartilage,Cartilage,Image,Polygon,958128.6,200076.7,,1133393133,173261.4
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,b8d33db2-7adb-4c93-bd5d-5d3f1e9289b2,Cartilage,Cartilage,Image,Polygon,1039782.3,272297.1,,651375797.1,121310.3
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,afaeb461-34e1-408e-a6ea-1c597d3bf9be,Adipocytes,,Image,Points,414673.3,407342.1,7,,
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,43fc51b9-f928-4a14-ac43-7786bb077d97,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,735391.2,280188.8,,1.07E+11,2398124.1
+Aco_ear_941702-1_9.tif,941702-1,9,76c24f5e-478b-4638-b142-5b27148174b1,Cartilage,Cartilage,Image,Polygon,404899.1,456416.3,,2330850165,244645.1
+Aco_ear_941702-1_9.tif,941702-1,9,938cc352-6050-4ac3-b786-4dd84fb54f3c,Cartilage,Cartilage,Image,Polygon,247608.5,256682.4,,6140992601,575437.6
+Aco_ear_941702-1_9.tif,941702-1,9,c06b936a-209f-4744-8903-2617b89ed1d5,Adipocytes,Adipocytes,Image,Points,383680.8,466337.5,55,,
+Aco_ear_941702-1_9.tif,941702-1,9,3e353975-ae4e-49b2-adc6-5771383d1865,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,398372,456317,,1.11E+11,1971951.1
+Aco_ear_941702-1_9.tif,941702-1,9,9f761b9f-7372-41cd-9733-e58e151c0f84,Cartilage,Cartilage,Image,Polygon,587155.8,649328.2,,9028733257,621811.5
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,697a26aa-519b-4f77-904b-9c6c8450428a,Cartilage,Cartilage,Image,Polygon,193631.7,259152.5,,2141146116,297531.1
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,09beceb1-abbd-4635-be53-ebc6bbda1dfc,Cartilage,Cartilage,Image,Polygon,252396,433240.9,,1854894569,281662.9
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,e7841d24-544b-421f-9f94-16736802a2c9,Cartilage,Cartilage,Image,Polygon,316161.5,555762.2,,889497254.9,158888.2
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,9d40eacb-ea19-4bdc-a651-af0aa3687ba6,Cartilage,Cartilage,Image,Polygon,340137.2,656161.1,,715038508.5,143854.3
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,4e02f3ca-ce44-4bc3-a113-d0380cd14b41,Cartilage,Cartilage,Image,Polygon,406602.5,733903.3,,437963910.4,78188.7
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,eb062687-624f-4694-b067-28630d156c2c,Cartilage,Cartilage,Image,Polygon,448110.8,820857.5,,1171479507,210469
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,7bdac0d9-23a1-4070-863c-32215625c059,Adipocytes,Adipocytes,Image,Points,275168,498571.1,137,,
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,28f4f10f-2b29-451b-9fd8-a6c44203bfcd,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,426178.1,786551.9,,11159146745,543421.4
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,499df2f4-71e6-4bf5-b74b-d3a7daba6242,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,260544.1,455885.8,,47837798814,1364873.4
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,134bb4cf-7b50-4169-a560-37d474e88864,Cartilage,Cartilage,Image,Polygon,290779.8,269041,,3013856673,541912.3
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,f881e888-2591-45b7-94af-d7416eb9bc7b,Cartilage,Cartilage,Image,Polygon,288815.6,442988.9,,638146948.6,138946.8
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,6a8d3c6c-7b47-4ac7-a6a4-ca27c5b4f2b1,Cartilage,Cartilage,Image,Polygon,300334.9,581072.6,,1978282931,349196.1
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,5489e108-a55c-4069-ac7d-74c46bb63ba1,Cartilage,Cartilage,Image,Polygon,334717.9,770368.5,,1088461814,246136.9
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,21254b8c-bdaa-4fbf-83e8-78a3a60c1c68,Cartilage,Cartilage,Image,Polygon,368456.6,958909.5,,555001429.8,154728
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,987bd36c-8de4-4bb4-8279-dc058bda5ff5,Cartilage,Cartilage,Image,Polygon,378513,1044695.3,,282848687.2,73120.1
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,9732de0c-bdfb-40ba-b196-b895b24ba91a,Adipocytes,Adipocytes,Image,Points,334799.2,762507,53,,
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,42b8e475-a901-4b27-b670-af8c44b0c66c,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,301062.8,504542.3,,43594447864,1646399.5
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,0e333555-324e-43e1-8961-d707e5b8af18,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,376712.6,983331.6,,7925449499,482849.3
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,742f589b-5a95-4bc6-b4a1-8e7a882f8ac2,Cartilage,Cartilage,Image,Polygon,174837.8,289477.7,,743453797.5,191322.9
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,d6c59760-52da-488c-9994-07898f22af95,Cartilage,Cartilage,Image,Polygon,214580.6,379713.2,,359384427.3,94693.5
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,f96c678f-5f16-4d9e-96fd-bd764044c052,Cartilage,Cartilage,Image,Polygon,240003.9,435537.8,,637233753.9,115568.3
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,26f17f02-6a8a-4b4b-8fd9-7cfdde584b71,Cartilage,Cartilage,Image,Polygon,248475.7,470241.7,,218128969.6,57118.7
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,e2e52f32-af52-4a3f-85c7-8b5d21f2533a,Cartilage,Cartilage,Image,Polygon,266717,502292.2,,308141604.8,69305
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,cea9b599-ff45-4478-9aa3-8ac599e766e1,Cartilage,Cartilage,Image,Polygon,286320.3,606949.8,,2682831267,404808.6
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,6655ae40-4bc7-400e-8389-988b9bf18f87,Cartilage,Cartilage,Image,Polygon,313051.1,759468.2,,940604208.7,193435.1
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,0d08e748-8ccb-4c73-a68d-581263a27c8d,Cartilage,Cartilage,Image,Polygon,348495.3,855451.3,,600479050.5,148701.1
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,c62ac731-7bef-4a77-8bd8-fc7e0e90a35b,Cartilage,Cartilage,Image,Polygon,406679,1012822.5,,667980372.4,165158.1
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,e275905c-8d84-4b24-8986-329acca4d8db,Adipocytes,,Image,Points,358769.3,870350.8,48,,
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,5a6ec925-6d48-4973-b72d-941adfcafc95,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,280115.2,606831.2,,56716421912,2094107.8
+Aco_ear_941702-1_24.tif - Aco_ear_941702-1_24.tif #1,941702-1,24,2eb9c77d-a2cb-468f-a557-dca1f9e0b890,Cartilage,Cartilage,Image,Polygon,332331.7,797074.7,,908685664.8,129356.8
+Aco_ear_941702-1_24.tif - Aco_ear_941702-1_24.tif #1,941702-1,24,0949a0ed-a690-426a-808b-30103c8de51f,Cartilage,Cartilage,Image,Polygon,248444.4,605292.8,,2425221284,525285.1
+Aco_ear_941702-1_24.tif - Aco_ear_941702-1_24.tif #1,941702-1,24,45e4f223-547c-45e7-90a9-e525c24a8ac9,Adipocytes,Adipocytes,Image,Points,250626.5,623697.8,21,,
+Aco_ear_941702-1_24.tif - Aco_ear_941702-1_24.tif #1,941702-1,24,b1e386f7-3538-4527-839f-f3149695f112,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,350952.2,883517.7,,61560281440,1996894.5
+Aco_ear_941702-1_27.tif - Aco_ear_941702-1_27.tif #1,941702-1,27,92ef8820-5866-49ff-9590-eb9fd69209e9,Cartilage,Cartilage,Image,Polygon,430331.7,897839.6,,603905374.9,137074.7
+Aco_ear_941702-1_27.tif - Aco_ear_941702-1_27.tif #1,941702-1,27,feb959fb-9101-4460-9b64-e704343c55f7,Cartilage,Cartilage,Image,Polygon,447840.2,967786.9,,753365380.6,122753.9
+Aco_ear_941702-1_27.tif - Aco_ear_941702-1_27.tif #1,941702-1,27,9a5faaf8-f4b3-46f0-b0d3-877424d3ac03,Adipocytes,Adipocytes,Image,Points,413585.4,1001597.7,2,,
+Aco_ear_941702-1_27.tif - Aco_ear_941702-1_27.tif #1,941702-1,27,3cca4c93-3b59-456e-8e9e-e00498c071e5,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,365159.4,958630.6,,62039647801,1479282.9
+Aco_ear_922587-2_1.tif - Aco_ear_922587-2_1.tif #1,922587-2,1,35dc745a-4b80-4670-9d70-f8eeda78a707,Cartilage,Cartilage,Image,Polygon,292290,351462.2,,221358637.6,66952.3
+Aco_ear_922587-2_1.tif - Aco_ear_922587-2_1.tif #1,922587-2,1,4d9e2cab-8db3-4b45-b4a8-aa6a44f5295a,Cartilage,Cartilage,Image,Polygon,392286.6,376712.6,,686112504.9,96243.3
+Aco_ear_922587-2_1.tif - Aco_ear_922587-2_1.tif #1,922587-2,1,798b3a68-6333-4e41-9b58-e1928bd7eca4,Cartilage,Cartilage,Image,Polygon,652781.5,399559.3,,5806285935,809325.2
+Aco_ear_922587-2_1.tif - Aco_ear_922587-2_1.tif #1,922587-2,1,87fe3357-9612-4964-a42b-e6d167a65037,Cartilage,Cartilage,Image,Polygon,930218.2,423336,,1278182651,188345.6
+Aco_ear_922587-2_1.tif - Aco_ear_922587-2_1.tif #1,922587-2,1,64a368ae-04d6-4e6c-8280-0914884aa281,Cartilage,Cartilage,Image,Polygon,1104039.5,368241.2,,919135515.3,131707.6
+Aco_ear_922587-2_1.tif - Aco_ear_922587-2_1.tif #1,922587-2,1,451f1cde-56b9-4607-ae30-2f4363e36144,Adipocytes,Adipocytes,Image,Points,787699.5,422862.7,162,,
+Aco_ear_922587-2_1.tif - Aco_ear_922587-2_1.tif #1,922587-2,1,a3ffcc55-c143-4ff5-b07f-cb83382ffa88,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,722827.8,409656.6,,95790483171,2187607.2
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,a723ca4b-0348-4b93-b051-56dc7b11854d,Cartilage,Cartilage,Image,Polygon,238933.6,561990.6,,252361425.2,59501.4
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,b09d92ac-b5c8-42fe-864e-5192ea1dc80b,Cartilage,Cartilage,Image,Polygon,487755.3,583165.6,,3506103954,523279.5
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,3575e91e-2d5c-4561-b742-101101b15fbb,Cartilage,Cartilage,Image,Polygon,667719.9,563994.5,,875898475.7,150134.9
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,30a27f34-aaf2-47ff-85c7-042d62c486fd,Cartilage,Cartilage,Image,Polygon,721606.9,552710.8,,595889463.5,89511.8
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,4831ed8f-f3d6-4fb6-8856-ed1b9b5c7b21,Cartilage,Cartilage,Image,Polygon,797273.8,487564.6,,546606839.5,93717.6
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,00a1e9c1-e6cb-4860-b155-a6599931532a,Cartilage,Cartilage,Image,Polygon,859675.3,436297.6,,561860237.9,90864.2
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,96048a8b-0f62-4b4b-8285-bb9a1abe4cba,Cartilage,Cartilage,Image,Polygon,893508.3,417002.2,,349014325.1,70699.4
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,56ecdda8-14ad-4e3d-aaa4-459c4e0be8f7,Cartilage,Cartilage,Image,Polygon,970845.9,369498.9,,434196648,79110.8
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,9265829f-f16a-4ec3-b95a-21783a29b061,Cartilage,Cartilage,Image,Polygon,1061533.7,282640.6,,1427532543,192175
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,cf959104-8825-4c81-9f77-9ea0e7454320,Adipocytes,Adipocytes,Image,Points,770670.7,489688.5,118,,
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,7bdf8859-07e5-4c96-847f-5bddcc66b56d,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,690160.5,507323.1,,89801803697,2200522.8
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,6099f870-99ae-42d9-af19-39ea428376db,Cartilage,Cartilage,Image,Polygon,309328.1,363918.3,,2297048858,260906.1
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,ae2fa6bc-4fb8-43ea-9881-aa5b82180dd5,Cartilage,Cartilage,Image,Polygon,447783.6,368748.7,,429367399.6,77786.1
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,e0a5a08b-020e-4706-a931-fac5e878d900,Cartilage,Cartilage,Image,Polygon,551502.7,356438.8,,1756981866,346973.6
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,898188ca-4b0e-4c6c-96dc-f47e330aaccf,Cartilage,Cartilage,Image,Polygon,711780.8,339989.4,,2314856162,249972.6
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,aa5e7e2b-5ad9-40f4-bda6-d726ab7f7baf,Cartilage,Cartilage,Image,Polygon,894656.1,289577.9,,2858057062,419319.8
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,c7f7fb6c-cc25-4edf-8449-6b9e7f732616,Cartilage,Cartilage,Image,Polygon,1024020.6,261438.5,,1319679941,202603.5
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,e0064a1c-3ba3-497a-b07d-b450c509a13d,Cartilage,Cartilage,Image,Polygon,1108187.7,243739.6,,449443611.7,101329.9
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,e24c9bbd-4eb5-46f8-a602-817604a06f75,Cartilage,Cartilage,Image,Polygon,1193548.5,244109,,1480063338,232480.5
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,4536da44-47f6-488a-8a6d-38f6f651c5d0,Cartilage,Cartilage,Image,Polygon,1270510.2,245804.8,,514552229.8,91437.8
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,34301a48-b21a-46e3-8418-bfd628b3a89c,Cartilage,Cartilage,Image,Polygon,1360855.8,238910.2,,1395330521,225481.6
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,cbc53477-647f-4ae3-beae-c15da8fbfb65,Adipocytes,Adipocytes,Image,Points,825982.9,307923.9,64,,
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,ff6d06e4-1e2e-41e9-9ca0-8a036cb7933c,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,811187.7,309119,,1.26E+11,2669830.7
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,68e94664-00f4-48da-ac14-d8ad077128bb,Cartilage,Cartilage,Image,Polygon,449617.1,348276.3,,2877220284,468832.5
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,8f626648-7e7a-4fff-a334-3834810c9746,Cartilage,Cartilage,Image,Polygon,615901.3,315167.6,,230583085.2,57193.4
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,d711c7f6-17a8-49c9-bfaa-dae976224c18,Cartilage,Cartilage,Image,Polygon,681897.9,295324.5,,1491883782,217859.3
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,16a47282-96f2-4bf4-bd1d-06cc7dde8987,Cartilage,Cartilage,Image,Polygon,875396.2,203964,,1656939056,198889.4
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,d9cf2aaa-0ae6-4001-837b-b59b4ac48942,Cartilage,Cartilage,Image,Polygon,965560.3,172002.3,,811048224.2,107264.7
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,972b2829-3958-4f19-8a0f-982193ed3d12,Cartilage,Cartilage,Image,Polygon,1011532.2,161342,,543069167.8,85927.8
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,a7cc50f6-19bd-4026-92a3-9a35e30decd3,Cartilage,Cartilage,Image,Polygon,1146354.7,148161.4,,2230208717,329037.5
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,02d3b8c4-879f-492d-8a3c-fc38380c87ca,Cartilage,Cartilage,Image,Polygon,1272781.5,137124.9,,590807942,110822.3
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,f87e097d-477a-4ba8-9f22-696138160c1f,Cartilage,Cartilage,Image,Polygon,1350431.9,180991.7,,1071733865,163972.9
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,ba8e8745-f841-462d-811b-b824c7066267,Adipocytes,Adipocytes,Image,Points,875313.6,238786.3,21,,
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,6024ba39-b1d6-4b04-adbb-d6f412d09750,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,902941.5,216472.8,,1.27E+11,2461708.7
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,0441ab34-2975-42f3-a36f-ca0de94ba7f0,Cartilage,Cartilage,Image,Polygon,347447.1,277470,,509544091.8,121722.2
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,7e00ee01-9f92-49bc-9b97-f5bfcb702a9d,Cartilage,Cartilage,Image,Polygon,472485.2,289804.3,,931553024.3,173889
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,19a5b855-374e-4c45-8ba4-b9b070597f43,Cartilage,Cartilage,Image,Polygon,536098.6,301867.9,,465597739,99110
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,475b3608-6fdc-44cd-b723-cd6da3c99e68,Cartilage,Cartilage,Image,Polygon,578739.2,300092.3,,512138819.9,92245.8
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,4785c1a1-0c78-43eb-9482-7775934854ab,Cartilage,Cartilage,Image,Polygon,639615,309859.3,,388552109.1,73221.9
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,e7f11f57-1e01-4c28-b5dd-e6e686605bb8,Cartilage,Cartilage,Image,Polygon,816785.4,268518.4,,445241900.7,82713.4
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,ba0a846c-e807-4501-ac1c-377bd229e861,Cartilage,Cartilage,Image,Polygon,1152899.9,203137.5,,1434477667,258896.6
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,fd2e856e-27a1-405b-987d-2b364e3eb8c6,Cartilage,Cartilage,Image,Polygon,1304557.5,246586.8,,309120979.8,71659.5
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,ee732c88-326d-4756-ad5d-c69bb07fd9d1,Adipocytes,Adipocytes,Image,Points,932651.6,249068,8,,
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,a4d40934-9772-4725-9c10-b77ca36cfc20,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,845609.8,256642.8,,1.14E+11,2317628.2
+Aco_ear_922587-2_16.tif - Aco_ear_922587-2_16.tif #1,922587-2,16,c47b80b9-b041-4f52-b1b2-68161eb1509d,Cartilage,Cartilage,Image,Polygon,150019.1,641428.4,,342774685.2,68695.2
+Aco_ear_922587-2_16.tif - Aco_ear_922587-2_16.tif #1,922587-2,16,ecbdf0ab-8c81-411b-ae78-b5e1c75921b3,Cartilage,Cartilage,Image,Polygon,212227.7,625741.5,,1021398997,156941.2
+Aco_ear_922587-2_16.tif - Aco_ear_922587-2_16.tif #1,922587-2,16,a538e9b4-517b-4e47-a267-500f6b7809c7,Cartilage,Cartilage,Image,Polygon,611407.6,361961.1,,542518580.1,92183.4
+Aco_ear_922587-2_16.tif - Aco_ear_922587-2_16.tif #1,922587-2,16,5b38f61c-0e6b-4614-84e1-9a78dc240128,Cartilage,Cartilage,Image,Polygon,680414.8,343728.9,,1153841647,150529.5
+Aco_ear_922587-2_16.tif - Aco_ear_922587-2_16.tif #1,922587-2,16,bb31d6ce-a2c4-4c81-a4ba-6a27ea678964,Adipocytes,Adipocytes,Image,Points,726600.5,309953.4,1,,
+Aco_ear_922587-2_16.tif - Aco_ear_922587-2_16.tif #1,922587-2,16,74008d25-eb27-4c0c-911d-77061c14b8f4,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,581031.3,373764.5,,44371688362,917743.7
+Aco_ear_922587-2_16.tif - Aco_ear_922587-2_16.tif #1,922587-2,16,00e19d69-0efb-476c-b95f-533b0407a3d4,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,298652.4,607273.6,,56675890828,974331.4
+Aco_ear_922587-2_19.tif - Aco_ear_922587-2_19.tif #1,922587-2,19,f48d359a-c5e5-4d97-89b2-b51530613988,Cartilage,Cartilage,Image,Polygon,771325.3,119465.8,,2096591866,310102.9
+Aco_ear_922587-2_19.tif - Aco_ear_922587-2_19.tif #1,922587-2,19,420d03d3-1909-417d-a13c-9fd430f28291,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,570890.5,446041.2,,17884453081,510686.8
+Aco_ear_922587-2_19.tif - Aco_ear_922587-2_19.tif #1,922587-2,22,ee725944-4be8-4cac-b2ec-501f06fb54bd,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,685269.7,175866.3,,45940762638,1016224.4
+Aco_ear_922587-2_22.tif - Aco_ear_922587-2_22.tif #1,922587-2,22,caeab051-88e5-4f7a-ac6b-81304868a07f,Cartilage,Cartilage,Image,Polygon,576258.5,573932.8,,847940184.7,227579.1
+Aco_ear_922587-2_22.tif - Aco_ear_922587-2_22.tif #1,922587-2,22,f4a71033-a355-4f43-952f-fdc22d54972d,Cartilage,Cartilage,Image,Polygon,677118.1,408481.4,,2163114562,484740.2
+Aco_ear_922587-2_22.tif - Aco_ear_922587-2_22.tif #1,922587-2,22,e71f8303-0a6a-42e0-8a46-181667643eb8,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,645352.5,459806.4,,51605430254,1085865.5
+Aco_ear_922587-2_22.tif - Aco_ear_922587-2_22.tif #1,922587-2,22,cad1d556-2dd7-4c71-a0d1-c499d913af43,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,597440.6,277491.3,,5534886879,278345.4
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,23bc6333-a601-4e6b-8a28-3543a5cae67c,Cartilage,Cartilage,Image,Polygon,362546.5,322131.6,,539705358.5,112162.1
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,d7ddb05c-9b46-4b87-8a55-0d3c828dd92c,Cartilage,Cartilage,Image,Polygon,356388.7,451453.8,,208293752.9,53490.1
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,adda7072-8e1d-439f-b467-58e445ab2073,Cartilage,Cartilage,Image,Polygon,336103.8,523688.7,,835944242,215542
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,351e6e90-394d-4de8-a949-273d979f6249,Cartilage,Cartilage,Image,Polygon,339066.7,700542.3,,1891947528,377695.1
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,bf212a53-cfe1-482b-89e8-8fd47c84b1aa,Cartilage,Cartilage,Image,Polygon,309033.3,940315.4,,1972467499,398944.4
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,d9337019-2628-4f4f-bae2-4b3b9610cdce,Cartilage,Cartilage,Image,Polygon,227306,1112996.4,,499416605.7,85983.9
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,6e02764a-afe8-40f3-adca-4fb82245b92a,Cartilage,Cartilage,Image,Polygon,189690.4,1173110.7,,872235417.8,160401
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,bb257637-6cf6-4f33-9116-6612f2292220,Cartilage,Cartilage,Image,Polygon,188163.5,1297400,,1213290606,254801.3
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,d865b204-6edd-4731-9100-ba1a627e9ffa,Cartilage,Cartilage,Image,Polygon,234323.2,1441287.2,,236614670.1,86604.4
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,5220c12c-e822-4eb4-b52f-70b00ae7f3ef,Adipocytes,Adipocytes,Image,Points,251610.5,910843.9,642,,
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,de7a325c-b678-4be2-8542-7a54772f462c,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,262700.5,899333.8,,1.31E+11,3461471.6
+ear_B31-1_11.18.21_100M_66dpw_10.tif - ear_B31-1_11.18.21_100M_66dpw_10.tif #1,1064394-1,10,a64f7cd6-af20-46d0-ad3f-d6cfba39bcb6,Cartilage,Cartilage,Image,Polygon,280519.5,708402.7,,3635231145,534977.5
+ear_B31-1_11.18.21_100M_66dpw_10.tif - ear_B31-1_11.18.21_100M_66dpw_10.tif #1,1064394-1,10,a035e9df-11e7-47bc-a159-67c2f190dc57,Cartilage,Cartilage,Image,Polygon,267027.9,912120.4,,314316689.2,92964
+ear_B31-1_11.18.21_100M_66dpw_10.tif - ear_B31-1_11.18.21_100M_66dpw_10.tif #1,1064394-1,10,a21f52bd-c4aa-48a9-adab-3908b404ea5e,Cartilage,Cartilage,Image,Polygon,256944.9,985406.7,,305358932.3,134213.3
+ear_B31-1_11.18.21_100M_66dpw_10.tif - ear_B31-1_11.18.21_100M_66dpw_10.tif #1,1064394-1,10,c0f438cb-0e5e-4dd0-9574-e427cd54e5f8,Cartilage,Cartilage,Image,Polygon,228165.4,1077175.1,,733378066.9,131416.8
+ear_B31-1_11.18.21_100M_66dpw_10.tif - ear_B31-1_11.18.21_100M_66dpw_10.tif #1,1064394-1,10,f7652848-2043-45f0-a40e-878ffed91fcc,Adipocytes,Adipocytes,Image,Points,213488.9,891020.9,314,,
+ear_B31-1_11.18.21_100M_66dpw_10.tif - ear_B31-1_11.18.21_100M_66dpw_10.tif #1,1064394-1,10,2c350585-4353-4eb4-b527-e52b3f74ea97,Regenerated Zone,Regenerated Zone Zone,Image,Geometry,227576.1,906981.1,,77324661194,2168372.4
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,90f0e1f2-8a3c-4734-bee2-85c2c57ea7de,Cartilage,Cartilage,Image,Polygon,297973.3,1382866.1,,843451963.8,111277.7
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,edceca8f-5eba-4504-8308-b697e691ee7e,Cartilage,Cartilage,Image,Polygon,258644.3,1218528.7,,297319642.7,66756.7
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,60881fe5-65df-417c-93fc-18e5b075beba,Adipocytes,Adipocytes,Image,Points,230486.6,957072.1,722,,
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,f5f0843c-63a9-4145-aa8d-005e6cbcb236,Cartilage,Cartilage,Image,Polygon,271674.4,1063211.2,,374465107.8,103916.5
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,2f430449-84e4-417b-89eb-8490e134411f,Cartilage,Cartilage,Image,Polygon,296267.9,972984.4,,836870735.6,240767.5
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,d14a79fa-e9c3-4b5c-a6dd-2519272ead26,Cartilage,Cartilage,Image,Polygon,294327.1,878912.2,,237988180.6,60701.4
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,60744fae-f733-4a6a-99ea-53956882daf9,Cartilage,Cartilage,Image,Polygon,285651.2,788832.9,,373804983.8,86464.6
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,639ce54e-dcd9-4344-aea3-e1f65d04d714,Cartilage,Cartilage,Image,Polygon,270762.3,700066.6,,750108063.8,217557.8
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,1dd99b16-0384-4d75-8ecf-97b9c35aee81,Cartilage,Cartilage,Image,Polygon,257110.7,565960.9,,937569854.9,234984.7
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,b836e2be-a42c-4db6-b18e-afd901fbf380,Regenerated Zone,Regenerated Zone Zone,Image,Geometry,247282.2,974920.8,,1.25E+11,2851284
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,1a37ced7-8a80-4b6d-b503-35dc124ef4f3,Adipocytes,Adipocytes,Image,Points,240903.2,853617.6,654,,
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,28e13e1e-1a49-47af-88c7-0e48840f795c,Cartilage,Cartilage,Image,Polygon,289934.7,378407.8,,82255099.8,37112.6
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,d872a357-ff9b-4916-ab94-7e4a4e63de06,Cartilage,Cartilage,Image,Polygon,266436.4,522522.6,,1221213110,271902.7
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,41b0827d-aa56-4c07-b30e-dccc5ea2dcf3,Cartilage,Cartilage,Image,Polygon,289843.5,677965.9,,569097451.5,135528.3
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,dfe3dc18-46c1-40d8-aa14-6bca8ac9738b,Cartilage,Cartilage,Image,Polygon,299490.1,738533.7,,319817353.5,90460.1
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,614b21d0-ba18-4c16-867a-bdb0288c347c,Cartilage,Cartilage,Image,Polygon,304545.3,857387.6,,333413171.7,101686.6
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,96429948-ee6a-4357-862b-ad6824bb501e,Cartilage,Cartilage,Image,Polygon,301254.4,957068.1,,734504342.2,203122.8
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,34ec071b-7251-4c45-8771-91574013086e,Cartilage,Cartilage,Image,Polygon,269377.7,1048760,,609349669.4,134820.8
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,dfe096ea-e907-49de-bfa4-923000881123,Cartilage,Cartilage,Image,Polygon,245906.3,1188181.7,,351284232.1,78871.6
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,b15c9a31-689e-426d-ab93-3b5b44b5ae98,Cartilage,Cartilage,Image,Polygon,275572.9,1287474.3,,519841647.4,97446.7
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,56a1ae60-d158-4338-bf34-787ed4eb32c1,Cartilage,Cartilage,Image,Polygon,301476.6,1360326.7,,448604397.1,100240.8
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,32c61b4f-169b-4ad2-bd80-93c7ac074bad,Regenerated Zone,Regenerated Zone Zone,Image,Geometry,251254,857436.4,,1.13E+11,2763041
+ear_B31-2_11.18.21_100M_66dpw_7.tif - ear_B31-2_11.18.21_100M_66dpw_7.tif #1,1064394-2,7,c5281364-d89a-4f09-90ea-eb97311935eb,Adipocytes,Adipocytes,Image,Points,276312.7,591913.1,110,,
+ear_B31-2_11.18.21_100M_66dpw_7.tif - ear_B31-2_11.18.21_100M_66dpw_7.tif #1,1064394-2,7,9a808511-13d6-46b9-a5e0-795e5e8dedf8,Cartilage,Cartilage,Image,Polygon,346131.6,899107.6,,520088841,102384.2
+ear_B31-2_11.18.21_100M_66dpw_7.tif - ear_B31-2_11.18.21_100M_66dpw_7.tif #1,1064394-2,7,115ffc90-7af2-4d60-8f2a-f265581b505e,Cartilage,Cartilage,Image,Polygon,325205.9,809249,,420695966.6,91500.7
+ear_B31-2_11.18.21_100M_66dpw_7.tif - ear_B31-2_11.18.21_100M_66dpw_7.tif #1,1064394-2,7,3a8237ba-2ca3-4bb9-99b8-e057c657bbc1,Cartilage,Cartilage,Image,Polygon,302128,759119.9,,383454371.1,97568.2
+ear_B31-2_11.18.21_100M_66dpw_7.tif - ear_B31-2_11.18.21_100M_66dpw_7.tif #1,1064394-2,7,4f214bdd-a4af-417b-929d-d59ec7cbb7e0,Cartilage,Cartilage,Image,Polygon,221720.9,556752.1,,3909927822,579003.9
+ear_B31-2_11.18.21_100M_66dpw_7.tif - ear_B31-2_11.18.21_100M_66dpw_7.tif #1,1064394-2,7,d8d40181-0227-471d-b4e3-42bf37298395,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,289635.3,665800.4,,45284223520,1584221.8
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,ebb88cc8-8c6a-4f1b-b30a-498c4ec92bc2,Adipocytes,Adipocytes,Image,Points,266350.2,497140,583,,
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,79300692-c842-446a-a29e-36e7177486e2,Cartilage,Cartilage,Image,Polygon,208931.5,96687.8,,111353804.9,41334.4
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,baa6227e-ce30-4bcb-910a-9d0c12f87087,Cartilage,Cartilage,Image,Polygon,237965.4,208203.8,,500986415.8,135524.2
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,e3057da9-5e5b-4a69-91de-b9299fa63477,Cartilage,Cartilage,Image,Polygon,226799.4,255056.7,,270555226,74516.5
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,3b86f0b1-bb7d-4de7-85df-b3f43accff04,Cartilage,Cartilage,Image,Polygon,232984.4,347634.7,,95643778.1,36687
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,2a6aa337-f402-4af0-bd92-10c7b2f814ae,Cartilage,Cartilage,Image,Polygon,251582.6,389089.8,,401570444.6,119325.3
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,26ee4674-0ee9-4282-a151-fb8d884d9241,Cartilage,Cartilage,Image,Polygon,302410.3,486953.6,,1029764525,273055.5
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,0d087ef6-f75f-42e9-9ca5-addbb85fcb5b,Cartilage,Cartilage,Image,Polygon,339502.4,634421.4,,1121623196,244043.8
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,82bfae1c-c5db-47d1-8d69-0f42d4e3260e,Cartilage,Cartilage,Image,Polygon,379767.6,719627.8,,985856795.1,234061.8
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,4aba5433-ae1a-4413-b9e2-8bee39aaa7cd,Cartilage,Cartilage,Image,Polygon,490271.6,811144.1,,342237213.6,82140.2
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,42b92eef-8714-4c76-bc8c-99a9c7915ac0,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,292647.8,526432.2,,1.01E+11,2281259.1
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,498b4e50-77b6-42be-a66e-59c8c6ecdfb1,Adipocytes,Adipocytes,Image,Points,178045.4,807762.4,354,,
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,ac43a130-558c-4a94-b8d3-5f61a1882d6c,Cartilage,Cartilage,Image,Polygon,392624.1,1235052.3,,170570480.2,49890.6
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,7a0385e5-5db2-4a7a-bf61-3ff910019c6f,Cartilage,Cartilage,Image,Polygon,312360.3,1142833.9,,842907182.8,230113.8
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,30c9acc2-2bcb-4c73-8b93-cd55dfbd7c9c,Cartilage,Cartilage,Image,Polygon,273155.8,1066857.7,,305682285.5,96583.9
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,c8227398-d6a4-4e39-9f83-ad545bd352e1,Cartilage,Cartilage,Image,Polygon,245673.2,1013975.8,,393889251.9,134071.3
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,d3e29106-9820-4a37-b980-43490b82385c,Cartilage,Cartilage,Image,Polygon,207924,934468,,1025159714,224560.2
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,b2c61421-8e8c-4bdc-916b-91ba4b809d64,Cartilage,Cartilage,Image,Polygon,158395.2,851854.7,,566633253,123313.8
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,849a8ecc-6a2c-420c-bd91-9807f3154dab,Cartilage,Cartilage,Image,Polygon,161852.2,769433.3,,586304778.4,109660.4
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,d6c1ab23-db41-4506-8e1e-3a2818560b2b,Cartilage,Cartilage,Image,Polygon,137919.3,651555.8,,1070050312,167653.9
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,4b1c2da1-4e4a-49eb-86ab-41c5b2534805,Cartilage,Cartilage,Image,Polygon,116366.5,570319,,289685294.2,66740.9
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,cf29cfa2-b0ab-4c64-af83-7bb3b7fc1459,Cartilage,Cartilage,Image,Polygon,154909.3,501745,,793632448.2,183786.1
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,95f842f6-e645-44d9-b931-9e72d70ffe50,Cartilage,Cartilage,Image,Polygon,175000.4,429349.2,,270719379.8,73279.3
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,63620201-7f2c-4feb-9a5d-deb535bde402,Regenerated Zone,Regenerated Zone Zone,Image,Polygon,186171.1,784999.2,,97407990201,3173749
+Ctrl 3 (B31-2-3),Ctrl 3,1,6cc51958-6240-42ab-9de0-2b5308fe06b9,Cartilage,Cartilage,Image,Polygon,122549.1,851393.7,,1932638182,751903.7
+Ctrl 3 (B31-2-3),Ctrl 3,1,438edb7c-5406-40c3-879d-0009cc0892b6,Adipocytes,Adipocytes,Image,Points,77868.9,786132.6,383,,
+Ctrl 3 (B31-2-3),Ctrl 3,1,21600087-d1be-4130-988b-9f3540658aaf,Regenerated Zone,Regenerated Zone Zone,Image,Geometry,83063.3,829452.9,,32703487383,1046015.4
+Ctrl 1 (B31-1-3),Ctrl 1,1,f13bccff-73d2-4e57-896b-5a105fe12fab,Adipocytes,Adipocytes,Image,Points,263989.3,899067.9,291,,
+Ctrl 1 (B31-1-3),Ctrl 1,1,a8765514-243f-4826-bd9c-36015335f9c7,Cartilage,Cartilage,Image,Polygon,327162.6,949393.1,,5963899194,1368718.7
+Ctrl 1 (B31-1-3),Ctrl 1,1,e087300d-2b04-4d22-9095-5380b863e7c4,Regenerated Zone,Regenerated Zone Zone,Image,Geometry,273228.4,917281.4,,72933925607,2775516.3
+Ctrl (B31-1-9),Ctrl 2,1,fb9b2500-85bc-4077-9f69-088d214f1278,Cartilage,Cartilage,Image,Polygon,273240.2,626874.7,,3488050948,843695
+Ctrl (B31-1-9),Ctrl 2,1,9a203e16-86b9-4c17-8405-dbf3042f2b51,Adipocytes,Adipocytes,Image,Points,300856.2,604287.6,317,,
+Ctrl (B31-1-9),Ctrl 2,1,df0b8979-e0d5-425f-ac9c-63792914b6d3,Regenerated Zone,Regenerated Zone Zone,Image,Geometry,308681.4,623244.6,,49362510134,1402579.6
+Aco_ear_990342-2_1.tif - Aco_ear_990342-2_1.tif #1,990342-2,1,f6059d0a-eadf-48d3-8fc7-2b37dbe7a04b,Cartilage,Cartilage,Image,Polygon,375376.4,327851.4,,1068602304,268717.6
+Aco_ear_990342-2_1.tif - Aco_ear_990342-2_1.tif #1,990342-2,1,1e56bf7c-7601-4195-9dfd-66f338fad447,Cartilage,Cartilage,Image,Polygon,430261.1,392427.1,,286705458.9,109921.3
+Aco_ear_990342-2_1.tif - Aco_ear_990342-2_1.tif #1,990342-2,1,9c581674-59e2-4098-9791-e772e7bf934b,Cartilage,Cartilage,Image,Polygon,462232.1,423083.9,,418150571.4,116330.1
+Aco_ear_990342-2_1.tif - Aco_ear_990342-2_1.tif #1,990342-2,1,da0b1591-1332-46fc-89b3-f36226b654b1,Regenerated Zone,Regenerated Zone zone,Image,Polygon,417198.7,348633,,19611604658,657844.1
+Aco_ear_990342-2_1.tif - Aco_ear_990342-2_1.tif #1,990342-2,1,17fe598f-547d-43ef-8b26-b1ec8c759aed,Adipocytes,Adipocytes,Image,Points,422831.2,348603,26,,
+Aco_ear_990342-2_4.tif - Aco_ear_990342-2_4.tif #1,990342-2,4,be1c37f1-0284-4a27-ada9-ceaa98e6efd3,Cartilage,Cartilage,Image,Polygon,356573,245320.7,,1577337147,241469
+Aco_ear_990342-2_4.tif - Aco_ear_990342-2_4.tif #1,990342-2,4,c5acb278-2181-4a75-a42a-b1846993ab85,Cartilage,Cartilage,Image,Polygon,429195.5,308624.4,,287086030.6,66039.5
+Aco_ear_990342-2_4.tif - Aco_ear_990342-2_4.tif #1,990342-2,4,51c182c1-288f-4668-90b1-cfb2bbe6de97,Cartilage,Cartilage,Image,Polygon,528429.4,346119.5,,373531260.2,83352.4
+Aco_ear_990342-2_4.tif - Aco_ear_990342-2_4.tif #1,990342-2,4,076defce-f0f8-4f45-80c2-d01b8148b9ae,Cartilage,Cartilage,Image,Polygon,588960.7,409667.4,,1355087367,269235.8
+Aco_ear_990342-2_4.tif - Aco_ear_990342-2_4.tif #1,990342-2,4,60ee61c6-b618-481b-8048-66d092a23b1a,Regenerated Zone,Regenerated Zone zone,Image,Geometry,529065,332078.3,,54152187855,1342656.3
+Aco_ear_990342-2_4.tif - Aco_ear_990342-2_4.tif #1,990342-2,4,5e457b35-58c0-45b6-aabb-e575fb43a1cf,Adipocytes,Adipocytes,Image,Points,543037.6,339726.6,54,,
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,cb71121b-6976-4fc3-8364-1a77075c1f51,Cartilage,Cartilage,Image,Polygon,418611.4,574873,,1477627183,216918.9
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,85d3bccd-c84e-4077-9672-dfa258685e4f,Adipocytes,Adipocytes,Image,Points,472930.8,682090.1,40,,
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,6ec24afc-f168-4cd3-94c2-d900b8fff20b,Cartilage,Cartilage,Image,Polygon,535993.6,964370.7,,952814548.3,184629.7
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,4fadfc6a-17fd-4f2e-a480-a424fc8a0968,Cartilage,Cartilage,Image,Polygon,548164.5,886189.1,,412770440.5,94934.4
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,bac9e957-0d5a-432a-a792-272f6fa0b848,Cartilage,Cartilage,Image,Polygon,533503.1,819893.4,,214925574.6,58141.3
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,987d9788-32f1-41b8-b623-6a95e1749d5e,Cartilage,Cartilage,Image,Polygon,526858.1,788811.4,,251277426.2,61179.7
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,d39cd8d3-35f0-4210-b915-bb46ff166f9e,Cartilage,Cartilage,Image,Polygon,502527.1,728344.9,,434747586.1,81612.3
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,6b4f8f8b-541b-4f67-b8b3-6e6853de2bdc,Regenerated Zone,Regenerated Zone zone,Image,Polygon,488911.4,714500.3,,63698371137,1628166.6
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,0a634582-752a-431b-bf4c-9b4b6434a12f,Cartilage,Cartilage,Image,Polygon,481593.2,662141.1,,250516483.6,72063.7
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,d7d4baa5-694f-423c-ac35-f059ecc6b536,Cartilage,Cartilage,Image,Polygon,468089.9,633452.4,,221752749.6,63144.6
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,3527b19a-3b97-42a0-a44d-0620bb3c1ae1,Cartilage,Cartilage,Image,Polygon,424381,659568.3,,612337437,98575
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,c140a2a6-5175-43d2-989e-a26a29614658,Adipocytes,Adipocytes,Image,Points,470960.1,796605.1,58,,
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,5f9bcc98-6f8f-4357-8af3-a6c9b7bc02db,Regenerated Zone,Regenerated Zone zone,Image,Geometry,442655.9,747395,,1.09964E+11,2223090.2
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,da5573e5-442b-45a4-85be-793f0100cb0c,Cartilage,Cartilage,Image,Polygon,324192.6,389229.5,,633718845.1,127235.4
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,fb95ba70-39e7-4fe0-af0f-18c2cac2c198,Cartilage,Cartilage,Image,Polygon,362029.3,471329.1,,292787547.4,63938
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,5ec9f281-58d3-4b60-ba29-2b9db9b326e1,Cartilage,Cartilage,Image,Polygon,413325.3,579477.3,,1119240913,176473.8
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,c7addc90-ded2-479a-b40b-13d7c2c3ad69,Cartilage,Cartilage,Image,Polygon,435225.7,726243.2,,874841078.6,110181.6
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,56fa1203-08d9-4c39-a643-ffd85bb1a4fc,Cartilage,Cartilage,Image,Geometry,444328,759280.1,,520761232,90415.2
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,e322f98d-d7b9-4cbc-bda1-189bdcb3fdac,Cartilage,Cartilage,Image,Polygon,461767,842992,,1803069742,219373.4
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,23f7c2e1-fafb-49da-87d4-f7422a006075,Cartilage,Cartilage,Image,Geometry,480036.2,985242.2,,2247830094,324100.7
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,794982bb-24cd-4b62-b0ed-ac2b1aa23a1f,Cartilage,Cartilage,Image,Polygon,467793.8,1109839.5,,1031842633,183428.9
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,25d2a934-7b36-4c8c-9a78-2ca72201732f,Cartilage,Cartilage,Image,Polygon,422189.7,225817.7,,403269782.4,76624.1
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,20f585e5-b1ab-463f-a268-7861d4a6ff7d,Cartilage,Cartilage,Image,Polygon,455813.9,256302.4,,1032249355,125807.4
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,ed8b5cad-e06f-4623-9dbb-e009501edf28,Cartilage,Cartilage,Image,Polygon,490224,305040.4,,570429138.3,88648.1
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,cbdf6398-cb35-47d0-b3d6-6a8068fe3f3f,Cartilage,Cartilage,Image,Polygon,552033.4,355302.8,,678832169.1,97738.7
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,ae819209-3500-4814-9fcc-10286652a014,Cartilage,Cartilage,Image,Polygon,629885.4,431470.5,,997558747,115211.9
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,56cf4b8b-dd83-497e-82b0-77f897660a68,Cartilage,Cartilage,Image,Polygon,649283.3,481504.1,,1271028186,135655.8
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,24b62628-6db9-4e3c-bd7d-160d9258338f,Cartilage,Cartilage,Image,Polygon,702238.1,538255.8,,2727915970,285799.2
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,de355cf9-9c01-4830-9c3f-192175dac1c9,Cartilage,Cartilage,Image,Polygon,738447.2,636279.3,,464423833.4,83923.3
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,48af8d97-41d9-4959-815b-3011ea2a07a7,Adipocytes,Adipocytes,Image,Points,587332.1,414400.8,35,,
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,ed9452d1-a076-4725-b114-c840e9b4bdaf,Cartilage,Cartilage,Image,Polygon,748101.6,694042.6,,611974447.6,96947.4
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,a0462280-9f73-4c6e-8391-c748415e035a,Cartilage,Cartilage,Image,Polygon,318845.1,197876.1,,4008204120,440843.1
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,b9079873-f97a-4af3-a1ab-ac9bac138183,Regenerated Zone,Regenerated Zone zone,Image,Polygon,554024.5,375756,,1.09334E+11,2296126.1
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,b954ebce-4fc0-4639-85f5-5954f29bfa0e,Cartilage,Cartilage,Image,Polygon,306889.3,155337.6,,273864794.2,72869
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,51188d11-68a7-41d2-8493-3556d17c3766,Cartilage,Cartilage,Image,Polygon,368158.6,261524.7,,3072421815,406394.6
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,92e2b5af-ffcb-4916-a960-23925b4416a8,Cartilage,Cartilage,Image,Polygon,412367.8,423209.4,,2539145490,263407.5
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,66455894-58e8-433b-b4a9-0afcc90f38fa,Cartilage,Cartilage,Image,Polygon,438682.3,554398.6,,1317992702,154109.8
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,712bdc8b-2614-4a5b-9feb-b023983c70d8,Cartilage,Cartilage,Image,Polygon,445487,639443.1,,570675680.6,91160.7
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,9a9071e8-54ca-437e-ac62-7f906123a789,Cartilage,Cartilage,Image,Polygon,443210.9,726076.9,,658119483,94467.1
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,350f341a-4e63-4705-9f2f-15a36c2c25ee,Adipocytes,Adipocytes,Image,Points,457556,558791.9,34,,
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,85ffb5ef-f554-4cf7-8388-210ba0f759af,Cartilage,Cartilage,Image,Polygon,389926.4,873036.6,,5049422325,576337.9
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,d75caba8-45a7-4b5a-93e2-4553fc9766ba,Regenerated Zone,Regenerated Zone zone,Image,Geometry,420700,553326.6,,1.2879E+11,2468839.6
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,eb45a74c-10ab-4bad-80b1-7188214c8af5,Cartilage,Cartilage,Image,Polygon,431022.1,925243.4,,845341572.7,122970.6
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,8f15c8ab-14af-4b51-ba14-2ddd6ce4a75b,Cartilage,Cartilage,Image,Polygon,450120.9,882484.3,,376024747.5,72743
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,48b607a7-a509-424d-bbdf-1d63128f02cb,Cartilage,Cartilage,Image,Polygon,446799.3,844270.9,,591874801.8,88892.5
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,9a63768d-f36b-42dc-9b14-7f377a3a72ee,Cartilage,Cartilage,Image,Polygon,397129.1,538587.8,,845303092.5,109796.5
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,c7d51591-1f44-4968-9e37-4c979595a5a7,Cartilage,Cartilage,Image,Polygon,413271.3,575651.3,,1121276522,126280.6
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,bcb6003c-73f4-4c51-ad6b-87a0355e6b64,Cartilage,Cartilage,Image,Polygon,430857,683059.1,,626248197.3,95197.1
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,58e27413-7702-4580-acbe-5d6ace12f939,Cartilage,Cartilage,Image,Polygon,446821.1,753769,,900568385.2,110160.6
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,90ab801a-1a87-4801-b6fd-8f27d5e47a52,Cartilage,Cartilage,Image,Polygon,303480.2,295370.7,,991867351.5,170209.9
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,c37e898f-95b3-4953-a7c7-9159782c7d7a,Cartilage,Cartilage,Image,Geometry,361807.1,398523.3,,2338932647,301045.6
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,832522f3-dfea-4760-91c6-9e4aaee5ca90,Adipocytes,Adipocytes,Image,Points,416134.7,650404.1,91,,
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,639be86e-39d6-4991-9f0b-bcc360e17801,Cartilage,Cartilage,Image,Polygon,442956.2,1076791.4,,2459730951,337682.5
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,4234ff00-1071-4559-9496-c44dc1f1b045,Regenerated Zone,Regenerated Zone zone,Image,Polygon,421862,682342.8,,1.36615E+11,2321006.2
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,4bd6233f-2e93-4f5d-8412-ed0595e58da5,Cartilage,Cartilage,Image,Polygon,409460.9,224398.9,,412509325.6,92970.1
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,5ade15da-86af-46f6-8901-7d62b973e3a1,Cartilage,Cartilage,Image,Polygon,446838.8,359186.6,,2658672100,346598
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,74a9f36b-997e-4e1f-9667-fc70d9bcf0e9,Cartilage,Cartilage,Image,Polygon,452937.3,533651,,3001092270,285841.3
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,f096b570-ec88-4f02-a279-ef2505991193,Cartilage,Cartilage,Image,Polygon,441153,718962.8,,872448744.4,106639.5
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,cd2e5c76-082a-428f-95bd-757e6f59b84f,Cartilage,Cartilage,Image,Polygon,410029.2,810636.6,,1031034067,122473.4
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,c0d86055-eca0-4f43-9a00-721a0af30295,Cartilage,Cartilage,Image,Polygon,389087,878927.1,,1190372869,156994.5
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,9c2fc1d4-72ff-4960-b1fb-cac919d6ec1d,Cartilage,Cartilage,Image,Polygon,353672.8,971082.5,,457614864.5,87597.3
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,9ec8fd10-a31c-4382-b742-eb0e274b97a8,Cartilage,Cartilage,Image,Polygon,352595.1,1005678,,178424263,51941.1
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,7cca6e82-b6e3-4050-b89b-4f24c57ed3bc,Cartilage,Cartilage,Image,Polygon,339523.5,1104076.7,,381506153.4,81034.8
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,ec117d58-cb89-4f7e-8440-7c58260e8dc1,Adipocytes,Adipocytes,Image,Points,423791.3,594353.8,76,,
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,d8efac45-07a0-4439-b58d-2a0e89fcf8ca,Regenerated Zone,Regenerated Zone zone,Image,Geometry,430474.4,642940.1,,1.33488E+11,2328196.8
+Aco_ear_990342-2_31.tif - Aco_ear_990342-2_31.tif #1,990342-2,31,4279ef4f-6b51-4d7b-8112-2b3d36f20358,Cartilage,Cartilage,Image,Polygon,341909.9,852416.4,,4043040984,364273.3
+Aco_ear_990342-2_31.tif - Aco_ear_990342-2_31.tif #1,990342-2,31,3c98ec8c-aa36-44dd-b5e9-5ef5ec1914f3,Cartilage,Cartilage,Image,Polygon,315545.8,498007,,2957799249,268864.1
+Aco_ear_990342-2_31.tif - Aco_ear_990342-2_31.tif #1,990342-2,31,c93dca11-0ac0-4c80-a195-3e35e0ca2d8c,Adipocytes,Adipocytes,Image,Points,320496.8,692547.2,46,,
+Aco_ear_990342-2_31.tif - Aco_ear_990342-2_31.tif #1,990342-2,31,f346ac74-897b-4ef1-9a47-f14183f23dff,Cartilage,Cartilage,Image,Polygon,350449.6,1030259.7,,2349767010,350563.4
+Aco_ear_990342-2_31.tif - Aco_ear_990342-2_31.tif #1,990342-2,31,92ee01f2-ea2b-4326-bd8d-d178864c6785,Regenerated Zone,Regenerated Zone zone,Image,Geometry,332769.1,690340.2,,1.00986E+11,2181311.6
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,da8dd954-6174-4155-b204-f5bc534d0a1b,Cartilage,Cartilage,Image,Polygon,346966.5,956334.5,,786778784.7,120319.4
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,0c3953f4-5244-4eed-88ac-6bce0fc69c46,Cartilage,Cartilage,Image,Polygon,362929.9,1061522,,525036882.6,112972
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,7f5e4b99-e6e7-48ee-8710-2e24fd6a01db,Cartilage,Cartilage,Image,Polygon,359443.8,869378.8,,561749828.6,97727.8
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,64519415-8959-4d24-b452-86ebecabceca,Cartilage,Cartilage,Image,Polygon,288240.9,409016,,1409432387,200757.4
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,65dc1ffa-4574-4958-b10d-c1342bdd1ff7,Adipocytes,Adipocytes,Image,Points,328713.9,667593,43,,
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,a04e935d-df07-45d9-9b88-9ad089993477,Cartilage,Cartilage,Image,Polygon,372859.7,813468.1,,431268465.2,79425.4
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,73310f12-dadb-40fc-b3b7-b9fa04b08dd4,Regenerated Zone,Regenerated Zone zone,Image,Polygon,366911.3,873643.7,,48266334490,1145989.6
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,2e43e7f7-28e5-48b5-8287-ee1156fb2d5a,Regenerated Zone,Regenerated Zone zone,Image,Polygon,335433.3,501902.5,,37034496954,993906.2
+Aco_ear_990342-2_40.tif - Aco_ear_990342-2_40.tif #1,990342-2,40,61ad9e27-13d4-4c44-9103-b856a2f31bf9,Cartilage,Cartilage,Image,Geometry,336886,864044.5,,682770887.2,128645.5
+Aco_ear_990342-2_40.tif - Aco_ear_990342-2_40.tif #1,990342-2,40,f7629754-7199-486b-b75e-1fc50fa2692b,Cartilage,Cartilage,Image,Polygon,398621.2,385752.9,,180051163.2,53375.1
+Aco_ear_990342-2_40.tif - Aco_ear_990342-2_40.tif #1,990342-2,40,44b5c4d3-ef50-4b52-8b76-2ef5cf24312e,Adipocytes,Adipocytes,Image,Points,341057.1,755725.4,6,,
+Aco_ear_990342-2_40.tif - Aco_ear_990342-2_40.tif #1,990342-2,40,af0f6714-a912-4314-a13b-1f702879061a,Cartilage,Cartilage,Image,Polygon,272045.6,1011252.7,,697656748.6,132713.3
+Aco_ear_990342-2_40.tif - Aco_ear_990342-2_40.tif #1,990342-2,40,01b44286-5243-4e84-bfc1-a02f6c91d9f3,Regenerated Zone,Regenerated Zone zone,Image,Polygon,351274.5,851505.9,,44219222188,1057388.5
+Aco_ear_990342-2_40.tif - Aco_ear_990342-2_40.tif #1,990342-2,40,b062c94e-e2c1-4cbc-a4ae-1b001f6d6ce7,Regenerated Zone,Regenerated Zone zone,Image,Polygon,425306.7,450913.7,,31993660020,805569.8

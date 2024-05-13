@@ -1,0 +1,598 @@
+"0","loadfonts()
+"
+"2","Registering font with R using pdfFont(): .Keyboard
+"
+"2","Registering font with R using pdfFont(): .New York
+"
+"2","Registering font with R using pdfFont(): .SF Arabic
+"
+"2","Registering font with R using pdfFont(): .SF Arabic Rounded
+"
+"2","Registering font with R using pdfFont(): .SF Armenian
+"
+"2","Registering font with R using pdfFont(): .SF Armenian Rounded
+"
+"2","Registering font with R using pdfFont(): .SF Camera
+"
+"2","Registering font with R using pdfFont(): .SF Compact
+"
+"2","Registering font with R using pdfFont(): .SF Compact Rounded
+"
+"2","Registering font with R using pdfFont(): .SF Georgian
+"
+"2","Registering font with R using pdfFont(): .SF Georgian Rounded
+"
+"2","Registering font with R using pdfFont(): .SF Hebrew
+"
+"2","Registering font with R using pdfFont(): .SF Hebrew Rounded
+"
+"2","Registering font with R using pdfFont(): .SF NS Mono
+"
+"2","Registering font with R using pdfFont(): .SF NS Rounded
+"
+"2","Registering font with R using pdfFont(): Academy Engraved LET
+"
+"2","Registering font with R using pdfFont(): Andale Mono
+"
+"2","More than one version of regular/bold/italic found for Apple Braille. Skipping setup for this font.
+"
+"2","Registering font with R using pdfFont(): AppleMyungjo
+"
+"2","Registering font with R using pdfFont(): Arial
+"
+"2","Registering font with R using pdfFont(): Arial Black
+"
+"2","Registering font with R using pdfFont(): Arial Narrow
+"
+"2","Registering font with R using pdfFont(): Arial Rounded MT Bold
+"
+"2","Registering font with R using pdfFont(): Arial Unicode MS
+"
+"2","Registering font with R using pdfFont(): BIZ UDPGothic
+"
+"2","Registering font with R using pdfFont(): Bodoni 72 Smallcaps
+"
+"2","Registering font with R using pdfFont(): Bodoni Ornaments
+"
+"2","No regular (non-bold, non-italic) version of Brush Script MT. Skipping setup for this font.
+"
+"2","Registering font with R using pdfFont(): Comic Sans MS
+"
+"2","Registering font with R using pdfFont(): Courier New
+"
+"2","No regular (non-bold, non-italic) version of DIN Alternate. Skipping setup for this font.
+"
+"2","No regular (non-bold, non-italic) version of DIN Condensed. Skipping setup for this font.
+"
+"2","Registering font with R using pdfFont(): Georgia
+"
+"2","Registering font with R using pdfFont(): Impact
+"
+"2","Registering font with R using pdfFont(): Khmer Sangam MN
+"
+"2","Registering font with R using pdfFont(): Lao Sangam MN
+"
+"2","Registering font with R using pdfFont(): Luminari
+"
+"2","Registering font with R using pdfFont(): Microsoft Sans Serif
+"
+"2","Registering font with R using pdfFont(): Noto Sans Adlam
+"
+"2","Registering font with R using pdfFont(): Noto Sans Avestan
+"
+"2","Registering font with R using pdfFont(): Noto Sans Bamum
+"
+"2","Registering font with R using pdfFont(): Noto Sans Bassa Vah
+"
+"2","Registering font with R using pdfFont(): Noto Sans Batak
+"
+"2","Registering font with R using pdfFont(): Noto Sans Bhaiksuki
+"
+"2","Registering font with R using pdfFont(): Noto Sans Brahmi
+"
+"2","Registering font with R using pdfFont(): Noto Sans Buginese
+"
+"2","Registering font with R using pdfFont(): Noto Sans Buhid
+"
+"2","Registering font with R using pdfFont(): Noto Sans Carian
+"
+"2","Registering font with R using pdfFont(): Noto Sans CaucAlban
+"
+"2","Registering font with R using pdfFont(): Noto Sans Chakma
+"
+"2","Registering font with R using pdfFont(): Noto Sans Cham
+"
+"2","Registering font with R using pdfFont(): Noto Sans Coptic
+"
+"2","Registering font with R using pdfFont(): Noto Sans Cuneiform
+"
+"2","Registering font with R using pdfFont(): Noto Sans Cypriot
+"
+"2","Registering font with R using pdfFont(): Noto Sans Duployan
+"
+"2","Registering font with R using pdfFont(): Noto Sans EgyptHiero
+"
+"2","Registering font with R using pdfFont(): Noto Sans Elbasan
+"
+"2","Registering font with R using pdfFont(): Noto Sans Glagolitic
+"
+"2","Registering font with R using pdfFont(): Noto Sans Gothic
+"
+"2","Registering font with R using pdfFont(): Noto Sans HanifiRohg
+"
+"2","Registering font with R using pdfFont(): Noto Sans Hanunoo
+"
+"2","Registering font with R using pdfFont(): Noto Sans Hatran
+"
+"2","Registering font with R using pdfFont(): Noto Sans ImpAramaic
+"
+"2","Registering font with R using pdfFont(): Noto Sans InsPahlavi
+"
+"2","Registering font with R using pdfFont(): Noto Sans InsParthi
+"
+"2","Registering font with R using pdfFont(): Noto Sans Kaithi
+"
+"2","Registering font with R using pdfFont(): Noto Sans Kayah Li
+"
+"2","Registering font with R using pdfFont(): Noto Sans Kharoshthi
+"
+"2","Registering font with R using pdfFont(): Noto Sans Khojki
+"
+"2","Registering font with R using pdfFont(): Noto Sans Khudawadi
+"
+"2","Registering font with R using pdfFont(): Noto Sans Lepcha
+"
+"2","Registering font with R using pdfFont(): Noto Sans Limbu
+"
+"2","Registering font with R using pdfFont(): Noto Sans Linear A
+"
+"2","Registering font with R using pdfFont(): Noto Sans Linear B
+"
+"2","Registering font with R using pdfFont(): Noto Sans Lisu
+"
+"2","Registering font with R using pdfFont(): Noto Sans Lycian
+"
+"2","Registering font with R using pdfFont(): Noto Sans Lydian
+"
+"2","Registering font with R using pdfFont(): Noto Sans Mahajani
+"
+"2","Registering font with R using pdfFont(): Noto Sans Mandaic
+"
+"2","Registering font with R using pdfFont(): Noto Sans Manichaean
+"
+"2","Registering font with R using pdfFont(): Noto Sans Marchen
+"
+"2","Registering font with R using pdfFont(): Noto Sans MeeteiMayek
+"
+"2","Registering font with R using pdfFont(): Noto Sans Mende Kikakui
+"
+"2","Registering font with R using pdfFont(): Noto Sans Meroitic
+"
+"2","Registering font with R using pdfFont(): Noto Sans Miao
+"
+"2","Registering font with R using pdfFont(): Noto Sans Modi
+"
+"2","Registering font with R using pdfFont(): Noto Sans Mongolian
+"
+"2","Registering font with R using pdfFont(): Noto Sans Mro
+"
+"2","Registering font with R using pdfFont(): Noto Sans Multani
+"
+"2","Registering font with R using pdfFont(): Noto Sans Nabataean
+"
+"2","Registering font with R using pdfFont(): Noto Sans Newa
+"
+"2","Registering font with R using pdfFont(): Noto Sans NewTaiLue
+"
+"2","Registering font with R using pdfFont(): Noto Sans NKo
+"
+"2","Registering font with R using pdfFont(): Noto Sans Ol Chiki
+"
+"2","No regular (non-bold, non-italic) version of Noto Sans Old Italic. Skipping setup for this font.
+"
+"2","Registering font with R using pdfFont(): Noto Sans Old Permic
+"
+"2","Registering font with R using pdfFont(): Noto Sans Old Turkic
+"
+"2","Registering font with R using pdfFont(): Noto Sans OldHung
+"
+"2","Registering font with R using pdfFont(): Noto Sans OldNorArab
+"
+"2","Registering font with R using pdfFont(): Noto Sans OldPersian
+"
+"2","Registering font with R using pdfFont(): Noto Sans OldSouArab
+"
+"2","Registering font with R using pdfFont(): Noto Sans Osage
+"
+"2","Registering font with R using pdfFont(): Noto Sans Osmanya
+"
+"2","Registering font with R using pdfFont(): Noto Sans Pahawh Hmong
+"
+"2","Registering font with R using pdfFont(): Noto Sans Palmyrene
+"
+"2","Registering font with R using pdfFont(): Noto Sans PauCinHau
+"
+"2","Registering font with R using pdfFont(): Noto Sans PhagsPa
+"
+"2","Registering font with R using pdfFont(): Noto Sans Phoenician
+"
+"2","Registering font with R using pdfFont(): Noto Sans PsaPahlavi
+"
+"2","Registering font with R using pdfFont(): Noto Sans Rejang
+"
+"2","Registering font with R using pdfFont(): Noto Sans Samaritan
+"
+"2","Registering font with R using pdfFont(): Noto Sans Saurashtra
+"
+"2","Registering font with R using pdfFont(): Noto Sans Sharada
+"
+"2","Registering font with R using pdfFont(): Noto Sans Siddham
+"
+"2","Registering font with R using pdfFont(): Noto Sans SoraSomp
+"
+"2","Registering font with R using pdfFont(): Noto Sans Sundanese
+"
+"2","Registering font with R using pdfFont(): Noto Sans Syloti Nagri
+"
+"2","Registering font with R using pdfFont(): Noto Sans Syriac
+"
+"2","Registering font with R using pdfFont(): Noto Sans Tagalog
+"
+"2","Registering font with R using pdfFont(): Noto Sans Tagbanwa
+"
+"2","Registering font with R using pdfFont(): Noto Sans Tai Le
+"
+"2","Registering font with R using pdfFont(): Noto Sans Tai Tham
+"
+"2","Registering font with R using pdfFont(): Noto Sans Tai Viet
+"
+"2","Registering font with R using pdfFont(): Noto Sans Takri
+"
+"2","Registering font with R using pdfFont(): Noto Sans Thaana
+"
+"2","Registering font with R using pdfFont(): Noto Sans Tifinagh
+"
+"2","Registering font with R using pdfFont(): Noto Sans Tirhuta
+"
+"2","Registering font with R using pdfFont(): Noto Sans Ugaritic
+"
+"2","Registering font with R using pdfFont(): Noto Sans Vai
+"
+"2","Registering font with R using pdfFont(): Noto Sans Wancho
+"
+"2","Registering font with R using pdfFont(): Noto Sans WarangCiti
+"
+"2","Registering font with R using pdfFont(): Noto Sans Yi
+"
+"2","Registering font with R using pdfFont(): Noto Serif Ahom
+"
+"2","Registering font with R using pdfFont(): Noto Serif Balinese
+"
+"2","Registering font with R using pdfFont(): Noto Serif Hmong Nyiakeng
+"
+"2","Registering font with R using pdfFont(): Party LET
+"
+"2","Registering font with R using pdfFont(): PT Sans
+"
+"2","Registering font with R using pdfFont(): SF Pro
+"
+"2","Registering font with R using pdfFont(): STIX Two Text
+"
+"2","Registering font with R using pdfFont(): System Font
+"
+"2","Registering font with R using pdfFont(): Tahoma
+"
+"2","Registering font with R using pdfFont(): Times New Roman
+"
+"2","Registering font with R using pdfFont(): Trattatello
+"
+"2","Registering font with R using pdfFont(): Trebuchet MS
+"
+"2","Registering font with R using pdfFont(): Verdana
+"
+"2","Registering font with R using pdfFont(): Webdings
+"
+"2","Registering font with R using pdfFont(): Wingdings
+"
+"2","Registering font with R using pdfFont(): Wingdings 2
+"
+"2","Registering font with R using pdfFont(): Wingdings 3
+"
+"2","Registering font with R using postscriptFont(): .Keyboard
+"
+"2","Registering font with R using postscriptFont(): .New York
+"
+"2","Registering font with R using postscriptFont(): .SF Arabic
+"
+"2","Registering font with R using postscriptFont(): .SF Arabic Rounded
+"
+"2","Registering font with R using postscriptFont(): .SF Armenian
+"
+"2","Registering font with R using postscriptFont(): .SF Armenian Rounded
+"
+"2","Registering font with R using postscriptFont(): .SF Camera
+"
+"2","Registering font with R using postscriptFont(): .SF Compact
+"
+"2","Registering font with R using postscriptFont(): .SF Compact Rounded
+"
+"2","Registering font with R using postscriptFont(): .SF Georgian
+"
+"2","Registering font with R using postscriptFont(): .SF Georgian Rounded
+"
+"2","Registering font with R using postscriptFont(): .SF Hebrew
+"
+"2","Registering font with R using postscriptFont(): .SF Hebrew Rounded
+"
+"2","Registering font with R using postscriptFont(): .SF NS Mono
+"
+"2","Registering font with R using postscriptFont(): .SF NS Rounded
+"
+"2","Registering font with R using postscriptFont(): Academy Engraved LET
+"
+"2","Registering font with R using postscriptFont(): Andale Mono
+"
+"2","More than one version of regular/bold/italic found for Apple Braille. Skipping setup for this font.
+"
+"2","Registering font with R using postscriptFont(): AppleMyungjo
+"
+"2","Registering font with R using postscriptFont(): Arial
+"
+"2","Registering font with R using postscriptFont(): Arial Black
+"
+"2","Registering font with R using postscriptFont(): Arial Narrow
+"
+"2","Registering font with R using postscriptFont(): Arial Rounded MT Bold
+"
+"2","Registering font with R using postscriptFont(): Arial Unicode MS
+"
+"2","Registering font with R using postscriptFont(): BIZ UDPGothic
+"
+"2","Registering font with R using postscriptFont(): Bodoni 72 Smallcaps
+"
+"2","Registering font with R using postscriptFont(): Bodoni Ornaments
+"
+"2","No regular (non-bold, non-italic) version of Brush Script MT. Skipping setup for this font.
+"
+"2","Registering font with R using postscriptFont(): Comic Sans MS
+"
+"2","Registering font with R using postscriptFont(): Courier New
+"
+"2","No regular (non-bold, non-italic) version of DIN Alternate. Skipping setup for this font.
+"
+"2","No regular (non-bold, non-italic) version of DIN Condensed. Skipping setup for this font.
+"
+"2","Registering font with R using postscriptFont(): Georgia
+"
+"2","Registering font with R using postscriptFont(): Impact
+"
+"2","Registering font with R using postscriptFont(): Khmer Sangam MN
+"
+"2","Registering font with R using postscriptFont(): Lao Sangam MN
+"
+"2","Registering font with R using postscriptFont(): Luminari
+"
+"2","Registering font with R using postscriptFont(): Microsoft Sans Serif
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Adlam
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Avestan
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Bamum
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Bassa Vah
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Batak
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Bhaiksuki
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Brahmi
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Buginese
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Buhid
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Carian
+"
+"2","Registering font with R using postscriptFont(): Noto Sans CaucAlban
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Chakma
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Cham
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Coptic
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Cuneiform
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Cypriot
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Duployan
+"
+"2","Registering font with R using postscriptFont(): Noto Sans EgyptHiero
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Elbasan
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Glagolitic
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Gothic
+"
+"2","Registering font with R using postscriptFont(): Noto Sans HanifiRohg
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Hanunoo
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Hatran
+"
+"2","Registering font with R using postscriptFont(): Noto Sans ImpAramaic
+"
+"2","Registering font with R using postscriptFont(): Noto Sans InsPahlavi
+"
+"2","Registering font with R using postscriptFont(): Noto Sans InsParthi
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Kaithi
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Kayah Li
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Kharoshthi
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Khojki
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Khudawadi
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Lepcha
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Limbu
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Linear A
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Linear B
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Lisu
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Lycian
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Lydian
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Mahajani
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Mandaic
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Manichaean
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Marchen
+"
+"2","Registering font with R using postscriptFont(): Noto Sans MeeteiMayek
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Mende Kikakui
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Meroitic
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Miao
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Modi
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Mongolian
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Mro
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Multani
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Nabataean
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Newa
+"
+"2","Registering font with R using postscriptFont(): Noto Sans NewTaiLue
+"
+"2","Registering font with R using postscriptFont(): Noto Sans NKo
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Ol Chiki
+"
+"2","No regular (non-bold, non-italic) version of Noto Sans Old Italic. Skipping setup for this font.
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Old Permic
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Old Turkic
+"
+"2","Registering font with R using postscriptFont(): Noto Sans OldHung
+"
+"2","Registering font with R using postscriptFont(): Noto Sans OldNorArab
+"
+"2","Registering font with R using postscriptFont(): Noto Sans OldPersian
+"
+"2","Registering font with R using postscriptFont(): Noto Sans OldSouArab
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Osage
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Osmanya
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Pahawh Hmong
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Palmyrene
+"
+"2","Registering font with R using postscriptFont(): Noto Sans PauCinHau
+"
+"2","Registering font with R using postscriptFont(): Noto Sans PhagsPa
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Phoenician
+"
+"2","Registering font with R using postscriptFont(): Noto Sans PsaPahlavi
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Rejang
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Samaritan
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Saurashtra
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Sharada
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Siddham
+"
+"2","Registering font with R using postscriptFont(): Noto Sans SoraSomp
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Sundanese
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Syloti Nagri
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Syriac
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Tagalog
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Tagbanwa
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Tai Le
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Tai Tham
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Tai Viet
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Takri
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Thaana
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Tifinagh
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Tirhuta
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Ugaritic
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Vai
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Wancho
+"
+"2","Registering font with R using postscriptFont(): Noto Sans WarangCiti
+"
+"2","Registering font with R using postscriptFont(): Noto Sans Yi
+"
+"2","Registering font with R using postscriptFont(): Noto Serif Ahom
+"
+"2","Registering font with R using postscriptFont(): Noto Serif Balinese
+"
+"2","Registering font with R using postscriptFont(): Noto Serif Hmong Nyiakeng
+"
+"2","Registering font with R using postscriptFont(): Party LET
+"
+"2","Registering font with R using postscriptFont(): PT Sans
+"
+"2","Registering font with R using postscriptFont(): SF Pro
+"
+"2","Registering font with R using postscriptFont(): STIX Two Text
+"
+"2","Registering font with R using postscriptFont(): System Font
+"
+"2","Registering font with R using postscriptFont(): Tahoma
+"
+"2","Registering font with R using postscriptFont(): Times New Roman
+"
+"2","Registering font with R using postscriptFont(): Trattatello
+"
+"2","Registering font with R using postscriptFont(): Trebuchet MS
+"
+"2","Registering font with R using postscriptFont(): Verdana
+"
+"2","Registering font with R using postscriptFont(): Webdings
+"
+"2","Registering font with R using postscriptFont(): Wingdings
+"
+"2","Registering font with R using postscriptFont(): Wingdings 2
+"
+"2","Registering font with R using postscriptFont(): Wingdings 3
+"

@@ -1,0 +1,58 @@
+Image,AnimalID,AgeCat,antibody,nerve_num,Object ID,Name,Class,Parent,ROI,Centroid X px,Centroid Y px,Num points
+Old_Ear_Aco_2h3_s4_100x.jpg,old1,> 22 mo,mediumNF,1,bbda19e1-c27f-47af-9fb5-05ecc545a416,Nerve,Nerve,Image,Points,1046.2,732.01,11
+Old_Ear_Aco_2h3_s4-2_100x.jpg,old1,> 22 mo,mediumNF,2,c4b66a44-a405-4910-93ac-24908902edf6,Nerve,Nerve,Image,Points,932.25,767.64,12
+Old_Ear_Aco_2h3_s4-4_100x.jpg,old1,> 22 mo,mediumNF,4,369d9f39-043c-43f4-bfc3-04793bf57195,Nerve,Nerve,Image,Points,427.26,599.3,13
+Old_Ear_Aco_2h3_s4-5_100x.jpg,old1,> 22 mo,mediumNF,5,e15ba07e-b5bd-4fcf-a6a2-7bc62c79a143,Nerve,Nerve,Image,Points,492.62,627.25,7
+Yng_Ear_Aco_2h3_s6_100x.jpg,yng1,3 - 4 mo,mediumNF,1,89f1b497-bed7-4266-9b7a-b5e01c371ecb,Nerve,Nerve,Image,Points,657.13,458.37,82
+Yng_Ear_Aco_2h3_s6-2_100x.jpg,yng1,3 - 4 mo,mediumNF,2,91915713-e097-4f74-9df4-f72aa254c0f2,Nerve,Nerve,Image,Points,494.92,387.74,77
+Yng_Ear_Aco_2h3_s6-3_100x.jpg,yng1,3 - 4 mo,mediumNF,3,455377d8-bae6-495c-89f5-365e430a3fa5,Nerve,Nerve,Image,Points,757.59,521.39,60
+Yng_Ear_Aco_2h3_s6-4_100x.jpg,yng1,3 - 4 mo,mediumNF,4,a74eb61e-3c19-4ad0-bb29-993132f2f2a2,Nerve,Nerve,Image,Points,531.44,397.97,15
+Yng_Ear_Aco_2h3_s6-5_100x.jpg,yng1,3 - 4 mo,mediumNF,5,f6e78cb4-2a22-4f52-85e1-e893e0855fc5,Nerve,Nerve,Image,Points,535.36,437.54,24
+Yng_Ear_Aco_2h3_s6-6_100x.jpg,yng1,3 - 4 mo,mediumNF,6,5bed1c35-9b6a-492a-9ab0-26de4fc5e0c2,Nerve,Nerve,Image,Points,658.35,476.45,35
+Yng_Ear_Aco_2h3_s6-7_100x.jpg,yng1,3 - 4 mo,mediumNF,7,664e9538-82bc-465d-91f6-d523ca132893,Nerve,Nerve,Image,Points,786.51,686.3,49
+Yng_Ear_Aco_2h3_s6-8_100x.jpg,yng1,3 - 4 mo,mediumNF,8,9dbfd12a-017a-4de5-a2eb-0bf7c31cf74e,Nerve,Nerve,Image,Points,560.04,577.89,125
+Yng_Ear_Aco_2h3_s6-9_100x.jpg,yng1,3 - 4 mo,mediumNF,9,bf8ddd39-285d-4c2c-943f-cfc9db66bf14,Nerve,Nerve,Image,Points,424.88,632.58,60
+Yng_Ear_Aco_2h3_s6-10_100x.jpg,yng1,3 - 4 mo,mediumNF,10,d5442638-21a6-490e-80d5-91b2c8dbebe6,Nerve,Nerve,Image,Points,630.44,479.7,15
+Yng_Ear_Aco_2h3_s6-11_100x.jpg,yng1,3 - 4 mo,mediumNF,11,311ebb2b-1d4d-4e86-a443-86852693a08c,Nerve,Nerve,Image,Points,520.83,380.07,35
+Aco_3yrM_2h3-4_100x_1.jpg,old2,> 22 mo,mediumNF,1,084fb85b-bda7-4bd0-be2d-b3bc30418509,Nerve,Nerve,Image,Points,620.05,384.42,7
+Aco_3yrM_2h3-4_100x_2.jpg,old2,> 22 mo,mediumNF,2,ec058d90-5763-4460-97ad-7f4ffd9ec198,Nerve,Nerve,Image,Points,464.43,553.48,30
+Aco_3yrM_2h3-4_100x_3.jpg,old2,> 22 mo,mediumNF,3,b4bf4c70-f609-4aa1-9295-3d61c882d5f2,Nerve,Nerve,Image,Points,575.27,368.82,34
+Aco_3yrM_2h3-4_100x_4.jpg,old2,> 22 mo,mediumNF,4,64d43273-169d-46a4-974e-a054fa033187,Nerve,Nerve,Image,Points,521.03,344.84,11
+Aco_3yrM_2h3-4_100x_6.jpg,old2,> 22 mo,mediumNF,6,f7e84456-d776-43b7-8125-a1c29e11326f,Nerve,Nerve,Image,Points,615.83,620.42,32
+Aco_3yrM_2h3-4_100x_5-1.jpg,old2,> 22 mo,mediumNF,51,7fea9533-8933-44a3-aa8e-182b99e351a3,Nerve,Nerve,Image,Points,857.01,661.55,2
+Aco_3yrM_2h3-4_100x_5-2.jpg,old2,> 22 mo,mediumNF,52,4dbbcd43-2cf1-4814-b998-edd07cb90752,Nerve,Nerve,Image,Points,641.92,532.32,12
+Aco_3yrM_2h3-4_100x_5-3.jpg,old2,> 22 mo,mediumNF,53,c2103b5b-1d02-4590-8175-7ad6b4b5b1da,Nerve,Nerve,Image,Points,913.92,139.12,2
+990342-1_RT97_100x_1.jpg,990342-1,> 22 mo,heavyNF,1,fe3592a0-0964-4d1a-a9ae-86a917188469,Nerve,Nerve,Image,Points,544.49,475,18
+990342-1_RT97_100x_2.jpg,990342-1,> 22 mo,heavyNF,2,fe281904-7c48-4712-8c8c-313a8cc36f16,Nerve,Nerve,Image,Points,348.41,648.39,3
+990342-1_RT97_100x_3.jpg,990342-1,> 22 mo,heavyNF,3,00368f33-9657-4a45-89ce-a57d3aa51674,Nerve,Nerve,Image,Points,489.94,591.37,7
+990342-1_RT97_100x_6.jpg,990342-1,> 22 mo,heavyNF,6,7f8dae8b-657f-458e-ab3d-0a9917cb91d8,Nerve,Nerve,Image,Points,531.58,608.54,3
+990342-1_RT97_100x_7.jpg,990342-1,> 22 mo,heavyNF,7,5f16ab72-3d0b-4118-ac1f-b065ea00b2d9,Nerve,Nerve,Image,Points,660.29,604.69,4
+990342-1_RT97_100x_8.jpg,990342-1,> 22 mo,heavyNF,8,f3418f72-3e6c-4941-b676-36e0ff5c6279,Nerve,Nerve,Image,Points,753.18,599.87,16
+990342-1_RT97_100x_9.jpg,990342-1,> 22 mo,heavyNF,9,6c1d1223-4f90-4974-9f11-460b06b92b2f,Nerve,Nerve,Image,Points,493.35,372.45,4
+990342-1_RT97_100x_10.jpg,990342-1,> 22 mo,heavyNF,10,93ca70f1-e746-4aeb-ae09-96845b3dd1d9,Nerve,Nerve,Image,Points,394.47,522.86,7
+990342-1_RT97_100x_11.jpg,990342-1,> 22 mo,heavyNF,11,700b3453-e861-4fe8-8ee1-330375e44d47,Nerve,Nerve,Image,Points,959.11,473.04,9
+990342-1_RT97_100x_12.jpg,990342-1,> 22 mo,heavyNF,12,b782a9c9-557d-4b82-b040-2f34068c4a56,Nerve,Nerve,Image,Points,604.06,603.7,39
+990342-1_RT97_100x_13.jpg,990342-1,> 22 mo,heavyNF,13,865bcc18-f009-4ae9-b37e-e1fa215b39c2,Nerve,Nerve,Image,Points,897.52,585.45,4
+990342-1_RT97_100x_14.jpg,990342-1,> 22 mo,heavyNF,14,7aabd81e-28e1-4262-a221-d2781958ddbf,Nerve,Nerve,Image,Points,696.24,754.8,3
+990342-1_RT97_100x_15.jpg,990342-1,> 22 mo,heavyNF,15,a776a9fa-c50e-401a-bfca-e722fba8bef7,Nerve,Nerve,Image,Points,657.57,392.65,23
+990342-1_RT97_100x_16.jpg,990342-1,> 22 mo,heavyNF,16,9f3d05bb-ec1b-4616-8dd9-9c0dca332563,Nerve,Nerve,Image,Points,941.62,696.79,7
+990342-1_RT97_100x_17.jpg,990342-1,> 22 mo,heavyNF,17,56ae5154-dd03-40be-89b4-0a4e32e759b0,Nerve,Nerve,Image,Points,1007.8,447.1,18
+990342-1_RT97_100x_18.jpg,990342-1,> 22 mo,heavyNF,18,9443e1f6-9c9b-4e5c-ab06-8f3a1c565f52,Nerve,Nerve,Image,Points,582.2,687.54,30
+90-8-2_RT97_100x_1.jpg,90-8-2,3 - 4 mo,heavyNF,1,b2ff4a00-02b5-4e5e-86cb-cce50f605e64,Nerve,Nerve,Image,Points,645.21,483.87,53
+90-8-2_RT97_100x_2.jpg,90-8-2,3 - 4 mo,heavyNF,2,55e3f2bb-79c1-44b6-a4e6-b13db3c0a170,Nerve,Nerve,Image,Points,739.57,598.21,6
+90-8-2_RT97_100x_3.jpg,90-8-2,3 - 4 mo,heavyNF,3,24ee92af-275b-4b00-a415-9c55631749d7,Nerve,Nerve,Image,Points,723.6,756.73,40
+90-8-2_RT97_100x_4.jpg,90-8-2,3 - 4 mo,heavyNF,4,9cabad00-6f3d-48a8-a0fd-23fde6bdc800,Nerve,Nerve,Image,Points,705.6,550.08,93
+90-8-2_RT97_100x_5.jpg,90-8-2,3 - 4 mo,heavyNF,5,69b31a76-5e6d-41a3-ad6f-4f44990141bc,Nerve,Nerve,Image,Points,996.54,553.32,14
+90-8-2_RT97_100x_6.jpg,90-8-2,3 - 4 mo,heavyNF,6,e51af497-3e7b-442a-87dd-96443a051e96,Nerve,Nerve,Image,Points,518.19,494.61,53
+90-8-2_RT97_100x_7.jpg,90-8-2,3 - 4 mo,heavyNF,7,9d32b916-3de1-4cc1-9821-47db77b684f3,Nerve,Nerve,Image,Points,833.12,648.99,62
+90-8-2_RT97_100x_8.jpg,90-8-2,3 - 4 mo,heavyNF,8,7917bea6-a15d-4be3-8c45-3f45da25d6dd,Nerve,Nerve,Image,Points,523.32,653.09,34
+90-8-2_RT97_100x_9.jpg,90-8-2,3 - 4 mo,heavyNF,9,d823fa41-20ab-4ecd-914c-26c4358d2e55,Nerve,Nerve,Image,Points,776.87,592.35,31
+90-8-2_RT97_100x_10.jpg,90-8-2,3 - 4 mo,heavyNF,10,571d4415-81c9-4ce2-8459-4317a58ad0d2,Nerve,Nerve,Image,Points,826.23,706.59,26
+90-8-2_RT97_100x_11.jpg,90-8-2,3 - 4 mo,heavyNF,11,55be908b-9cde-45d1-bd8f-d9ae5053151d,Nerve,Nerve,Image,Points,697.32,805.15,12
+90-8-2_RT97_100x_12.jpg,90-8-2,3 - 4 mo,heavyNF,12,bef184bc-8da8-4b2f-ae50-81339546a8e5,Nerve,Nerve,Image,Points,691.7,763.46,13
+90-8-2_RT97_100x_13.jpg,90-8-2,3 - 4 mo,heavyNF,13,0be7bd47-c2f0-4f2b-97e6-7d6295c239ba,Nerve,Nerve,Image,Points,854.12,712.73,21
+90-8-2_RT97_100x_14.jpg,90-8-2,3 - 4 mo,heavyNF,14,72a6c407-4f9e-4777-9801-37f16c3b11d5,Nerve,Nerve,Image,Points,521.82,804.77,25
+90-8-2_RT97_100x_15.jpg,90-8-2,3 - 4 mo,heavyNF,15,4b97f1c8-9ec5-44d9-abfb-ca04cf05a28e,Nerve,Nerve,Image,Points,633.68,601.94,7
+90-8-2_RT97_100x_16.jpg,90-8-2,3 - 4 mo,heavyNF,16,b3eea08b-a921-44be-88a3-544fb15eaf2e,Nerve,Nerve,Image,Points,766.7,711.57,16
+90-8-2_RT97_100x_17.jpg,90-8-2,3 - 4 mo,heavyNF,17,919631f2-ed31-430f-a9a5-a10eeae4bea9,Nerve,Nerve,Image,Points,604.97,442.79,31
+90-8-2_RT97_100x_18.jpg,90-8-2,3 - 4 mo,heavyNF,18,5023a749-5a31-4799-9fcb-630eb201f0c2,Nerve,Nerve,Image,Points,456.41,612.12,10

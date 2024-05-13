@@ -1,0 +1,20 @@
+"0","cartregen_means <- cartregen %>% "
+"0","  group_by(AnimalID, AgeCat) %>% "
+"0","  summarise(mean_perc_cartregen_length = mean(perc_cartregen_length), mean_count=mean(Count.x))"
+"1","[38;5;255m`summarise()` has grouped output by 'AnimalID'. You can override using the `.groups` argument.[39m
+"
+"0","adipo_means <- adiporegen %>% "
+"0","  group_by(AnimalID, AgeCat) %>% "
+"0","  summarise(mean_count_area=mean(count_area), mean_count=mean(count))"
+"1","[38;5;255m`summarise()` has grouped output by 'AnimalID'. You can override using the `.groups` argument.[39m
+"
+"0","muscle_means <- muscleregen %>% "
+"0","  group_by(AnimalID, AgeCat) %>% "
+"0","  summarise(mean_count_area=mean(count_area), mean_count=mean(fiber.count))"
+"1","[38;5;255m`summarise()` has grouped output by 'AnimalID'. You can override using the `.groups` argument.[39m
+"
+"0","hairs_means <- hairregen %>% "
+"0","  group_by(AnimalID, AgeCat) %>% "
+"0","  summarise(mean_count_area=mean(count_area), mean_count=mean(Num.points))"
+"1","[38;5;255m`summarise()` has grouped output by 'AnimalID'. You can override using the `.groups` argument.[39m
+"

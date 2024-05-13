@@ -1,0 +1,8 @@
+"0",""
+"0","ggplot(hairregen, aes(Slide_per, count_area*100, color = AgeCat)) +"
+"0","   geom_point2(size = 4, alpha = 0.6) +"
+"0","  geom_smooth(method = lm, se=FALSE)+"
+"0","  scale_color_manual(values=c(""#fde725"", ""#5ec962"", ""#21918c"", ""#3b528b"", ""#440154"")) +"
+"0","  scale_x_continuous(labels=function(x) paste0(x,""%""))+"
+"0","  ylab(expression(paste(""Mean # of Hair Follicles per 100"", mu, ""M""))) + xlab(""Depth of Injury"") +"
+"0","  theme_cowplot()"

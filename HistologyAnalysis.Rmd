@@ -1,0 +1,659 @@
+---
+title: "Histology Analysis"
+author: "Justin Varholick"
+date: "2024-02-08"
+output: html_document
+---
+# packages
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggbeeswarm)
+library(cowplot)
+library(ggsci)
+library(see)
+library(ggpattern)
+library(stringr)
+library(readxl)
+
+library(easystats)
+library(lme4)
+library(lmerTest)
+```
+
+```{r}
+#for final figures
+library(extrafont)
+font_import()
+loadfonts()
+```
+
+
+# import data
+```{r}
+measures <- read_excel("data/measurements_020924.xlsx")
+daystoclose <- read.csv("data/EarDaysToClose_Data.csv")
+muscle <- read.csv("data/muscle.csv")
+hairs <- read_excel("data/hairfollicles.xlsx")
+```
+
+# data wrangling
+## make data neat
+```{r}
+measures <- measures %>% 
+  select(AnimalID, Slide, Name, Num.points, Length_microm) %>% 
+  left_join(daystoclose[,c(2,3,7,8)]) %>% 
+  mutate(AgeInMonths = (AgeAtInjury/30.417))
+
+measures$AgeCat[is.na(measures$AgeCat)] <- "Uninj. Tissue"
+measures$AgeCat <- factor(measures$AgeCat, levels = c("Uninj. Tissue", "3-4mo", "4-6mo", "6-9mo", "≥ 22mo"))
+
+muscle <- muscle %>% 
+  filter(uninj.muscle == 1)
+```
+## make data for depth of injury
+```{r}
+##Count the number of slides per animalid, 
+
+slidecount <- measures %>% 
+  filter(Name == "Regenerated Length") %>% 
+  group_by(AnimalID) %>% 
+  summarise(slidecount = n())
+
+#assign a count to each slide number, 
+
+measures1 <- left_join(measures, slidecount, by = "AnimalID")
+
+#divide count by number of slides per animal id, 
+
+slidenumber <- measures1 %>% 
+  filter(Name == "Regenerated Length") %>% 
+  group_by(AnimalID) %>% 
+  mutate(Slide_adj = rank(Slide)) %>% 
+  select(AnimalID, Slide, Slide_adj, slidecount) %>% 
+  unique() %>% 
+  mutate(Slide_per = 100*(Slide_adj/slidecount))
+
+measures2 <- left_join(measures1, slidenumber, by = c("AnimalID", "Slide", "slidecount"))
+```
+
+## make individual data sets for each metric
+**for graphing**
+```{r}
+cartilage <- measures2 %>% 
+  filter(Name == "Cartilage Length") %>% 
+  group_by(AnimalID, Slide, Slide_per, Sex, AgeInMonths, AgeCat, Name) %>% 
+  summarise(Length = sum(Length_microm), Count = n())
+  #summarise(Area = sum(Area.µm.2), Perimeter = sum(Perimeter.µm))
+
+regenarea <- measures2 %>% 
+  filter(Name == "Regenerated Length") %>% 
+  group_by(AnimalID, Slide, Slide_per, Sex, AgeInMonths, AgeCat, Name) %>% 
+  summarise(Length = sum(Length_microm), Count = n())
+
+adipocytes <- measures2 %>% 
+  filter(Name == "Adipocytes") %>% 
+  group_by(AnimalID, Slide, Slide_per, Sex, AgeInMonths, AgeCat, Name) %>% 
+  summarise(count = sum(Num.points))
+
+cartregen <- cartilage %>% 
+  left_join(regenarea, by = c("AnimalID", "Slide", "Slide_per", "Sex", "AgeInMonths", "AgeCat")) %>% 
+  mutate(perc_cartregen_length = 100*(Length.x / Length.y))
+
+adiporegen <- adipocytes %>% 
+  left_join(regenarea, by = c("AnimalID", "Slide", "Slide_per", "Sex", "AgeInMonths", "AgeCat")) %>% 
+  mutate(count_area = count / (Length/100))
+
+cartregen$AnimalID_Slide <- paste(cartregen$AnimalID, cartregen$Slide, sep = "-")
+
+muscleregen <- muscle %>% 
+  left_join(regenarea, by = c("AnimalID", "Slide")) %>% 
+  mutate(count_area = fiber.count / (Length/100)) %>% 
+  filter(!is.na(count_area))#############lots of NA values, why?
+
+hairregen <- hairs %>% 
+  left_join(regenarea, by = c("AnimalID", "Slide")) %>% 
+  mutate(count_area = Num.points / (Length/100)) %>% 
+  filter(!is.na(count_area))#############lots of NA values, why?
+
+```
+
+## make tables of mean values
+**for graphing and analysis**
+```{r}
+cartregen_means <- cartregen %>% 
+  group_by(AnimalID, AgeCat) %>% 
+  summarise(mean_perc_cartregen_length = mean(perc_cartregen_length), mean_count=mean(Count.x))
+
+adipo_means <- adiporegen %>% 
+  group_by(AnimalID, AgeCat) %>% 
+  summarise(mean_count_area=mean(count_area), mean_count=mean(count))
+
+muscle_means <- muscleregen %>% 
+  group_by(AnimalID, AgeCat) %>% 
+  summarise(mean_count_area=mean(count_area), mean_count=mean(fiber.count))
+
+hairs_means <- hairregen %>% 
+  group_by(AnimalID, AgeCat) %>% 
+  summarise(mean_count_area=mean(count_area), mean_count=mean(Num.points))
+```
+# Analysis
+## cartilage % mean tables
+```{r}
+cartregen_means2 <- cartregen_means %>% 
+  mutate(AgeCat2 = case_when(AgeCat == "Uninj. Tissue" ~ "Uninjured",
+                             AgeCat == "Injured at 3-4mo" ~ "Injured",
+                             AgeCat == "Injured at 4-6mo" ~ "Injured",
+                             AgeCat == "Injured at 6-9mo" ~ "Injured",
+                             AgeCat == "Injured at ≥ 22mo" ~ "Injured")) %>% 
+  group_by(AgeCat2) %>% 
+  summarise(mean2_perc_cartregen_length = mean(mean_perc_cartregen_length), mean2_count = mean(mean_count))
+
+cartregen_means3 <- cartregen_means %>% 
+  group_by(AgeCat) %>% 
+  summarise(mean3_perc_cartregen_length = mean(mean_perc_cartregen_length), mean3_count = mean(mean_count))
+```
+
+## cartilage % graph
+```{r}
+cartregen_means <- cartregen_means %>% 
+    mutate(AgeCat2 = case_when(AgeCat == "Uninj. Tissue" ~ 1,
+                             AgeCat == "3-4mo" ~ 0,
+                             AgeCat == "4-6mo" ~ 0,
+                             AgeCat == "6-9mo" ~ 0,
+                             AgeCat == "≥ 22mo" ~ 0))
+
+
+cmeansplot <- ggplot(cartregen_means, aes(AgeCat, mean_perc_cartregen_length)) +
+  geom_bar_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
+                   pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "black",
+                   color = "black", fun = "mean", stat = "summary") +
+  #geom_bar(fun = "mean", stat="summary", color = "black", alpha = 0.85) +
+  stat_summary(geom = "errorbar", fun.data = mean_se, width = 0.25) +
+  #geom_point2(size = 4, alpha = 0.6) +
+  ylab("Mean % Cartilage in ROI") + xlab("") +
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), limits=c(0,100), labels=function(x) paste0(x,"%")) +
+  scale_fill_manual(values=c("white", "#FDE725", "#22A884", "#414487", "#440154")) +
+  scale_pattern_type_manual(values = c("hexagonal", "none", "none", "none", "none")) +
+   theme_cowplot(font_size = 8, font_family = "Arial") +
+  theme(legend.position = "none")
+cmeansplot
+#ggsave("Figures/CartilagePercent.png", dpi=300, width=180, height=90, unit="mm")
+#ggsave("Figures/CartilagePercent.eps", dpi=300, width=180, height=90, unit="mm")
+```
+## cartilage % analysis
+```{r}
+#oneway anova, taking the mean percentage for each animal across all slides/positions
+res_aov <- aov(mean_perc_cartregen_length ~ AgeCat, data = cartregen_means)
+summary(res_aov)
+report(res_aov)
+TukeyHSD(res_aov)
+plot(TukeyHSD(res_aov))
+```
+## cartilage position (proximal, middle, distal) graph
+```{r}
+cartregen2 <- cartregen %>% 
+  mutate(Position = case_when(Slide_per <= 33.333 ~ "Proximal",
+                              Slide_per > 33.333 & Slide_per < 66.666 ~ "Middle",
+                              Slide_per >= 66.666 ~ "Distal")) %>% 
+  mutate(Position_Age = paste(AgeCat, Position, sep = "-")) %>%
+  filter(AgeCat != "Uninj. Tissue")
+cartregen2$Position <- factor(cartregen2$Position, levels = c("Proximal", "Middle", "Distal"))
+cartregen2$Position_Age <- factor(cartregen2$Position_Age, levels = c("≥ 22mo-Proximal", "≥ 22mo-Middle", "≥ 22mo-Distal",
+                                                              "3-4mo-Proximal", "3-4mo-Middle", "3-4mo-Distal",
+                                                              "4-6mo-Proximal", "4-6mo-Middle", "4-6mo-Distal",
+                                                              "6-9mo-Proximal", "6-9mo-Middle", "6-9mo-Distal"))
+
+#supplemental graph
+cposplot <- ggplot(cartregen2, aes(AgeCat, perc_cartregen_length)) +
+  geom_boxplot_pattern(aes(pattern_density = Position, fill = AgeCat),
+                       pattern = "circle", pattern_spacing = 0.02, pattern_fill = "black", color = "black") +
+  #geom_bar(fun = "mean", stat="summary", position = "dodge", color = "black", alpha = 0.85) +
+  #stat_summary(geom = "errorbar", fun.data = mean_se, position = "dodge") +
+  #geom_point2(size = 2, alpha = 0.5, position = position_dodge(width=.9)) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), limits=c(0,110), breaks = c(0, 25, 50, 75, 100), labels=function(x) paste0(x,"%")) +
+  ylab("% Cartilage in ROI") + xlab("") +
+  guides(color = "none") +
+  scale_fill_manual(values = c("#FDE725", "#22A884", "#414487", "#440154")) +
+  theme_cowplot() + theme(legend.position = "none")
+cposplot
+
+cposplot2 <- ggplot(cartregen2, aes(Position, perc_cartregen_length, color = AgeCat, group = AgeCat)) +
+  stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.2), linetype = "dashed") +
+  stat_summary(fun.min = function(z) { quantile(z,0.25) },
+  fun.max = function(z) { quantile(z,0.75) },
+  fun = median, position = position_dodge(width = 0.2)) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), limits=c(0,110), breaks = c(0, 25, 50, 75, 100), labels=function(x) paste0(x,"%")) +
+  ylab("% Cartilage in ROI")  + xlab("") + labs(color = "Age \nat Injury") +
+  scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +
+  theme_cowplot(font_size = 8, font_family = "Arial") + theme(legend.position = "none")
+cposplot2
+
+```
+```{r}
+ggplot(cartregen, aes(Slide_per, perc_cartregen_length, color = AgeCat)) +
+  geom_point() +
+  facet_wrap(~AnimalID)
+```
+
+
+## cartilage position analysis
+```{r}
+#repeated measures anova can't be run because the data is unbalanced, so we run a mixed model
+# this model is with slide as a percentage
+cper.base <- lmer(perc_cartregen_length ~ Slide_per + (Slide_per | AnimalID), data = cartregen2, control=lmerControl(optimizer="bobyqa"))
+
+cper.0 <- lmer(perc_cartregen_length ~ Slide_per + AgeCat + (Slide_per | AnimalID),
+               data = cartregen2, control=lmerControl(optimizer="bobyqa"))
+
+cper.1 <- lmer(perc_cartregen_length ~ Slide_per + AgeCat + Slide_per*AgeCat + (Slide_per | AnimalID),
+               data = cartregen2, control=lmerControl(optimizer="bobyqa"))
+
+anova(cper.base, cper.0, cper.1)
+anova(cper.0)
+summary(cper.0)
+report(cper.0)
+
+#the model without the interaction is the best. It indicates that generally, cartilage % is decreasing from proximal to distal, and that ≥ 22mo have less cartilage % than 3-4mo
+#can we redo the analysis to make proximal to distal continuous?
+```
+
+## cartilage position analysis as proximal, middle, distal continuous
+```{r}
+cartregen2 <- cartregen2 %>% 
+  mutate(Position2 = case_when(Position == "Proximal" ~ 1,
+                               Position == "Middle" ~ 2,
+                               Position == "Distal" ~ 3))
+
+cpos.base <- lmer(perc_cartregen_length ~ Position2 + (Position2 | AnimalID), data = cartregen2, control=lmerControl(optimizer="bobyqa"))
+
+cpos.0 <- lmer(perc_cartregen_length ~ Position2 + AgeCat + (Position2 | AnimalID),
+               data = cartregen2, control=lmerControl(optimizer="bobyqa"))
+
+cpos.1 <- lmer(perc_cartregen_length ~ Position2 + AgeCat + Position2*AgeCat + (Position2 | AnimalID),
+               data = cartregen2, control=lmerControl(optimizer="bobyqa"))
+
+anova(cpos.base, cpos.0, cpos.1)
+anova(cpos.0)
+summary(cpos.0)
+
+#only position is significant, so simplified model and showed effect of cartilage percent decreasing with position
+```
+
+## cartilage count graph
+```{r}
+ccountplot <- ggplot(cartregen_means, aes(AgeCat, mean_count)) +
+  geom_bar_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
+                   pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "black",
+                   color = "black", fun = "mean", stat = "summary") +
+  stat_summary(geom = "errorbar", fun.data = mean_se, width = 0.25) +
+  #geom_point2(size = 4, alpha = 0.6) +
+  ylab("Mean Number of \nCartilage Pieces in ROI") + xlab("") +
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12), limits = c(0,12)) +
+  scale_fill_manual(values=c("white", "#FDE725", "#22A884", "#414487", "#440154")) +
+  scale_pattern_type_manual(values = c("hexagonal", "none", "none", "none", "none")) +
+  theme_cowplot(font_size = 8, font_family = "Arial") +
+  theme(legend.position = "none")
+ccountplot
+ggsave("Figures/CartilageCount.png", dpi=300, width=180, height=90, unit="mm")
+```
+
+## cartilage count analysis
+```{r}
+#oneway anova, taking the mean count for each animal across all slides/positions
+res_aov <- aov(mean_count ~ AgeCat, data = cartregen_means)
+summary(res_aov)
+report(res_aov)
+TukeyHSD(res_aov)
+```
+## cartilage count position (proximal, middle, distal) graph
+```{r}
+ccountposplot <- ggplot(cartregen2, aes(AgeCat, Count.x, fill = Position_Age)) +
+  geom_boxplot(alpha = 0.85) +
+  #geom_bar(fun = "median", stat="summary", position = "dodge", color = "black", alpha = 0.85) +
+  #stat_summary(geom = "errorbar", fun.data = mean_se, position = "dodge") +
+  #geom_point2(size = 2, alpha = 0.5, position = position_dodge(width=.9)) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(0,2,4,6,8,10,12)) +
+  ylab("Number of \nCartilage Pieces in ROI") + xlab("") +
+  guides(color = "none") +
+  scale_fill_manual(values = c("#440154", "#e57efd", "#f5cbfe",
+                               "#5ec962", "#99dd9b", "#d4f0d5",
+                               "#21918c", "#90e6e2", "#d0f4f3",
+                               "#3b528b", "#a0b0d7", "#d7deee")) +
+  theme_cowplot() + theme(legend.position = "none")
+ccountposplot 
+
+ccountposplot2 <- ggplot(cartregen2, aes(Position, Count.x, color = AgeCat, group = AgeCat)) +
+  stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.2), linetype = "dashed") +
+  stat_summary(fun.min = function(z) { quantile(z,0.25) },
+  fun.max = function(z) { quantile(z,0.75) },
+  fun = median, position = position_dodge(width = 0.2)) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12), limits = c(0,12)) +
+  ylab("Number of \nCartilage Pieces in ROI")  + xlab("") + labs(color = "Age \nat Injury", shape = "Age \nat Injury") +
+  scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +
+  theme_cowplot(font_size = 8, font_family = "Arial") + theme(legend.position = "none")
+ccountposplot2
+```
+```{r}
+ggplot(cartregen, aes(Slide_per, Count.x, color = AgeCat)) +
+  geom_point() +
+  facet_wrap(~AnimalID)
+```
+
+
+## cartilage count position analysis as proximal, middle, distal continuous
+```{r}
+ccpos.base <- lmer(Count.x ~ Position2 + (Position2 | AnimalID), data = cartregen2, control=lmerControl(optimizer="bobyqa"))
+
+ccpos.0 <- lmer(Count.x ~ Position2 + AgeCat + (Position2 | AnimalID),
+               data = cartregen2, control=lmerControl(optimizer="bobyqa"))
+
+ccpos.1 <- lmer(Count.x ~ Position2 + AgeCat + Position2*AgeCat + (Position2 | AnimalID),
+               data = cartregen2, control=lmerControl(optimizer="bobyqa"))
+
+anova(ccpos.base, ccpos.0, ccpos.1)
+anova(ccpos.base)
+summary(ccpos.base)
+
+#nothing is significant in any model, which better represents the graph. Also, technically the graph should be individual lines to show the random effect, but that might look too confusing.
+```
+
+## Cartilage panel graph
+```{r}
+plot_grid(cmeansplot, cposplot2,
+          ccountplot, ccountposplot2,
+          ncol = 2, labels = "AUTO",
+          label_size = 12, label_fontfamily = "Arial", label_fontface = "bold")
+ggsave("Figures/CartilagePanel.png", dpi = 300, width = 180, height = 210, unit = "mm")
+```
+
+
+## adipocyte graph
+```{r}
+adipo_means <- adipo_means %>% 
+  mutate(AgeCat2 = case_when(AgeCat == "Uninj. Tissue" ~ 1,
+                             AgeCat == "3-4mo" ~ 0,
+                             AgeCat == "4-6mo" ~ 0,
+                             AgeCat == "6-9mo" ~ 0,
+                             AgeCat == "≥ 22mo" ~ 0))
+
+
+acountplot <- ggplot(adipo_means, aes(AgeCat, mean_count_area)) +
+    geom_boxplot_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
+                       pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "black", color = "black")+
+  ylab("Mean Number of Adipocytes \nper 100µM") + xlab("") +
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12,14,16,18,20), limits = c(0,20)) +
+  scale_fill_manual(values=c("white", "#FDE725", "#22A884", "#414487", "#440154")) +
+  theme_cowplot(font_size = 8, font_family = "Arial") +
+  theme(legend.position = "none")
+acountplot
+ggsave("Figures/AdipoCount.png", dpi=300, width=180, height=90, unit="mm")
+```
+
+## adipocyte analysis
+```{r}
+library(FSA)
+#kruskal wallis, taking the mean count for each animal across all slides/positions
+hist(adipo_means$mean_count_area)
+kruskal.test(mean_count_area ~ AgeCat, data = adipo_means)
+dunnTest(mean_count_area ~ AgeCat, data = adipo_means, method = "hochberg")
+```
+## adipocyte position graph
+```{r}
+adiporegen2 <- adiporegen %>% 
+  mutate(Position = case_when(Slide_per <= 33.333 ~ "Proximal",
+                              Slide_per > 33.333 & Slide_per < 66.666 ~ "Middle",
+                              Slide_per >= 66.666 ~ "Distal")) %>% 
+  filter(AgeCat != "Uninj. Tissue") %>% 
+  mutate(Position_Age = paste(AgeCat, Position, sep = "-")) %>%
+  mutate(Position2 = case_when(Position == "Proximal" ~ 1,
+                              Position == "Middle" ~ 2,
+                              Position == "Distal" ~ 3)) 
+adiporegen2$Position <- factor(adiporegen2$Position, levels = c("Proximal", "Middle", "Distal"))
+
+aposplot <- ggplot(adiporegen2, aes(AgeCat, count_area, fill = Position_Age)) +
+  geom_boxplot(alpha = 0.85) +
+  #geom_bar(fun = "median", stat="summary", position = "dodge", color = "black", alpha = 0.85) +
+  #stat_summary(geom = "errorbar", fun.data = mean_se, position = "dodge") +
+  #geom_point2(size = 2, alpha = 0.5, position = position_dodge(width=.9)) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
+  ylab("Mean Number of Adipocytes \nper 100µM")  + xlab("") +
+  guides(color = "none") +
+  scale_fill_manual(values = c("#440154", "#e57efd", "#f5cbfe",
+                               "#5ec962", "#99dd9b", "#d4f0d5",
+                               "#21918c", "#90e6e2", "#d0f4f3",
+                               "#3b528b", "#a0b0d7", "#d7deee")) +
+  theme_cowplot() + theme(legend.position = "none")
+aposplot
+
+aposplot2 <- ggplot(adiporegen2, aes(Position, count_area, color = AgeCat, group = AgeCat)) +
+  stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.2), linetype = "dashed") +
+  stat_summary(fun.min = function(z) { quantile(z,0.25) },
+  fun.max = function(z) { quantile(z,0.75) },
+  fun = median, position = position_dodge(width = 0.2)) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
+  ylab("Median Number of Adipocytes \nper 100µM")  + xlab("") + labs(color = "Age \nat Injury") +
+  scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +
+  theme_cowplot(font_size = 8, font_family = "Arial")
+aposplot2
+```
+```{r}
+ ggplot(adiporegen, aes(Slide_per, count_area, color = AgeCat)) +
+  geom_point() +
+  facet_wrap(~AnimalID)
+```
+
+
+## adipocyte count position analysis as proximal, middle, distal continuous
+```{r}
+apos.base <- lmer(count_area ~ Position2 + (Position2 | AnimalID), data = adiporegen2, control=lmerControl(optimizer="bobyqa"))
+apos.0 <- lmer(count_area ~ Position2 + AgeCat + (Position2 | AnimalID), data = adiporegen2, control=lmerControl(optimizer="bobyqa"))
+apos.1 <- lmer(count_area ~ Position2 + AgeCat + Position2*AgeCat + (Position2 | AnimalID), data = adiporegen2, control=lmerControl(optimizer="bobyqa"))
+
+anova(apos.base, apos.0, apos.1)
+anova(apos.1)
+summary(apos.1)
+
+#nothing is significant in any model, which better represents the graph. Also, technically the graph should be individual lines to show the random effect, but that might look too confusing.
+```
+
+## muscle fiber graph
+```{r}
+muscle_means <- muscle_means %>% 
+  mutate(AgeCat2 = case_when(AgeCat == "Uninj. Tissue" ~ 1,
+                             AgeCat == "3-4mo" ~ 0,
+                             AgeCat == "4-6mo" ~ 0,
+                             AgeCat == "6-9mo" ~ 0,
+                             AgeCat == "≥ 22mo" ~ 0))
+
+mcountplot <- ggplot(muscle_means, aes(AgeCat, mean_count_area)) +
+  geom_boxplot_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
+                       pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "black", color = "black")+
+  ylab("Mean Number of Muscle Fibers \nper 100µM") + xlab("") +
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
+  #scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12,14,16,18,20), limits = c(0,20)) +
+  scale_fill_manual(values=c("white", "#FDE725", "#22A884", "#414487", "#440154")) +
+  theme_cowplot(font_size = 8, font_family = "Arial") +
+  theme(legend.position = "none")
+mcountplot
+ggsave("Figures/MuscleCount.png", dpi=300, width=180, height=90, unit="mm")
+```
+## muscle analysis
+```{r}
+#kruskal wallis, taking the mean count for each animal across all slides/positions
+hist(muscle_means$mean_count_area)
+kruskal.test(mean_count_area ~ AgeCat, data = muscle_means)
+dunnTest(mean_count_area ~ AgeCat, data = muscle_means, method = "hochberg")
+```
+## muscle position graph
+```{r}
+muscleregen2 <- muscleregen %>% 
+  mutate(Position = case_when(Slide_per <= 33.333 ~ "Proximal",
+                              Slide_per > 33.333 & Slide_per < 66.666 ~ "Middle",
+                              Slide_per >= 66.666 ~ "Distal")) %>% 
+  filter(AgeCat != "Uninj. Tissue") %>% 
+  mutate(Position_Age = paste(AgeCat, Position, sep = "-")) %>%
+  mutate(Position2 = case_when(Position == "Proximal" ~ 1,
+                              Position == "Middle" ~ 2,
+                              Position == "Distal" ~ 3))
+muscleregen2$Position <- factor(muscleregen2$Position, levels = c("Proximal", "Middle", "Distal"))
+
+mposplot <- ggplot(muscleregen2, aes(AgeCat, count_area, fill = Position_Age)) +
+  geom_boxplot(alpha = 0.85) +
+  #geom_bar(fun = "median", stat="summary", position = "dodge", color = "black", alpha = 0.85) +
+  #stat_summary(geom = "errorbar", fun.data = mean_se, position = "dodge") +
+  #geom_point2(size = 2, alpha = 0.5, position = position_dodge(width=.9)) +
+  ylab("Mean Number of Muscle Fibers \nper 100µM")  + xlab("") +
+  guides(color = "none") +
+  scale_fill_manual(values = c("#440154", "#e57efd", "#f5cbfe",
+                               "#5ec962", "#99dd9b", "#d4f0d5",
+                               "#21918c", "#90e6e2", "#d0f4f3",
+                               "#3b528b", "#a0b0d7", "#d7deee")) +
+  theme_cowplot() + theme(legend.position = "none")
+mposplot
+
+mposplot3 <- ggplot(muscleregen2, aes(Position, count_area, color = AgeCat, group = AgeCat)) +
+  stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.2), linetype = "dashed") +
+  stat_summary(fun.min = function(z) { quantile(z,0.25) },
+  fun.max = function(z) { quantile(z,0.75) },
+  fun = median, position = position_dodge(width = 0.2)) +
+  ylab("Median Number of Muscle Fibers \nper 100µM")  + xlab("") + labs(color = "Age \nat Injury") +
+  scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +
+  theme_cowplot(font_size = 8, font_family = "Arial")
+mposplot3
+
+#significant effect graph
+mposplot2 <- ggplot(muscleregen2, aes(Position, count_area, fill = Position)) +
+  #geom_point2(size = 2, alpha = 0.5) +
+  stat_summary(fun.min = function(z) { quantile(z,0.25) },
+  fun.max = function(z) { quantile(z,0.75) },
+  fun = median, position = position_dodge(width = 0.2)) +
+  stat_summary(fun = "median", geom = "path", mapping = aes(group = -1), linetype = "dashed") +
+  #scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(0,2,4,6,8,10,12), limits = c(0,12)) +
+  ylab("Mean Number of Muscle Fibers \nper 100µM") + xlab("Age at Injury") +
+  guides(color = "none") +
+  scale_fill_viridis_d() +
+  theme_cowplot() + theme(legend.position = "none")
+mposplot2
+```
+```{r}
+ggplot(muscleregen, aes(Slide_per, count_area, color = AgeCat)) +
+  geom_point() +
+  facet_wrap(~AnimalID)
+```
+
+
+## muscle count position analysis as proximal, middle, distal continuous
+```{r}
+mpos.base <- lmer(count_area ~ Position2 + (Position2 | AnimalID), data = muscleregen2, control=lmerControl(optimizer="bobyqa"))
+mpos.0 <- lmer(count_area ~ Position2 + AgeCat + (Position2 | AnimalID), data = muscleregen2, control=lmerControl(optimizer="bobyqa"))
+mpos.1 <- lmer(count_area ~ Position2 + AgeCat + Position2*AgeCat + (Position2 | AnimalID), data = muscleregen2, control=lmerControl(optimizer="bobyqa"))
+
+anova(mpos.base, mpos.0, mpos.1)
+anova(mpos.base)
+summary(mpos.base)
+
+#nothing is significant in any model, which better represents the graph. Also, technically the graph should be individual lines to show the random effect, but that might look too confusing.
+```
+## hair follicle graph
+```{r}
+hairs_means <- hairs_means %>% 
+  mutate(AgeCat2 = case_when(AgeCat == "Uninj. Tissue" ~ 1,
+                             AgeCat == "3-4mo" ~ 0,
+                             AgeCat == "4-6mo" ~ 0,
+                             AgeCat == "6-9mo" ~ 0,
+                             AgeCat == "≥ 22mo" ~ 0))
+
+hcountplot <- ggplot(hairs_means, aes(AgeCat, mean_count_area)) +
+  geom_boxplot_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
+                       pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "black", color = "black")+
+  ylab("Mean Number of Hairs \nper 100µM") + xlab("") +
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
+  #scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12,14,16,18,20), limits = c(0,20)) +
+  scale_fill_manual(values=c("white", "#FDE725", "#22A884", "#414487", "#440154")) +
+  theme_cowplot(font_size = 8, font_family = "Arial") +
+  theme(legend.position = "none")
+hcountplot
+ggsave("Figures/HairCount.png", dpi=300, width=180, height=90, unit="mm")
+```
+## hair analysis
+```{r}
+hist(hairs_means$mean_count_area)
+#kruskal wallis, taking the mean count for each animal across all slides/positions
+kruskal.test(mean_count_area ~ AgeCat, data = hairs_means)
+dunnTest(mean_count_area ~ AgeCat, data = hairs_means, method = "holm")
+```
+## hairs position graph
+```{r}
+hairregen2 <- hairregen %>% 
+  mutate(Position = case_when(Slide_per <= 33.333 ~ "Proximal",
+                              Slide_per > 33.333 & Slide_per < 66.666 ~ "Middle",
+                              Slide_per >= 66.666 ~ "Distal")) %>% 
+  filter(AgeCat != "Uninj. Tissue") %>% 
+  mutate(Position_Age = paste(AgeCat, Position, sep = "-")) %>%
+  mutate(Position2 = case_when(Position == "Proximal" ~ 1,
+                              Position == "Middle" ~ 2,
+                              Position == "Distal" ~ 3)) 
+hairregen2$Position <- factor(hairregen2$Position, levels = c("Proximal", "Middle", "Distal"))
+
+hposplot <- ggplot(hairregen2, aes(AgeCat, count_area, fill = Position_Age)) +
+  geom_boxplot(alpha = 0.85) +
+  #geom_bar(fun = "median", stat="summary", position = "dodge", color = "black", alpha = 0.85) +
+  #stat_summary(geom = "errorbar", fun.data = mean_se, position = "dodge") +
+  #geom_point2(size = 2, alpha = 0.5, position = position_dodge(width=.9)) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
+  ylab("Mean Number of Hairs \nper 100µM")  + xlab("") +
+  guides(color = "none") +
+  scale_fill_manual(values = c("#440154", "#e57efd", "#f5cbfe",
+                               "#5ec962", "#99dd9b", "#d4f0d5",
+                               "#21918c", "#90e6e2", "#d0f4f3",
+                               "#3b528b", "#a0b0d7", "#d7deee")) +
+  theme_cowplot() + theme(legend.position = "none")
+aposplot
+
+hposplot2 <- ggplot(hairregen2, aes(Position, count_area, color = AgeCat, group = AgeCat)) +
+  stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.2), linetype = "dashed") +
+  stat_summary(fun.min = function(z) { quantile(z,0.25) },
+  fun.max = function(z) { quantile(z,0.75) },
+  fun = median, position = position_dodge(width = 0.2)) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
+  ylab("Median Number of Hairs \nper 100µM")  + xlab("") + labs(color = "Age \nat Injury") +
+  scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +
+  theme_cowplot(font_size = 8, font_family = "Arial")
+hposplot2
+```
+```{r}
+ggplot(hairregen, aes(Slide_per, count_area, color = AgeCat)) +
+  geom_point() +
+  facet_wrap(~AnimalID)
+```
+
+
+## hair position analysis
+```{r}
+hpos.base <- lmer(count_area ~ Position2 + (Position2 | AnimalID), data = hairregen2, control=lmerControl(optimizer="bobyqa"))
+hpos.0 <- lmer(count_area ~ Position2 + AgeCat + (Position2 | AnimalID), data = hairregen2, control=lmerControl(optimizer="bobyqa"))
+hpos.1 <- lmer(count_area ~ Position2 + AgeCat + Position2*AgeCat + (Position2 | AnimalID), data = hairregen2, control=lmerControl(optimizer="bobyqa"))
+
+anova(hpos.base, hpos.0, hpos.1)
+anova(hpos.base)
+summary(hpos.base)
+
+```
+
+## amh panel
+```{r}
+plot_grid(acountplot, aposplot2 + theme(legend.position = "none"),
+          mcountplot, mposplot3 + theme(legend.position = "none"),
+          hcountplot, hposplot2 + theme(legend.position = "none"),
+          ncol = 2, labels = "AUTO",
+          label_size = 12, label_fontfamily = "Arial", label_fontface = "bold")
+ggsave("Figures/AMHPanel.png", dpi = 300, width = 180, height = 210, unit = "mm")
+```
+
+
+
+

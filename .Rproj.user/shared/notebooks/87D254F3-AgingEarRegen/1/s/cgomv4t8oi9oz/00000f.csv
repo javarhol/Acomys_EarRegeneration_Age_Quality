@@ -1,0 +1,3 @@
+"0","daystoclose <- read.csv(""data/EarDaysToClose_Data.csv"")"
+"0","areaperday <- read.csv(""data/EarAreaPerDay_Data.csv"")"
+"0","areaperday <- left_join(areaperday, daystoclose, by=""AnimalID"")"

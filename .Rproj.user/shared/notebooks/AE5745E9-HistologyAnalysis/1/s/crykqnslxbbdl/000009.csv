@@ -1,0 +1,7 @@
+"0","dunnTest(mean_count_area ~ AgeCat, data = hairs_means, method = ""holm"")
+"
+"2","Dunn (1964) Kruskal-Wallis multiple comparison
+"
+"2","  p-values adjusted with the Holm method.
+
+"

@@ -1,0 +1,366 @@
+﻿Image,AnimalID,Slide,Object ID,Name,Class,Parent,ROI,Centroid X ¬µm,Centroid Y ¬µm,Num points,Length ¬µm
+Aco_ear_922587-1_1.tif - Aco_ear_922587-1_1.tif #1,922587-1,1,abfc0886-71cd-43d8-a1ac-da12e5fc8da6,Adipocytes,Adipocytes,Image,Points,126440.1,900813.2,18,
+Aco_ear_922587-1_1.tif - Aco_ear_922587-1_1.tif #1,922587-1,1,f8196d30-f492-40bf-8173-933d21752564,Regenerated Length,Regenerated Length,Image,Polyline,168640.1,868114.4,,437595
+Aco_ear_922587-1_1.tif - Aco_ear_922587-1_1.tif #1,922587-1,1,8fae3661-37b8-426c-a069-309a11f55e88,Cartilage Length,Cartilage Length,Image,Polyline,90924.7,916845,,235210.9
+Aco_ear_922587-1_1.tif - Aco_ear_922587-1_1.tif #1,922587-1,1,2406a141-d69d-4622-b5e0-6a9edff20380,Cartilage Length,Cartilage Length,Image,Polyline,255424.9,770928,,88374.5
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,215506b0-afe7-4d9e-9e76-72094d3495c5,Adipocytes,Adipocytes,Image,Points,354326.3,601300,118,
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,ddc130a6-f6c5-47e7-89dc-e417f1e54e39,Regenerated Length,Regenerated Length,Image,Polyline,463309.9,530441.1,,849620.5
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,5a7cf5d1-a31d-4a24-8eb6-6b3b2f3bd418,Cartilage Length,Cartilage Length,Image,Polyline,157278.6,664647.5,,178115.4
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,08d6ac7a-64b5-4d23-a6c6-57e33c11fe85,Cartilage Length,Cartilage Length,Image,Polyline,324107,618020.1,,83034.5
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,9ff3b7ab-9dee-437e-864b-a5fa83c57090,Cartilage Length,Cartilage Length,Image,Polyline,432197.9,554347.5,,78111
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,a7dc2cfc-5938-4ae0-b9c6-f279a482011d,Cartilage Length,Cartilage Length,Image,Polyline,513756.3,480164.7,,87450.2
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,c4704ee8-c341-4757-b777-1dda7872a798,Cartilage Length,Cartilage Length,Image,Polyline,585625.7,426439.4,,37147.7
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,335cb496-b6b7-4fdd-a84f-1ca495bba2af,Cartilage Length,Cartilage Length,Image,Polyline,650882.9,413079.3,,42953.1
+Aco_ear_922587-1_7.tif - Aco_ear_922587-1_7.tif #1,922587-1,7,f9fb2751-eb68-4ff7-9697-1fbc58b6608a,Cartilage Length,Cartilage Length,Image,Polyline,745731.5,359498.5,,129315.2
+Aco_ear_922587-1_10.tif - Aco_ear_922587-1_10.tif #1,922587-1,10,a43d08e2-eca7-4655-9b5a-b750a33ff9b4,Regenerated Length,Regenerated Length,Image,Polyline,520610.8,447658.4,,875155.6
+Aco_ear_922587-1_10.tif - Aco_ear_922587-1_10.tif #1,922587-1,10,2498e5e0-a5c9-4a10-8b46-884826417b2b,Cartilage Length,Cartilage Length,Image,Polyline,174701.6,652569.9,,49289.7
+Aco_ear_922587-1_10.tif - Aco_ear_922587-1_10.tif #1,922587-1,10,455ffa47-ce27-4af7-9726-37db9c828ff4,Cartilage Length,Cartilage Length,Image,Polyline,331226.7,525682.4,,165674.4
+Aco_ear_922587-1_10.tif - Aco_ear_922587-1_10.tif #1,922587-1,10,60b00949-f556-42e7-9778-6a51c5e6a373,Cartilage Length,Cartilage Length,Image,Polyline,555539.3,410107.3,,190383.5
+Aco_ear_922587-1_10.tif - Aco_ear_922587-1_10.tif #1,922587-1,10,da1255dd-d1a9-4e00-8bee-59e0cc900a8e,Cartilage Length,Cartilage Length,Image,Polyline,705265.1,346664,,46135.7
+Aco_ear_922587-1_10.tif - Aco_ear_922587-1_10.tif #1,922587-1,10,7d82553d-9c0c-4dfd-8bd7-25e87c464eae,Cartilage Length,Cartilage Length,Image,Polyline,746940.1,332632.5,,29304
+Aco_ear_922587-1_10.tif - Aco_ear_922587-1_10.tif #1,922587-1,10,bea8316c-b084-4d60-a3af-fe67a3e24c53,Cartilage Length,Cartilage Length,Image,Polyline,798032,291450.5,,53437.8
+Aco_ear_922587-1_10.tif - Aco_ear_922587-1_10.tif #1,922587-1,10,b71dc751-1822-4207-b37d-adc98b015af6,Cartilage Length,Cartilage Length,Image,Polyline,858894.2,246989.1,,27826.1
+Aco_ear_922587-1_10.tif - Aco_ear_922587-1_10.tif #1,922587-1,10,d8a7b24d-d193-48b6-8e29-c97d8898d5aa,Adipocytes,Adipocytes,Image,Points,388895.1,513056.6,98,
+Aco_ear_922587-1_13.tif - Aco_ear_922587-1_13.tif #1,922587-1,13,5a4eddf8-3965-44dd-9140-d2bb2c24d2d5,Adipocytes,Adipocytes,Image,Points,318423.8,558472.4,73,
+Aco_ear_922587-1_13.tif - Aco_ear_922587-1_13.tif #1,922587-1,13,919fc985-efe6-4830-b1d9-b7be18be2662,Regenerated Length,Regenerated Length,Image,Polyline,504789.9,464004.1,,876627.4
+Aco_ear_922587-1_13.tif - Aco_ear_922587-1_13.tif #1,922587-1,13,1f3d4d5a-5fef-411f-a538-49b6b70a4f27,Cartilage Length,Cartilage Length,Image,Polyline,197796.4,631740.8,,133014.3
+Aco_ear_922587-1_13.tif - Aco_ear_922587-1_13.tif #1,922587-1,13,c7f4bfa4-06a0-4b57-bc01-717b276561af,Cartilage Length,Cartilage Length,Image,Polyline,281526.5,565068.6,,15070.3
+Aco_ear_922587-1_13.tif - Aco_ear_922587-1_13.tif #1,922587-1,13,98023b75-09f7-4f24-856b-57c88ea7f9ca,Cartilage Length,Cartilage Length,Image,Polyline,444991.6,467579.5,,339788.2
+Aco_ear_922587-1_13.tif - Aco_ear_922587-1_13.tif #1,922587-1,13,e9f25956-317b-4849-b508-dac8297e985d,Cartilage Length,Cartilage Length,Image,Polyline,648827.9,362752.6,,59227.3
+Aco_ear_922587-1_13.tif - Aco_ear_922587-1_13.tif #1,922587-1,13,3e37ace5-7333-4dc4-8c58-f19b1c994970,Cartilage Length,Cartilage Length,Image,Polyline,857659,299463.7,,33989
+Aco_ear_922587-1_16.tif - Aco_ear_922587-1_16.tif #1,922587-1,16,bd52496d-6647-4854-a467-c6c98eaf9cbc,Regenerated Length,Regenerated Length,Image,Polyline,600242,394083,,818766.3
+Aco_ear_922587-1_16.tif - Aco_ear_922587-1_16.tif #1,922587-1,16,7886dd52-08f7-4b65-9e7f-634f94c5dbc9,Cartilage Length,Cartilage Length,Image,Polyline,344837.5,474682.8,,57158.3
+Aco_ear_922587-1_16.tif - Aco_ear_922587-1_16.tif #1,922587-1,16,c7ab37ae-d2d5-4186-b390-f146bdff6844,Cartilage Length,Cartilage Length,Image,Polyline,398361.3,429022.7,,30201.6
+Aco_ear_922587-1_16.tif - Aco_ear_922587-1_16.tif #1,922587-1,16,3aaf8cab-be12-4e53-bd76-c249a69d1640,Cartilage Length,Cartilage Length,Image,Polyline,515614.6,389780.1,,90251.4
+Aco_ear_922587-1_16.tif - Aco_ear_922587-1_16.tif #1,922587-1,16,eca37bcb-7960-4b0e-8c5b-181c5615c718,Cartilage Length,Cartilage Length,Image,Polyline,658782.6,324490,,93193.7
+Aco_ear_922587-1_16.tif - Aco_ear_922587-1_16.tif #1,922587-1,16,3220ff35-f742-4927-b7ae-ffc70577b118,Cartilage Length,Cartilage Length,Image,Polyline,801304.8,310035.7,,15227.1
+Aco_ear_922587-1_16.tif - Aco_ear_922587-1_16.tif #1,922587-1,16,866c7d13-e724-4bc2-831e-bd4fd110382c,Cartilage Length,Cartilage Length,Image,Polyline,873528.5,335463.4,,19828.3
+Aco_ear_922587-1_16.tif - Aco_ear_922587-1_16.tif #1,922587-1,16,ad5ae0fa-4682-4c5b-9837-80ac65e7485f,Cartilage Length,Cartilage Length,Image,Polyline,971116.1,362576.1,,21038.4
+Aco_ear_922587-1_16.tif - Aco_ear_922587-1_16.tif #1,922587-1,16,d00dc6b8-57fb-4a62-ad1e-4a507958ccc4,Adipocytes,Adipocytes,Image,Points,383875.8,470203,37,
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,afaeb461-34e1-408e-a6ea-1c597d3bf9be,Adipocytes,Adipocytes,Image,Points,414673.3,407342.1,7,
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,e8412cb0-c8d2-432b-b5c6-04962f1e5d43,Regenerated Length,Regenerated Length,Image,Polyline,679079.1,314037.5,,1001385.5
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,46b1e0b0-95a3-434b-bcec-1415a4f68814,Cartilage Length,Cartilage Length,Image,Polyline,239725.1,446270.5,,42126.7
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,bae0d701-213e-4f35-8d1e-e85e4ff2dcbd,Cartilage Length,Cartilage Length,Image,Polyline,397405,394500.2,,229296
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,ff087616-6ca1-4afb-a300-ca829328b587,Cartilage Length,Cartilage Length,Image,Polyline,652762.8,289511.5,,243815.5
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,20ce4058-8b1b-4c29-89a6-cd1d43ec3951,Cartilage Length,Cartilage Length,Image,Polyline,827032.9,212281.9,,29864.9
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,21ac3fd7-4b47-4dfb-ae56-c24ea286ef01,Cartilage Length,Cartilage Length,Image,Polyline,958087,201291.9,,75506.4
+Aco_ear_922587-1_19.tif - Aco_ear_922587-1_19.tif #1,922587-1,19,b5b851de-49b2-4f60-b17f-12a060e76ece,Cartilage Length,Cartilage Length,Image,Polyline,1039195.4,272991.1,,49894.9
+Aco_ear_922587-1_22.tif - Aco_ear_922587-1_22.tif #1,922587-1,22,b2367359-3619-41d7-b4ab-8dd3060b8e25,Cartilage Length,Cartilage Length,Image,Polyline,409206.3,488457.8,,189588.7
+Aco_ear_922587-1_22.tif - Aco_ear_922587-1_22.tif #1,922587-1,22,d65c4f34-a869-4032-b5e1-81b1c59b1854,Regenerated Length,Regenerated Length,Image,Polyline,518814.2,425974.7,,451707.1
+Aco_ear_922587-1_22.tif - Aco_ear_922587-1_22.tif #1,922587-1,22,951ae609-a04d-440e-b583-63e21633a6c4,Cartilage Length,Cartilage Length,Image,Polyline,586833,379158,,35178.1
+Aco_ear_922587-1_22.tif - Aco_ear_922587-1_22.tif #1,922587-1,22,0b838d23-4f17-4f44-9c18-c82243e51028,Cartilage Length,Cartilage Length,Image,Polyline,635174.9,333660.7,,66858
+Aco_ear_922587-1_22.tif - Aco_ear_922587-1_22.tif #1,922587-1,22,f9d442ce-1818-4419-a0cb-bba03f7e5edf,Adipocytes,Adipocytes,Image,Points,499493.7,433202.5,13,
+Ctrl 1 (B31-1-3),Ctrl 1,1,f13bccff-73d2-4e57-896b-5a105fe12fab,Adipocytes,Adipocytes,Image,Points,263989.3,899067.9,291,
+Ctrl 1 (B31-1-3),Ctrl 1,1,c336c9d4-660b-48da-ae62-8eb2334c8b07,Regenerated Length,Regenerated Length,Image,Polyline,312913.2,930659.1,,638676.5
+Ctrl 1 (B31-1-3),Ctrl 1,1,d21db33d-88b6-47d1-a891-8f539a1fd4fe,Cartilage Length,Cartilage Length,Image,Polyline,320667.2,929046.2,,632633.8
+Ctrl (B31-1-9),Ctrl 2,1,9a203e16-86b9-4c17-8405-dbf3042f2b51,Adipocytes,Adipocytes,Image,Points,300856.2,604287.6,317,
+Ctrl (B31-1-9),Ctrl 2,1,d8b1caa8-4e41-422c-b8b8-676ef4053730,Regenerated Length,Regenerated Length,Image,Polyline,280705.6,631700,,402669.5
+Ctrl (B31-1-9),Ctrl 2,1,9dcd47f0-b673-4187-b8b4-f40c0112cab9,Cartilage Length,Cartilage Length,Image,Polyline,273900.9,632029.1,,398272.5
+Aco_ear_90-8-2_85dpi_1.tif - Aco_ear_90-8-2_85dpi_1.tif #1,90-8-2,1,14cfd674-1758-42dd-9d1a-5016ce25c61c,Adipocytes,Adipocytes,Image,Points,403516.7,599200.7,261,
+Aco_ear_90-8-2_85dpi_1.tif - Aco_ear_90-8-2_85dpi_1.tif #1,90-8-2,1,70087f08-7da6-4b3c-913a-65c5f4198702,Regenerated Length,Regenerated Length,Image,Polyline,275967.6,617078.3,,822940
+Aco_ear_90-8-2_85dpi_1.tif - Aco_ear_90-8-2_85dpi_1.tif #1,90-8-2,1,dcb22310-6cda-4df9-8e88-0cc3f16d61d3,Cartilage Length,Cartilage Length,Image,Polyline,290687.8,626278.7,,850261.6
+Aco_ear_90-8-2_85dpi_4.tif - Aco_ear_90-8-2_85dpi_4.tif #1,90-8-2,4,131696d6-ee0b-4db4-a549-62af13380b77,Adipocytes,Adipocytes,Image,Points,455188.1,612010.1,131,
+Aco_ear_90-8-2_85dpi_4.tif - Aco_ear_90-8-2_85dpi_4.tif #1,90-8-2,4,e9428614-aa42-42b2-b942-afc0d28af557,Regenerated Length,Regenerated Length,Image,Polyline,370056.7,567402.2,,335093.5
+Aco_ear_90-8-2_85dpi_4.tif - Aco_ear_90-8-2_85dpi_4.tif #1,90-8-2,4,9ee09f33-bf7d-458c-8c24-01210907464d,Cartilage Length,Cartilage Length,Image,Polyline,431521.3,494875.2,,156904.7
+Aco_ear_90-8-2_85dpi_4.tif - Aco_ear_90-8-2_85dpi_4.tif #1,90-8-2,4,040977dd-12d3-4592-adb9-159906cb8d4b,Cartilage Length,Cartilage Length,Image,Polyline,354363.8,641881.4,,186673.4
+90-8-2_7,90-8-2,7,f106bd23-2265-47c7-9e60-71c30c6d6384,Adipocytes,Adipocytes,Image,Points,472145.7,307870.3,257,
+90-8-2_7,90-8-2,7,486d3065-d7d1-48ea-85be-b686f8a2b486,Cartilage Length,Cartilage Length,Image,Polyline,404334.4,320429.8,,596604.5
+90-8-2_7,90-8-2,7,3b3de2a4-bdd1-4656-8e47-72d2ce8268fe,Cartilage Length,Cartilage Length,Image,Polyline,280053.1,630764.9,,24741.6
+90-8-2_7,90-8-2,7,ec8c4e01-a571-4133-893a-02a8de0bcec2,Regenerated Length,Regenerated Length,Image,Polyline,376266.6,357543.7,,656428.2
+Aco_ear_90-8-2_85dpi_10.tif - Aco_ear_90-8-2_85dpi_10.tif #1,90-8-2,10,7a14a062-f693-40d0-b568-7ce5a7f26010,Adipocytes,Adipocytes,Image,Points,540346.8,481675.4,220,
+Aco_ear_90-8-2_85dpi_10.tif - Aco_ear_90-8-2_85dpi_10.tif #1,90-8-2,10,af55976d-4b82-470e-8958-32ef7e412975,Regenerated Length,Regenerated Length,Image,Polyline,445661.4,492490.5,,782509.6
+Aco_ear_90-8-2_85dpi_10.tif - Aco_ear_90-8-2_85dpi_10.tif #1,90-8-2,10,5f438166-f3e3-4a96-99e6-dee3af0f53be,Cartilage Length,Cartilage Length,Image,Polyline,464329.3,487275,,774204.4
+Aco_ear_90-8-2_85dpi_10.tif - Aco_ear_90-8-2_85dpi_10.tif #1,90-8-2,10,00500a85-870c-4dad-ac4e-abbc8e17a0db,Cartilage Length,Cartilage Length,Image,Polyline,306404,720230.9,,10900.2
+Aco_ear_90-8-2_85dpi_13.tif - Aco_ear_90-8-2_85dpi_13.tif #1,90-8-2,13,ac6fb7c3-e588-4b52-aeca-30236adddb4d,Regenerated Length,Regenerated Length,Image,Polyline,515494.5,441070.7,,699631.7
+Aco_ear_90-8-2_85dpi_13.tif - Aco_ear_90-8-2_85dpi_13.tif #1,90-8-2,13,ef41e096-9597-42a5-b02d-3ea31c085ea7,Cartilage Length,Cartilage Length,Image,Polyline,531791.6,438353.4,,692278.8
+Aco_ear_90-8-2_85dpi_13.tif - Aco_ear_90-8-2_85dpi_13.tif #1,90-8-2,13,410de934-7c36-4b55-8740-0e36aa0bc2fa,Adipocytes,Adipocytes,Image,Points,581520,434326.6,289,
+Aco_ear_90-8-2_85dpi_16.tif - poss ctrl,Ctrl 4,1,c18a52d1-388a-48b4-8400-82a4d7d06cb0,Regenerated Length,Regenerated Length,Image,Polyline,450907,389942.4,,732524.3
+Aco_ear_90-8-2_85dpi_16.tif - poss ctrl,Ctrl 4,1,c7fb702e-6ba8-4653-866c-9f74b085d889,Cartilage Length,Cartilage Length,Image,Polyline,460838.8,387905.2,,738231.6
+Aco_ear_90-8-2_85dpi_16.tif - poss ctrl,Ctrl 4,1,475f9f37-6181-49e7-b3a1-802411fe9f34,Adipocytes,Adipocytes,Image,Points,514625.4,251836.2,313,
+Ctrl 3 (B31-2-3),Ctrl 3,1,438edb7c-5406-40c3-879d-0009cc0892b6,Adipocytes,Adipocytes,Image,Points,77868.9,786132.6,383,
+Ctrl 3 (B31-2-3),Ctrl 3,1,b0db59d5-fe78-4b6a-a671-238cdc5f84ed,Regenerated Length,Regenerated Length,Image,Polyline,115857.8,854214.8,,346392.7
+Ctrl 3 (B31-2-3),Ctrl 3,1,20b187e0-4afc-493f-9ac3-4ddbc96d7aef,Cartilage Length,Cartilage Length,Image,Polyline,121483.5,855214.3,,343735.5
+Aco_ear_922587-2_1.tif - Aco_ear_922587-2_1.tif #1,922587-2,1,5875a64b-3003-465e-85fc-44ce19bcbd9a,Regenerated Length,Regenerated Length,Image,Polyline,695710.2,401049.3,,907502.7
+Aco_ear_922587-2_1.tif - Aco_ear_922587-2_1.tif #1,922587-2,1,bb76c3df-cdde-43b9-abf2-2f69670a30e0,Cartilage Length,Cartilage Length,Image,Polyline,391637.9,376215.9,,27509.2
+Aco_ear_922587-2_1.tif - Aco_ear_922587-2_1.tif #1,922587-2,1,de36619f-96aa-4c58-957c-37aeab9afd1e,Cartilage Length,Cartilage Length,Image,Polyline,679567.1,402376,,333594.8
+Aco_ear_922587-2_1.tif - Aco_ear_922587-2_1.tif #1,922587-2,1,2e7374c7-d958-4fe2-8d27-91727cf19fbc,Cartilage Length,Cartilage Length,Image,Polyline,1104465,370573.7,,52486.9
+Aco_ear_922587-2_1.tif - Aco_ear_922587-2_1.tif #1,922587-2,1,07b5c455-e4c5-42fe-9194-9dee8c827882,Cartilage Length,Cartilage Length,Image,Polyline,931636.2,419162.7,,76534.4
+Aco_ear_922587-2_1.tif - Aco_ear_922587-2_1.tif #1,922587-2,1,11c6336a-aaea-4ec1-822f-89bf66180fd9,Cartilage Length,Cartilage Length,Image,Polyline,286942.3,349726.2,,46972
+Aco_ear_922587-2_1.tif - Aco_ear_922587-2_1.tif #1,922587-2,1,cd9cdd6e-db78-4f10-b33e-42ee994591e6,Adipocytes,Adipocytes,Image,Points,729047.4,395066.9,303,
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,f8e565b1-7c11-4906-a7dd-93cf8356386b,Regenerated Length,Regenerated Length,Image,Polyline,682662.5,490118.3,,981285.9
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,bba643d9-decc-4f9a-9f5a-f94123ea18b6,Cartilage Length,Cartilage Length,Image,Polyline,539327.6,578705.7,,322853.8
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,74e44b64-eff4-4058-b561-6cffe2dfc377,Cartilage Length,Cartilage Length,Image,Polyline,721944.4,555106.1,,31592.3
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,3355fded-2105-4e81-a461-52647fd71fa5,Cartilage Length,Cartilage Length,Image,Polyline,797245.8,488514.8,,35200.9
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,2c6ae475-97e1-4a8f-932f-2a8975efd823,Cartilage Length,Cartilage Length,Image,Polyline,857850.8,437595.5,,32177.5
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,ecad2016-0235-4f33-a4f8-37ceff7be2a0,Cartilage Length,Cartilage Length,Image,Polyline,894103.1,418500.7,,20723.7
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,b283edf3-88b2-4c82-adb2-59b48813fd79,Cartilage Length,Cartilage Length,Image,Polyline,963563.7,368965.2,,13329.3
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,e8f65b16-6e56-436d-854f-5eaa9be4914d,Cartilage Length,Cartilage Length,Image,Polyline,1063099.7,288838.1,,76583.1
+Aco_ear_922587-2_4.tif - Aco_ear_922587-2_4.tif #1,922587-2,4,e7a41f97-aac6-495a-b393-cd3fe97c0861,Adipocytes,Adipocytes,Image,Points,628106.8,456714.8,180,
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,70b4416e-8737-454e-a229-12e30a0481aa,Regenerated Length,Regenerated Length,Image,Polyline,859233.7,300476.4,,1112626.1
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,25279319-3675-4566-a950-a0e8adcbf8c0,Cartilage Length,Cartilage Length,Image,Polyline,348679.8,369227.8,,71623.4
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,1583b372-04d2-482c-8e12-efff357a31d2,Cartilage Length,Cartilage Length,Image,Polyline,520149.5,357446.4,,217184.8
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,436a9564-020d-4015-88d9-7b245b887d2b,Cartilage Length,Cartilage Length,Image,Polyline,702532.4,337322.9,,118334.2
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,dc5ac5a1-7536-4911-9a1b-76ad444a0c3e,Cartilage Length,Cartilage Length,Image,Polyline,884872.5,296927.6,,183581.8
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,8f1b022e-b0c6-4cb6-b285-cbbf7b643f70,Cartilage Length,Cartilage Length,Image,Polyline,1129184.4,249118.3,,280794.9
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,f2c95e92-c32a-415d-b390-071c1efbbc47,Cartilage Length,Cartilage Length,Image,Polyline,1355074.8,236871.9,,87857.4
+Aco_ear_922587-2_7.tif - Aco_ear_922587-2_7.tif #1,922587-2,7,cefa2147-4222-437c-a513-9bac17bc7b25,Adipocytes,Adipocytes,Image,Points,896668.2,273191,117,
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,6deb8c93-c3e0-4a26-b367-3191e3c84f1e,Regenerated Length,Regenerated Length,Image,Polyline,877566.7,239510.7,,1082401.5
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,,97ebc1ce-04d3-46e6-af86-4f2a8f680ab6,Cartilage Length,Cartilage Length,Image,Polyline,455912.1,347059.2,,208706.6
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,119edf08-73ad-4608-8844-8858dc46fb6d,Cartilage Length,Cartilage Length,Image,Polyline,609557.8,317405.4,,23408.2
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,2795e360-5632-481e-bd6d-9847c493b174,Cartilage Length,Cartilage Length,Image,Polyline,681402.3,292731.6,,93894.8
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,9b6d2cef-298b-4688-a716-672508913a56,Cartilage Length,Cartilage Length,Image,Polyline,904823.5,193068.6,,156400.2
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,72a996e6-f358-4ca8-8d92-22dc294e09cd,Cartilage Length,Cartilage Length,Image,Polyline,1010240.3,161662.4,,27364.7
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,f698c1c1-c79b-4c3c-a1c8-fb1e052d9ff1,Cartilage Length,Cartilage Length,Image,Polyline,1126414.5,146082.8,,182135.4
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,b3f7a7f5-679b-4c5b-8d9c-e2be2f23fa3e,Cartilage Length,Cartilage Length,Image,Polyline,1276165.1,136705.8,,42500.2
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,6ed661b4-77f7-4196-af07-77daa5c5ec0c,Cartilage Length,Cartilage Length,Image,Polyline,1349702.8,180247.9,,67934.1
+Aco_ear_922587-2_10.tof.tif - Aco_ear_922587-2_10.tof.tif #1,922587-2,10,e09155a4-4f20-4d28-a56a-2a031e3a6232,Adipocytes,Adipocytes,Image,Points,947307.3,271753.8,110,
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,1690b3cd-882c-44d3-9948-e51e2d81263a,Regenerated Length,Regenerated Length,Image,Polyline,828559.9,258470.7,,1017580.3
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,ead14d6c-a19e-4ef2-8047-d4986e2dd897,Cartilage Length,Cartilage Length,Image,Polyline,357555.8,277478.5,,60203.2
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,6130d626-d3f5-41b9-998d-d9c7a15373f6,Cartilage Length,Cartilage Length,Image,Polyline,509817.1,293679.5,,171939.3
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,257994e9-ef4f-49bd-913a-648939d52e73,Cartilage Length,Cartilage Length,Image,Polyline,638112.7,309573.4,,15571
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,a492b8e6-48af-4a13-932a-9b2f6e832ebd,Cartilage Length,Cartilage Length,Image,Polyline,1146700.4,208104.2,,103471.1
+Aco_ear_922587-2_13.tif - Aco_ear_922587-2_13.tif #1,922587-2,13,1f0eb8d3-de8b-4f1d-b328-78c083d044d4,Adipocytes,Adipocytes,Image,Points,871243.1,319177.2,79,
+Aco_ear_922587-2_16.tif - Aco_ear_922587-2_16.tif #1,922587-2,16,82ee954d-10ef-4380-8d1a-1e4b63e1cd9f,Regenerated Length,Regenerated Length,Image,Polyline,290294.6,596554.4,,349649.2
+Aco_ear_922587-2_16.tif - Aco_ear_922587-2_16.tif #1,922587-2,16,2fa84a9c-3e9e-4fba-bb2b-b158f95102dd,Regenerated Length,Regenerated Length,Image,Polyline,576762.3,380564,,347235.6
+Aco_ear_922587-2_16.tif - Aco_ear_922587-2_16.tif #1,922587-2,16,06ec00f5-ec49-431a-b676-93553109e3bf,Cartilage Length,Cartilage Length,Image,Polyline,185144.4,635472.5,,99446.2
+Aco_ear_922587-2_16.tif - Aco_ear_922587-2_16.tif #1,922587-2,16,6b77ebfb-d88c-473c-9943-8a04a650b536,Cartilage Length,Cartilage Length,Image,Polyline,612285.8,360649.9,,37863.2
+Aco_ear_922587-2_16.tif - Aco_ear_922587-2_16.tif #1,922587-2,16,1c2a31dc-4861-4fd9-8696-a6bd7dd8f642,Cartilage Length,Cartilage Length,Image,Polyline,682300,344907,,62096
+Aco_ear_922587-2_16.tif - Aco_ear_922587-2_16.tif #1,922587-2,16,b0751d4b-0e15-4e53-b00a-14b1208d23ad,Adipocytes,Adipocytes,Image,Points,601625.4,383940.2,73,
+Aco_ear_922587-2_19.tif - Aco_ear_922587-2_19.tif #1,922587-2,19,13b614a5-6782-412a-8f6b-19609007e047,Regenerated Length,Regenerated Length,Image,Polyline,575818.7,424855.9,,149381.9
+Aco_ear_922587-2_19.tif - Aco_ear_922587-2_19.tif #1,922587-2,19,c4493942-b7c2-4758-89f2-f2038b599ad0,Regenerated Length,Regenerated Length,Image,Polyline,676893.3,206831.8,,415400.9
+Aco_ear_922587-2_19.tif - Aco_ear_922587-2_19.tif #1,922587-2,19,8036109d-a276-4ea3-8489-ae57824e88a0,Cartilage Length,Cartilage Length,Image,Polyline,780749.2,114405.4,,94404.2
+Aco_ear_922587-2_19.tif - Aco_ear_922587-2_19.tif #1,922587-2,19,66bf6e1a-fce9-4580-baf5-0e8ab7881e71,Adipocytes,Adipocytes,Image,Points,989926.1,256496.1,1,
+Aco_ear_922587-2_19.tif - Aco_ear_922587-2_19.tif #1,922587-2,19,cfdf202d-620d-44b4-8c9e-274eab9a4bd2,Adipocytes,Adipocytes,Image,Points,672635.7,321669.4,98,
+Aco_ear_922587-2_22.tif - Aco_ear_922587-2_22.tif #1,922587-2,22,8b5f6ec5-e5a0-4175-a73f-b59877869267,Regenerated Length,Regenerated Length,Image,Polyline,543637.3,644627.2,,47873.8
+Aco_ear_922587-2_22.tif - Aco_ear_922587-2_22.tif #1,922587-2,22,53256b31-ec00-4172-9fd2-4a74a2f943ef,Regenerated Length,Regenerated Length,Image,Polyline,594122,512773,,81750.1
+Aco_ear_922587-2_22.tif - Aco_ear_922587-2_22.tif #1,922587-2,22,34b30e90-c405-4d44-9dea-17406f1e7c64,Regenerated Length,Regenerated Length,Image,Polyline,775261.6,318489.8,,37883.5
+Aco_ear_922587-2_22.tif - Aco_ear_922587-2_22.tif #1,922587-2,22,97b145f5-bf32-4892-ba21-a9dac861ac5e,Regenerated Length,Regenerated Length,Image,Polyline,596257.7,280145.6,,73834.4
+Aco_ear_922587-2_22.tif - Aco_ear_922587-2_22.tif #1,922587-2,22,2756a79d-35e2-4585-be2f-ea7c48a3251c,Cartilage Length,Cartilage Length,Image,Polyline,542485.2,640987,,44106.6
+Aco_ear_922587-2_22.tif - Aco_ear_922587-2_22.tif #1,922587-2,22,f206ebb4-dac5-47b3-bbeb-6d529cb94eb7,Cartilage Length,Cartilage Length,Image,Polyline,588301.8,515579.1,,69791.2
+Aco_ear_922587-2_22.tif - Aco_ear_922587-2_22.tif #1,922587-2,22,41ac4a13-8c7d-4517-a46d-ba5e5ad78c93,Adipocytes,Adipocytes,Image,Points,443595.1,470988.1,93,
+Aco_ear_922587-2_22.tif - Aco_ear_922587-2_22.tif #1,922587-2,22,fa5db4ce-df09-4ecd-a2cf-edea3732e1db,Regenerated Length,Regenerated Length,Image,Polyline,572079.5,590864,,81048.5
+Aco_ear_922587-2_22.tif - Aco_ear_922587-2_22.tif #1,922587-2,22,d5592055-cbbc-4791-9dc7-5663ae63e0b2,Cartilage Length,Cartilage Length,Image,Polyline,568873.1,588354.7,,80945.3
+Aco_ear_B31.1_s18.tif,1064394-1,18,22a18a36-d9f3-40ae-869a-7eef17089f70,Regenerated Length,Regenerated Length,Image,Polyline,713747.6,2983507.8,,4370332.2
+Aco_ear_B31.1_s18.tif,1064394-1,18,768a915d-cc87-488c-84ca-bee32ae3dc93,Cartilage Length,Cartilage Length,Image,Polyline,948429.1,1112899.8,,229662.8
+Aco_ear_B31.1_s18.tif,1064394-1,18,d01569f2-a105-4b6b-8a07-315f76edf36d,Cartilage Length,Cartilage Length,Image,Polyline,975025.1,1458647.4,,209454.9
+Aco_ear_B31.1_s18.tif,1064394-1,18,c208d741-18fa-404e-83f6-3bc1d52978b6,Cartilage Length,Cartilage Length,Image,Polyline,858251.9,1818706.4,,311281.4
+Aco_ear_B31.1_s18.tif,1064394-1,18,348d4eed-11cf-4421-88b4-4c41197b57a1,Cartilage Length,Cartilage Length,Image,Polyline,683485.7,2291164.1,,283526.2
+Aco_ear_B31.1_s18.tif,1064394-1,18,896b3242-7184-49b2-8387-c82b5b017c3a,Cartilage Length,Cartilage Length,Image,Polyline,760231.7,2551691.1,,174092.5
+Aco_ear_B31.1_s18.tif,1064394-1,18,c18ce617-ea7a-4b11-a5d4-1700b875238f,Cartilage Length,Cartilage Length,Image,Polyline,623468.1,3238010.4,,1168542
+Aco_ear_B31.1_s18.tif,1064394-1,18,b4615199-00c1-4d53-b4cc-d402c40a505f,Cartilage Length,Cartilage Length,Image,Polyline,505683.8,3897681.1,,232442.4
+Aco_ear_B31.1_s18.tif,1064394-1,18,dffacf1d-4d5c-42eb-b4ac-1d2975ab41ff,Cartilage Length,Cartilage Length,Image,Polyline,587692.7,4086392.8,,83410.1
+Aco_ear_B31.1_s18.tif,1064394-1,18,e3bd2c5f-a1e8-4df4-93af-fe46eccc56ed,Cartilage Length,Cartilage Length,Image,Polyline,760461,4661835.5,,761837.9
+Aco_ear_B31.1_s18.tif,1064394-1,18,11f9007a-dd8e-465c-8c71-ee433f17107b,Adipocytes,Adipocytes,Image,Points,660590.4,2847683,418,
+Aco_ear_B31.2_s7.tif,1064394-2,7,b6d53a8c-efad-4be5-969a-ec7e79d2aec6,Regenerated Length,Regenerated Length,Image,Polyline,1723762.7,6583071.2,,1408012.3
+Aco_ear_B31.2_s7.tif,1064394-2,7,e393bda9-d60e-491f-8d7f-4e4aa6447c15,Cartilage Length,Cartilage Length,Image,Polyline,1756303.1,6571491.6,,1422193
+Aco_ear_B31.2_s7.tif,1064394-2,7,8bdb1026-c186-4533-bb60-e82a084b43bd,Adipocytes,Adipocytes,Image,Points,1318990.5,6184321.4,1895,
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,c7798606-9bee-4a21-853c-77bc7a85cf77,Cartilage Length,Cartilage Length,Image,Polyline,272375.8,159021.5,,74415
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,1d2c315f-74f1-45c4-b1b1-e271002174e6,Regenerated Length,Regenerated Length,Image,Polyline,212682.6,760045.4,,1045100.1
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,23a0df71-53f6-41fd-9c21-717009a794eb,Cartilage Length,Cartilage Length,Image,Polyline,283989.8,1084396.4,,220931.4
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,ffae377e-e7f4-48a4-b622-ffbcc32bd9d7,Cartilage Length,Cartilage Length,Image,Polyline,202780.5,932475.3,,95706.7
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,5a39e1a4-f988-4b7a-a65a-d7c63ff06688,Cartilage Length,Cartilage Length,Image,Polyline,159706.8,852925.9,,62481.1
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,81ce4bbe-353e-4b55-82c1-68d73fb10d4f,Cartilage Length,Cartilage Length,Image,Polyline,161410.4,768004.1,,48111.5
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,581e7888-76d0-4788-a147-086dd14cb34e,Cartilage Length,Cartilage Length,Image,Polyline,134718.1,648865.1,,70414.7
+ear_B31-2_11.18.21_106M_66dpw_15.tif - ear_B31-2_11.18.21_106M_66dpw_15.tif #1,1064394-2,15,cb84f161-6253-487d-8e55-2f08d9ec0a7d,Adipocytes,Adipocytes,Image,Points,227784.9,879883.8,667,
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,3aacc30a-1356-4a0c-b8fc-fb22fe3542da,Regenerated Length,Regenerated Length,Image,Polyline,303738.4,498870.7,,824312.1
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,63fb84f3-bda9-49c7-9ae0-c42c4230e13d,Cartilage Length,Cartilage Length,Image,Polyline,384428.1,721060.3,,110876
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,0db16e52-87f0-41d1-9597-cf4bdb1a0475,Cartilage Length,Cartilage Length,Image,Polyline,347795.5,635308.7,,99116.7
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,4595c81a-66ac-469e-8210-94c12e5aaed8,Cartilage Length,Cartilage Length,Image,Polyline,303012.8,485023.6,,126685.1
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,d6eca91a-db81-423f-8c30-74a091a85331,Cartilage Length,Cartilage Length,Image,Polyline,250099.9,377719.7,,86722.1
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,a0e1067b-2691-4576-b269-5b6124af48ed,Cartilage Length,Cartilage Length,Image,Polyline,225860.4,254748.8,,28678.1
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,be55be74-fd9b-421e-bb26-cb9ba57bb7ad,Cartilage Length,Cartilage Length,Image,Polyline,239458.2,207452.4,,54432.7
+ear_B31-2_11.18.21_106M_66dpw_12.tif - ear_B31-2_11.18.21_106M_66dpw_12.tif #1,1064394-2,12,851df775-a68a-4431-a5c0-c691bf4c853e,Adipocytes,Adipocytes,Image,Points,310415.9,583187.9,977,
+ear_B31-2_11.18.21_100M_66dpw_7.tif - ear_B31-2_11.18.21_100M_66dpw_7.tif #1,1064394-2,7,42db495a-eec5-40b9-9144-e489bf411cf2,Regenerated Length,Regenerated Length,Image,Polyline,262378.3,660841.7,,489628
+ear_B31-2_11.18.21_100M_66dpw_7.tif - ear_B31-2_11.18.21_100M_66dpw_7.tif #1,1064394-2,7,d5c535ad-48aa-4e1a-a1c5-9226a3e5c9e4,Cartilage Length,Cartilage Length,Image,Polyline,320275.8,807451.8,,55799.6
+ear_B31-2_11.18.21_100M_66dpw_7.tif - ear_B31-2_11.18.21_100M_66dpw_7.tif #1,1064394-2,7,18859f25-b03c-4e8a-8853-79478f1a82be,Cartilage Length,Cartilage Length,Image,Polyline,299924.5,757566.2,,45211
+ear_B31-2_11.18.21_100M_66dpw_7.tif - ear_B31-2_11.18.21_100M_66dpw_7.tif #1,1064394-2,7,7ad79c3a-58a2-40bd-bc1d-4b103bf6f149,Cartilage Length,Cartilage Length,Image,Polyline,229832.5,566726,,255898.9
+ear_B31-2_11.18.21_100M_66dpw_7.tif - ear_B31-2_11.18.21_100M_66dpw_7.tif #1,1064394-2,7,07d1a0e6-a52e-402f-aabd-282f8e119803,Adipocytes,Adipocytes,Image,Points,287123.2,611359.2,389,
+ear_B31-2_11.18.21_100M_66dpw_3.tif - ear_B31-2_11.18.21_100M_66dpw_3.tif #1,1064394-2,3,af451be4-a0e1-49a4-b941-b18f08815450,Regenerated Length,Regenerated Length,Image,Polyline,142542.5,585823,,10007.5
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,d2f9f2ba-e49f-4dfe-8418-8a3949974f11,Regenerated Length,Regenerated Length,Image,Polyline,256216,876053.9,,987617.2
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,9e2698eb-e6fc-4a9f-9b97-610faa96cdad,Cartilage Length,Cartilage Length,Image,Polyline,276630.6,1286227.2,,44325.2
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,f4e25ca6-b645-46b9-92a5-ec83e9eeca1f,Cartilage Length,Cartilage Length,Image,Polyline,247182.5,1185367.4,,38459.1
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,bc699665-1f6a-479d-a3d6-bb1ddb3ae346,Cartilage Length,Cartilage Length,Image,Polyline,277366.8,1025243.3,,112275.1
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,aab22208-9f4c-4e18-ae8b-35b20a71c476,Cartilage Length,Cartilage Length,Image,Polyline,293108.2,704764.7,,112515.6
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,c4ab2791-c98e-49f8-a5d9-3902a9d87977,Cartilage Length,Cartilage Length,Image,Polyline,272283.5,522626.2,,114468.3
+ear_B31-1_11.18.21_100M_66dpw_13.tif - ear_B31-1_11.18.21_100M_66dpw_13.tif #1,1064394-1,13,f5edb61b-5302-4c50-89d9-310d45a58519,Adipocytes,Adipocytes,Image,Points,254101.2,856441.6,942,
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,0f95b23a-263d-47cf-8563-2de324cb6d6f,Regenerated Length,Regenerated Length,Image,Polyline,267424.3,973767.3,,991885.5
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,b36414a2-6c8e-4f1d-8a40-dc6306159151,Cartilage Length,Cartilage Length,Image,Polyline,302309.4,1385341.7,,41124.9
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,ee31b97e-a650-467e-a3bd-07c775fdcce0,Cartilage Length,Cartilage Length,Image,Polyline,259687.8,1216245.3,,27812.1
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,89dee02f-5b73-45ec-ad90-3a80bceaa4a9,Cartilage Length,Cartilage Length,Image,Polyline,289437,1002706.8,,174881.8
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,a6398d86-9244-4cf5-87f2-1217fe2aa668,Cartilage Length,Cartilage Length,Image,Polyline,258366.2,558459.4,,123089
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,08053107-765c-4336-bb1a-cdc25d2fa264,Cartilage Length,Cartilage Length,Image,Polyline,269880,696953.6,,93071.6
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,46f766f1-3f28-42a8-a757-e97811f7536b,Cartilage Length,Cartilage Length,Image,Polyline,285631.4,787292.8,,31516.5
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,5ce9fd59-a8a4-4831-aafd-6eadea1cccb3,Cartilage Length,Cartilage Length,Image,Polyline,294897,878776,,29779.8
+ear_B31-1_11.18.21_100M_66dpw_12.tif - ear_B31-1_11.18.21_100M_66dpw_12.tif #1,1064394-1,12,48f5e9e4-4220-4263-b0a5-0291782e8d2d,Adipocytes,Adipocytes,Image,Points,239076.9,908124.7,964,
+ear_B31-1_11.18.21_100M_66dpw_10.tif - ear_B31-1_11.18.21_100M_66dpw_10.tif #1,1064394-1,10,43761bcf-e5a9-41cc-83a3-b200885cddd6,Regenerated Length,Regenerated Length,Image,Polyline,248547.3,927953.6,,613005.2
+ear_B31-1_11.18.21_100M_66dpw_10.tif - ear_B31-1_11.18.21_100M_66dpw_10.tif #1,1064394-1,10,286c6349-10e6-4651-8e06-32a5227c5075,Cartilage Length,Cartilage Length,Image,Polyline,231548.1,1081431.3,,49384.7
+ear_B31-1_11.18.21_100M_66dpw_10.tif - ear_B31-1_11.18.21_100M_66dpw_10.tif #1,1064394-1,10,2a74cb0e-3c30-463f-bbca-d2e188830de7,Cartilage Length,Cartilage Length,Image,Polyline,263270.2,955777.5,,125367.9
+ear_B31-1_11.18.21_100M_66dpw_10.tif - ear_B31-1_11.18.21_100M_66dpw_10.tif #1,1064394-1,10,a2949dc2-524b-4d9c-bf02-7bfad91b27c9,Cartilage Length,Cartilage Length,Image,Polyline,280342.2,736376.3,,207514.2
+ear_B31-1_11.18.21_100M_66dpw_10.tif - ear_B31-1_11.18.21_100M_66dpw_10.tif #1,1064394-1,10,1114b97d-6212-4bf7-bc68-b26dacab5964,Adipocytes,Adipocytes,Image,Points,258605.3,778748.1,804,
+ear_B31-1_11.18.21_100M_66dpw_3.tif - ear_B31-1_11.18.21_100M_66dpw_3.tif #1,1064394-1,3,d78055ba-58c2-4143-ab51-7042a75b0d95,Regenerated Length,Regenerated Length,Image,Polyline,415253.7,254169.2,,61499.9
+ear_B31-1_11.18.21_100M_66dpw_6.tif - ear_B31-1_11.18.21_100M_66dpw_6.tif #1,1064394-1,6,d10f3f18-e385-4c75-a885-50fd4692d784,Regenerated Length,Regenerated Length,Image,Polyline,289747.2,715562,,54667.4
+ear_B31-1_11.18.21_100M_66dpw_6.tif - ear_B31-1_11.18.21_100M_66dpw_6.tif #1,1064394-1,6,02027025-5fc3-43dc-b27d-b922d48c199b,Adipocytes,Adipocytes,Image,Points,379857.4,660336.8,551,
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,df30ecdc-845c-42e9-b66e-f7f091ee797d,Regenerated Length,Regenerated Length,Image,Polyline,290951.2,904148.1,,1134157.5
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,09abed41-532c-4444-b51b-4b10b8223c9d,Cartilage Length,Cartilage Length,Image,Polyline,357024.2,450608.1,,21031.3
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,803a2d5e-2fb1-4cc9-8827-ffddbf6efec3,Cartilage Length,Cartilage Length,Image,Polyline,338549.4,521210.6,,95856.2
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,96c8f9f1-ce44-4353-a0ba-769b87330f73,Cartilage Length,Cartilage Length,Image,Polyline,340159.6,700455.9,,180644.4
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,5e143628-97fb-42f5-b4b8-4200a1bf87d1,Cartilage Length,Cartilage Length,Image,Polyline,311484.8,934328.5,,190820.1
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,8c8a24d8-c438-4394-a9c1-6aa51d1bf176,Cartilage Length,Cartilage Length,Image,Polyline,204486.9,1150564.3,,125034.2
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,6d6e71b0-5e16-483e-8c47-7e1eae3f1fcf,Cartilage Length,Cartilage Length,Image,Polyline,190769,1302441.2,,116217.1
+ear_B31-1_11.18.21_10_66dpw_16.tif - ear_B31-1_11.18.21_10_66dpw_16.tif #1,1064394-1,16,89615fb5-aa62-40a5-a8be-3f6cf74782ff,Adipocytes,Adipocytes,Image,Points,238673.5,875148.6,663,
+Aco_ear_990342-2_1.tif - Aco_ear_990342-2_1.tif #1,990342-2,1,17fe598f-547d-43ef-8b26-b1ec8c759aed,Adipocytes,Adipocytes,Image,Points,422831.2,348603,26,
+Aco_ear_990342-2_1.tif - Aco_ear_990342-2_1.tif #1,990342-2,1,38395476-c72e-49ed-8796-3a24d083840e,Regenerated Length,Regenerated Length,Image,Polyline,402374.3,369467.2,,215656.3
+Aco_ear_990342-2_1.tif - Aco_ear_990342-2_1.tif #1,990342-2,1,a7e9085a-5f2c-4c9f-a7db-1a32895f9791,Cartilage Length,Cartilage Length,Image,Polyline,407283.6,363294.6,,211901.5
+Aco_ear_990342-2_4.tif - Aco_ear_990342-2_4.tif #1,990342-2,4,5e457b35-58c0-45b6-aabb-e575fb43a1cf,Adipocytes,Adipocytes,Image,Points,543037.6,339726.6,54,
+Aco_ear_990342-2_4.tif - Aco_ear_990342-2_4.tif #1,990342-2,4,6aedd739-0842-43cd-8dbc-d45c9a762c5b,Regenerated Length,Regenerated Length,Image,Polyline,513315.9,373654.9,,498624.6
+Aco_ear_990342-2_4.tif - Aco_ear_990342-2_4.tif #1,990342-2,4,a4dfdef4-66e9-4606-b7d8-f3d363ed734f,Cartilage Length,Cartilage Length,Image,Polyline,354542.3,243943.2,,102845.3
+Aco_ear_990342-2_4.tif - Aco_ear_990342-2_4.tif #1,990342-2,4,63344ef8-fda4-4722-880a-d2a32e6525e2,Cartilage Length,Cartilage Length,Image,Polyline,429082.2,309957.3,,19757.1
+Aco_ear_990342-2_4.tif - Aco_ear_990342-2_4.tif #1,990342-2,4,d7ed9fbd-029d-45cb-aa85-7f7f7ca940d3,Cartilage Length,Cartilage Length,Image,Polyline,528427.5,347038.9,,27513.1
+Aco_ear_990342-2_4.tif - Aco_ear_990342-2_4.tif #1,990342-2,4,914ab031-95ef-427a-a5f5-2e2cc20da4ae,Cartilage Length,Cartilage Length,Image,Polyline,588965.3,410649,,115961.2
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,85d3bccd-c84e-4077-9672-dfa258685e4f,Adipocytes,Adipocytes,Image,Points,472930.8,682090.1,40,
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,85e02872-9cb5-4797-a4ed-0d641635625c,Regenerated Length,Regenerated Length,Image,Polyline,464118.8,714866,,609517.3
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,046ce7fc-14eb-4a2e-9c68-b9f35df725b0,Cartilage Length,Cartilage Length,Image,Polyline,351990.1,483190.3,,75508.5
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,14af5639-ff9c-48c1-b4bb-d3f9ccad7e66,Cartilage Length,Cartilage Length,Image,Polyline,409930.7,564647.8,,58831.8
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,42670e2f-554b-4d41-a8ea-528d35cfcf2c,Cartilage Length,Cartilage Length,Image,Polyline,441796.6,597243.4,,28921.4
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,7de85f8e-4243-45be-8392-9c71b4b915aa,Cartilage Length,Cartilage Length,Image,Polyline,469948.6,633094.8,,22807.8
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,66964e7d-ba18-42da-8c2c-9bbbb4a25690,Cartilage Length,Cartilage Length,Image,Polyline,481341,662103.1,,27954.6
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,fdc694be-cc1e-455d-a4f0-0f32b70fef63,Cartilage Length,Cartilage Length,Image,Polyline,504339,727641.6,,28142.1
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,28307f6e-077b-4e3b-8b79-3989730d5b58,Cartilage Length,Cartilage Length,Image,Polyline,528683.7,788138.8,,19808.8
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,314885df-23f0-4d1c-90b3-76477096f24d,Cartilage Length,Cartilage Length,Image,Polyline,534324,819945.2,,17806.3
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,428b0acb-5910-44a0-9289-538508bc1c86,Cartilage Length,Cartilage Length,Image,Polyline,548625.3,886704.5,,35717.2
+Aco_ear_990342-2_10.tif - Aco_ear_990342-2_10.tif #1,990342-2,10,c11c4c90-25f8-487c-8ef1-00c6f8579cd0,Cartilage Length,Cartilage Length,Image,Polyline,537951.1,961789,,75692.8
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,c140a2a6-5175-43d2-989e-a26a29614658,Adipocytes,Adipocytes,Image,Points,470960.1,796605.1,58,
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,189bc771-9515-47c5-b355-f49311c2fb7c,Regenerated Length,Regenerated Length,Image,Polyline,413191.7,750079.5,,811731.2
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,7c9101c1-096e-4ebc-8643-0046bb69f0ca,Cartilage Length,Cartilage Length,Image,Polyline,325853.9,389577.4,,52047.2
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,237e9273-038c-4577-be2e-ed738e45ec32,Cartilage Length,Cartilage Length,Image,Polyline,362648,471027,,18579
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,4c936455-6120-48de-bb7e-059ff99f0a7f,Cartilage Length,Cartilage Length,Image,Polyline,414167.3,580250.3,,75055.3
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,66bcf3ba-bd64-4ada-bf2d-bc5c88bd6df9,Cartilage Length,Cartilage Length,Image,Polyline,425413.6,657839.3,,33504.2
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,2c4cffd6-fd9a-470e-928a-ab90a37ca2c3,Cartilage Length,Cartilage Length,Image,Polyline,437680.8,725211,,37098.7
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,56cc9462-b9d2-41ed-8715-56171e5dff09,Cartilage Length,Cartilage Length,Image,Polyline,444743.7,759285.2,,30428.7
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,6d989577-1a4f-4d04-acd8-20d228ceb1b8,Cartilage Length,Cartilage Length,Image,Polyline,462102.5,846546.2,,87999.8
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,1764ae45-5a81-42c1-baf9-65dd1aa00b1f,Cartilage Length,Cartilage Length,Image,Polyline,482748.8,926248,,25691.8
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,a06b27f7-f003-40fb-a054-708041866e54,Cartilage Length,Cartilage Length,Image,Polyline,478561.3,998376.3,,109351.9
+Aco_ear_990342-2_13.tif - Aco_ear_990342-2_13.tif #1,990342-2,13,1c892101-4990-4f2c-9db4-ad2b2b4fd7e6,Cartilage Length,Cartilage Length,Image,Polyline,467675.4,1110853.7,,72425.5
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,48af8d97-41d9-4959-815b-3011ea2a07a7,Adipocytes,Adipocytes,Image,Points,587332.1,414400.8,35,
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,7ff39bd1-50bc-44f3-9122-31bcdb1680df,Regenerated Length,Regenerated Length,Image,Polyline,519828.9,404054.2,,793464.4
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,d80a1956-70ed-4c6f-a57e-22ed6e99b9e0,Cartilage Length,Cartilage Length,Image,Polyline,329490.5,200574.6,,226813.3
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,9def065c-3587-4435-b5db-0d97807cde50,Cartilage Length,Cartilage Length,Image,Polyline,454250,256378.5,,45754.4
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,1dfed7ac-5acf-469f-b606-d6c7d5b7a1e1,Cartilage Length,Cartilage Length,Image,Polyline,490257.4,305193.6,,27505.6
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,407637b1-2366-4b1f-8a71-ab35b9b4c047,Cartilage Length,Cartilage Length,Image,Polyline,625910.6,433277.9,,36954.9
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,70e74de0-8125-4c93-a4ca-eaed68aad795,Cartilage Length,Cartilage Length,Image,Polyline,552593.2,355124.3,,28220.2
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,0c1b0a4f-f52d-489a-a5a8-4f268e8baeff,Cartilage Length,Cartilage Length,Image,Polyline,703174.6,542585.6,,119158.7
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,f001243b-0b9a-498f-91eb-a3a3e5a5a792,Cartilage Length,Cartilage Length,Image,Polyline,649953.6,481095.3,,47766
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,1e7815ae-139b-4b97-a940-13024327341e,Cartilage Length,Cartilage Length,Image,Polyline,738849.6,636480.4,,30655.8
+Aco_ear_990342-2_16.tif - Aco_ear_990342-2_16.tif #1,990342-2,16,4528ffc2-b668-4837-a6e8-f1decc348f76,Cartilage Length,Cartilage Length,Image,Polyline,748149.4,693070.5,,33858.3
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,350f341a-4e63-4705-9f2f-15a36c2c25ee,Adipocytes,Adipocytes,Image,Points,457556,558791.9,34,
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,2b7cc87d-1633-46ad-970f-bdbf4de0a170,Regenerated Length,Regenerated Length,Image,Polyline,372492.5,563454.4,,880134.3
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,195be036-d950-4aa4-bb12-6c9ed5b0746a,Cartilage Length,Cartilage Length,Image,Polyline,306370,155930.9,,28755.8
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,54ad17f9-5e0d-4548-b915-b1285fa382aa,Cartilage Length,Cartilage Length,Image,Polyline,345918.9,214827.1,,74548.4
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,919205b3-e2e1-4a9b-9b3f-ff6f06c99f77,Cartilage Length,Cartilage Length,Image,Polyline,386446.5,295817.9,,100741.2
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,1fe173be-5850-449c-863d-355e815dbf3e,Cartilage Length,Cartilage Length,Image,Polyline,437305.5,552191.4,,56900
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,55c9b343-5d93-4431-92a3-c80d5f63270d,Cartilage Length,Cartilage Length,Image,Polyline,444635,639817.8,,20503.3
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,996d02d6-e35b-4231-be7b-a68674cbcb84,Cartilage Length,Cartilage Length,Image,Polyline,443482,726711.8,,29125.2
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,d6f8a158-8185-4185-8ec3-49c27b6a4fd4,Cartilage Length,Cartilage Length,Image,Polyline,388966.4,872963.3,,266075.1
+Aco_ear_990342-2_19.tif - Aco_ear_990342-2_19.tif #1,990342-2,19,cb1c7355-f424-495d-b1f9-4c9fc7dd541b,Cartilage Length,Cartilage Length,Image,Polyline,413646,423025.4,,115091.5
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,832522f3-dfea-4760-91c6-9e4aaee5ca90,Adipocytes,Adipocytes,Image,Points,416134.7,650404.1,91,
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,d6969b26-691b-4ea6-99a4-5f51f3f29910,Regenerated Length,Regenerated Length,Image,Polyline,372777.4,702044.1,,910140.4
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,beea3a02-17ba-48e6-915a-7845578c75eb,Cartilage Length,Cartilage Length,Image,Polyline,302677.6,292468.7,,73824.9
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,feb319c9-f0d9-4e0f-b2b0-b2e9b8480b2b,Cartilage Length,Cartilage Length,Image,Polyline,344998.6,357166.5,,48027.2
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,4c4086e3-b47b-4a87-90ea-408416d74dbf,Cartilage Length,Cartilage Length,Image,Polyline,370414.5,420374.7,,81365.7
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,fcba17bd-eb49-4fbb-a737-181f0afe6ee7,Cartilage Length,Cartilage Length,Image,Polyline,397280.4,537762.6,,38987.8
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,905db8fb-f72c-4c2d-afb7-2e38142b249e,Cartilage Length,Cartilage Length,Image,Polyline,414522,574343.6,,45150.6
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,800c8cad-e22b-4d50-81e7-55e3503acb65,Cartilage Length,Cartilage Length,Image,Polyline,430958.4,683044.9,,32223.4
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,a72cbb64-2d10-4127-8c01-9dceaacc6d17,Cartilage Length,Cartilage Length,Image,Polyline,448129,753678.8,,33854.6
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,a17bcc12-551f-44b6-8631-76d73f656a23,Cartilage Length,Cartilage Length,Image,Polyline,446970.4,844002.7,,27346.2
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,2699bd46-fc6f-4cbc-8970-874ff23368ae,Cartilage Length,Cartilage Length,Image,Polyline,449823.7,882526.7,,27412.1
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,d38aecf6-1a0e-46df-9665-6325937abbda,Cartilage Length,Cartilage Length,Image,Polyline,432350.4,926378.9,,50898.7
+Aco_ear_990342-2_22.tif - Aco_ear_990342-2_22.tif #1,990342-2,22,88291a71-0ee2-4ff2-9579-5ff560f04c20,Cartilage Length,Cartilage Length,Image,Polyline,442794.5,1076726.8,,154355.2
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,ec117d58-cb89-4f7e-8440-7c58260e8dc1,Adipocytes,Adipocytes,Image,Points,423791.3,594353.8,76,
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,128edc41-7665-4e4a-9b2e-2d46c0c4c358,Regenerated Length,Regenerated Length,Image,Polyline,375700.1,661487.6,,905830.2
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,4fcd5b24-f998-44f2-bea9-0db3f67aa458,Cartilage Length,Cartilage Length,Image,Polyline,409692.3,225515.6,,35473.4
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,698cb415-d929-4400-bd20-3c894f5c6f79,Cartilage Length,Cartilage Length,Image,Polyline,445765.5,356793.2,,149716.2
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,dc35d006-3ffa-4f95-8dac-e8dc0620313f,Cartilage Length,Cartilage Length,Image,Polyline,450877.6,533115.2,,122863.5
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,e093535d-718b-4697-a1c8-eea8619f99d7,Cartilage Length,Cartilage Length,Image,Polyline,441008.5,719029.8,,31422.9
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,85f9c1d8-45ff-4be1-8037-cd3f9ebbf13e,Cartilage Length,Cartilage Length,Image,Polyline,339282.4,1103400.3,,29053.4
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,c0e34065-de3c-4168-ad61-db47b3a162b1,Cartilage Length,Cartilage Length,Image,Polyline,352610,1005590.1,,17111.6
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,322d541d-62d8-4185-9278-2566945b0092,Cartilage Length,Cartilage Length,Image,Polyline,354228,972025.9,,31569.9
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,34d3780f-2b2d-4343-81dc-d9f31c2b3ac7,Cartilage Length,Cartilage Length,Image,Polyline,392171.5,878183.8,,60580.7
+Aco_ear_990342-2_25.tif - Aco_ear_990342-2_25.tif #1,990342-2,25,87f21757-ff46-474e-939f-1257e01e6671,Cartilage Length,Cartilage Length,Image,Polyline,409502.1,811880.2,,34000.1
+Aco_ear_990342-2_31.tif - Aco_ear_990342-2_31.tif #1,990342-2,31,c93dca11-0ac0-4c80-a195-3e35e0ca2d8c,Adipocytes,Adipocytes,Image,Points,320496.8,692547.2,46,
+Aco_ear_990342-2_31.tif - Aco_ear_990342-2_31.tif #1,990342-2,31,d70f68d3-4029-46a7-abc7-dae91d856428,Regenerated Length,Regenerated Length,Image,Polyline,295459.2,709415.6,,825313.7
+Aco_ear_990342-2_31.tif - Aco_ear_990342-2_31.tif #1,990342-2,31,2bfb18b9-6afb-46fa-a2cf-6d9325a682cf,Cartilage Length,Cartilage Length,Image,Polyline,313122.4,485664.7,,107349.6
+Aco_ear_990342-2_31.tif - Aco_ear_990342-2_31.tif #1,990342-2,31,de682f7d-009d-484a-b718-11443086e469,Cartilage Length,Cartilage Length,Image,Polyline,341705.6,857303.6,,161477.3
+Aco_ear_990342-2_31.tif - Aco_ear_990342-2_31.tif #1,990342-2,31,ce4adb8b-7875-4532-8fdd-dd14002512eb,Cartilage Length,Cartilage Length,Image,Polyline,348058.1,1028203.6,,153840.1
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,65dc1ffa-4574-4958-b10d-c1342bdd1ff7,Adipocytes,Adipocytes,Image,Points,328713.9,667593,43,
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,0e79859e-23c2-4fde-b818-acc0820b5aa2,Regenerated Length,Regenerated Length,Image,Polyline,317949.6,507677,,318095.4
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,83376e4e-1dd3-4d23-8b0c-9c2397ceed74,Regenerated Length,Regenerated Length,Image,Polyline,338453.7,886811.9,,413907.6
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,98974788-c743-4d63-9bc7-a4ec2f80704f,Cartilage Length,Cartilage Length,Image,Polyline,287888.7,409446,,88275.4
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,287872d8-b123-47ea-a2f2-27ac959814b7,Cartilage Length,Cartilage Length,Image,Polyline,373195.8,813558.5,,22858.8
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,0f50238a-5312-482c-a99b-4121a42d6310,Cartilage Length,Cartilage Length,Image,Polyline,359661,869488.4,,37673.5
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,5d8faa50-f810-48ef-ac30-5173fccaf277,Cartilage Length,Cartilage Length,Image,Polyline,348095,957532.1,,49812.2
+Aco_ear_990342-2_37.tif - Aco_ear_990342-2_37.tif #1,990342-2,37,5309d052-63e1-4cf8-8b54-e3ae61cc4236,Cartilage Length,Cartilage Length,Image,Polyline,363017.9,1060843.9,,45277.9
+Aco_ear_990342-2_40.tif - Aco_ear_990342-2_40.tif #1,990342-2,40,44b5c4d3-ef50-4b52-8b76-2ef5cf24312e,Adipocytes,Adipocytes,Image,Points,341057.1,755725.4,6,
+Aco_ear_990342-2_40.tif - Aco_ear_990342-2_40.tif #1,990342-2,40,bf753e67-2890-4840-8182-d340ba462aca,Regenerated Length,Regenerated Length,Image,Polyline,407513.6,450251.4,,251066.2
+Aco_ear_990342-2_40.tif - Aco_ear_990342-2_40.tif #1,990342-2,40,47ccfb06-8286-4947-8b3e-f6f6511b8dd7,Regenerated Length,Regenerated Length,Image,Polyline,318999.7,858636.4,,375868
+Aco_ear_990342-2_40.tif - Aco_ear_990342-2_40.tif #1,990342-2,40,0d48dda8-e22c-49d2-ba23-e138accc55f9,Cartilage Length,Cartilage Length,Image,Polyline,399062.1,385602.4,,17037.1
+Aco_ear_990342-2_40.tif - Aco_ear_990342-2_40.tif #1,990342-2,40,d89d0ca2-b156-4e96-a65d-17b41367ec13,Cartilage Length,Cartilage Length,Image,Polyline,336532.4,864887.5,,50067.1
+Aco_ear_990342-2_40.tif - Aco_ear_990342-2_40.tif #1,990342-2,40,efa6032a-f8ba-4d11-9abe-b4983698a67e,Cartilage Length,Cartilage Length,Image,Polyline,272541.3,1010298.9,,55565.1
+Aco_ear_941702-1_9.tif,941702-1,9,77620ec0-b63c-41b8-b981-8d9886722c6f,Regenerated Length,Regenerated Length,Image,Polyline,386915.4,451676.2,,740313
+Aco_ear_941702-1_9.tif,941702-1,9,591afc98-9e34-4569-9bc4-1659fbab37e7,Cartilage Length,Cartilage Length,Image,Polyline,250375.3,264118.6,,255733.2
+Aco_ear_941702-1_9.tif,941702-1,9,2ce8cfd6-2082-4a81-b521-5b4ddf5a4513,Cartilage Length,Cartilage Length,Image,Polyline,407777,457629.4,,107806.5
+Aco_ear_941702-1_9.tif,941702-1,9,58b47012-3021-447d-97c7-ba75da80a218,Cartilage Length,Cartilage Length,Image,Polyline,531624,580402.8,,111310.5
+Aco_ear_941702-1_9.tif,941702-1,9,a370ee1f-4133-4a6c-8389-b7bb43637c84,Cartilage Length,Cartilage Length,Image,Polyline,616626.6,678979.2,,99873.9
+Aco_ear_941702-1_9.tif,941702-1,9,eb02372f-425d-4f50-8775-f191c2492def,Adipocytes,Adipocytes,Image,Points,371933.2,453749,53,
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,663454ae-1fd6-4965-a67c-5f8498dc9200,Cartilage Length,Cartilage Length,Image,Polyline,377433.1,1042235.3,,25816.6
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,3001b60b-fe59-4be7-b197-4f4ce6c7ae8e,Cartilage Length,Cartilage Length,Image,Polyline,283568.4,175140.4,,35613.1
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,1a5f11c5-54d8-4662-88be-c7fe46969da0,Cartilage Length,Cartilage Length,Image,Polyline,291709.4,241312.9,,48922.9
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,b907a805-93a7-4690-8d8f-e470d1d0a054,Cartilage Length,Cartilage Length,Image,Polyline,290240.5,389166.7,,25715.7
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,1508dd36-0c2c-4f73-a352-2dd531509122,Cartilage Length,Cartilage Length,Image,Polyline,296131.3,326684.9,,80851.2
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,4a29ed40-c41f-46c6-8a0c-28531a5f6375,Cartilage Length,Cartilage Length,Image,Polyline,287629.6,443630.7,,64538.1
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,d878f97a-6746-4cca-9d2d-e890d6312750,Cartilage Length,Cartilage Length,Image,Polyline,300344.8,583270.2,,157117.8
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,b7de0326-ddf4-4c62-86c6-a2f7e7306ae4,Regenerated Length,Regenerated Length,Image,Polyline,284512.5,482567.3,,656375.2
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,f777a215-bad7-46bb-abd4-b71b84aefcfe,Cartilage Length,Cartilage Length,Image,Polyline,333390.9,761098.2,,86928.1
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,dd58d620-9ae2-4dca-a16e-4119b81dad46,Regenerated Length,Regenerated Length,Image,Polyline,364635.8,995723.6,,119204.2
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,37771655-8c54-4dc1-881f-9f04741fab45,Cartilage Length,Cartilage Length,Image,Polyline,369570.5,963819.8,,58915.8
+Aco_ear_941702-1_18.tif - Aco_ear_941702-1_18.tif #1,941702-1,18,9091fbd3-daba-4e1a-9131-a876f9c76f40,Adipocytes,Adipocytes,Image,Points,329129,723618,50,
+Aco_ear_941702-1_27.tif - Aco_ear_941702-1_27.tif #1,941702-1,27,821e1bf3-0227-4bdd-a747-3f69d27784fa,Regenerated Length,Regenerated Length,Image,Polyline,335618.7,938901.6,,539087.1
+Aco_ear_941702-1_27.tif - Aco_ear_941702-1_27.tif #1,941702-1,27,f493684f-2d73-46d7-a0eb-a28de721c9e7,Cartilage Length,Cartilage Length,Image,Polyline,426426.3,894215.8,,62140.6
+Aco_ear_941702-1_27.tif - Aco_ear_941702-1_27.tif #1,941702-1,27,f9ec71c5-b139-4537-8c4d-13d7314c5b91,Cartilage Length,Cartilage Length,Image,Polyline,445212.1,969676.8,,45037.3
+Aco_ear_941702-1_27.tif - Aco_ear_941702-1_27.tif #1,941702-1,27,fefcbf3e-d522-42e2-8e45-d09c2dcdbf55,Cartilage Length,Cartilage Length,Image,Polyline,339068.3,817195.5,,111738.2
+Aco_ear_941702-1_27.tif - Aco_ear_941702-1_27.tif #1,941702-1,27,49f0a186-188c-4259-bfdd-cdadce73891c,Adipocytes,Adipocytes,Image,Points,396601,865769.3,10,
+Aco_ear_941702-1_24.tif - Aco_ear_941702-1_24.tif #1,941702-1,24,15e4f824-de0b-459b-8bdd-2546843bce36,Regenerated Length,Regenerated Length,Image,Polyline,327784.1,873431.2,,841167.8
+Aco_ear_941702-1_24.tif - Aco_ear_941702-1_24.tif #1,941702-1,24,28060c02-657c-4d3f-9b09-4560863e1f1a,Cartilage Length,Cartilage Length,Image,Polyline,230152.9,575564.2,,197758.1
+Aco_ear_941702-1_24.tif - Aco_ear_941702-1_24.tif #1,941702-1,24,ee2e2c6d-a7a6-4adf-a44c-4cef4ab6c8a1,Cartilage Length,Cartilage Length,Image,Polyline,295913.7,690230.5,,29233.4
+Aco_ear_941702-1_24.tif - Aco_ear_941702-1_24.tif #1,941702-1,24,fd59104e-ff6d-45e0-ae93-c479cc0a6ef9,Cartilage Length,Cartilage Length,Image,Polyline,331896.3,797509.9,,47340.6
+Aco_ear_941702-1_24.tif - Aco_ear_941702-1_24.tif #1,941702-1,24,cad1645a-de78-4614-95e0-fd0f9d723bc6,Cartilage Length,Cartilage Length,Image,Polyline,455951.8,1159350.4,,12454.6
+Aco_ear_941702-1_24.tif - Aco_ear_941702-1_24.tif #1,941702-1,24,42c4299c-1367-4185-93bc-a9b5aeb2d75c,Cartilage Length,Cartilage Length,Image,Polyline,443137.5,1132645.7,,12641.1
+Aco_ear_941702-1_24.tif - Aco_ear_941702-1_24.tif #1,941702-1,24,32d59174-6867-4fb5-b51f-3e102a9c0af4,Adipocytes,Adipocytes,Image,Points,262950.8,666376,23,
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,989dee32-1e30-440d-b752-c0e4e5bb7634,Regenerated Length,Regenerated Length,Image,Polyline,415443.4,794791.2,,186293
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,766ab2f3-144c-4872-966e-916d0a444c22,Cartilage Length,Cartilage Length,Image,Polyline,194686.9,264288.6,,135429.7
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,1a7c4896-bbe0-41d6-b6f5-636650e25e02,Regenerated Length,Regenerated Length,Image,Polyline,236288.3,458015.4,,543674.5
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,df53c564-490c-41b1-b466-f2ef9184033e,Cartilage Length,Cartilage Length,Image,Polyline,254926.2,439843.9,,125340.8
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,2f757f8e-df16-439c-93d5-874ce99b76c0,Cartilage Length,Cartilage Length,Image,Polyline,316931.2,557679.5,,63858.1
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,af7ac95c-bfcd-4be9-8384-1e9635ed02a1,Cartilage Length,Cartilage Length,Image,Polyline,337320.2,650930.6,,59881.2
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,d14af1be-762a-4726-a36a-1937cbb0985c,Cartilage Length,Cartilage Length,Image,Polyline,407801.9,734174.5,,22429.1
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,b3a8971b-30fd-4d0d-865f-b729c30cdafb,Cartilage Length,Cartilage Length,Image,Polyline,449348.8,822822.5,,97661.7
+Aco_ear_941702-1_12.tif - Aco_ear_941702-1_12.tif #1,941702-1,12,b8623bd1-b6af-44fe-81e3-d51a72347fd2,Adipocytes,Adipocytes,Image,Points,280993.1,513176.2,121,
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,b8c73213-b01e-4ae0-bd56-c76c5807ea56,Regenerated Length,Regenerated Length,Image,Polyline,270365.4,632008.1,,885389.1
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,09f80be6-33ae-4e8f-ac8a-613bf39afd14,Cartilage Length,Cartilage Length,Image,Polyline,178055.9,295100.8,,68807.4
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,af58474c-dd86-49c9-b6bb-3dc813805237,Cartilage Length,Cartilage Length,Image,Polyline,214618.2,379889.7,,40613.4
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,bb3f8566-05f9-4e1c-9226-dfaaf1c9006d,Cartilage Length,Cartilage Length,Image,Polyline,239236.7,435051.7,,43926.8
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,dd8ed017-6dbc-4479-89dc-701bf13d067c,Cartilage Length,Cartilage Length,Image,Polyline,249203.9,470759.6,,17528.5
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,1e4ecad5-3602-4de8-baf4-3039a69d364f,Cartilage Length,Cartilage Length,Image,Polyline,266346.8,501149.1,,19349.4
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,ba53b092-cda9-491f-84a3-7ead156813e5,Cartilage Length,Cartilage Length,Image,Polyline,348497.2,854590.2,,65387.6
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,151191f1-5165-4fe8-83f6-a6cd6004d2af,Cartilage Length,Cartilage Length,Image,Polyline,406187.8,1012517.4,,66136.7
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,0b385426-9e27-4a63-be96-4c3d28c6a695,Cartilage Length,Cartilage Length,Image,Polyline,294755.6,660078.2,,291690.3
+Aco_ear_941702-1_21.tif - Aco_ear_941702-1_21.tif #1,941702-1,21,c73c86ea-5c48-4838-b5a2-f8d511a22d38,Adipocytes,Adipocytes,Image,Points,352524.6,845789.3,50,
+Aco_ear_941702-1_15.tif - Aco_ear_941702-1_15.tif #1,941702-1,15,a61c8d95-34d4-46b9-9ee3-5cbdb0bcf928,Regenerated Length,Regenerated Length,Image,Polyline,174224.1,84337.1,,197705.6
+Aco_ear_941702-1_15.tif - Aco_ear_941702-1_15.tif #1,941702-1,15,e45ec083-a685-4d5f-aa2f-2fd5164af87d,Regenerated Length,Regenerated Length,Image,Polyline,432290.4,427992.3,,657443.6
+Aco_ear_941702-1_15.tif - Aco_ear_941702-1_15.tif #1,941702-1,15,9108964c-f031-4cde-b408-d386bcc231fb,Cartilage Length,Cartilage Length,Image,Polyline,602147.1,644486.6,,104683.7
+Aco_ear_941702-1_15.tif - Aco_ear_941702-1_15.tif #1,941702-1,15,6e990332-ed9d-4b26-b082-327bb0444a6e,Cartilage Length,Cartilage Length,Image,Polyline,541950.6,547476,,36454.5
+Aco_ear_941702-1_15.tif - Aco_ear_941702-1_15.tif #1,941702-1,15,55a40456-d06c-47f9-a418-0cf40c1428d5,Cartilage Length,Cartilage Length,Image,Polyline,476095.9,470639,,82990.2
+Aco_ear_941702-1_15.tif - Aco_ear_941702-1_15.tif #1,941702-1,15,3f766ff6-fe5b-46f4-bcdf-fa38b676bbfd,Cartilage Length,Cartilage Length,Image,Polyline,378590.3,309240.5,,208057.4
+Aco_ear_941702-1_15.tif - Aco_ear_941702-1_15.tif #1,941702-1,15,2d17f1d3-190e-4c25-8a32-be7c566a9ff4,Cartilage Length,Cartilage Length,Image,Polyline,277799.1,183298.1,,63825.7
+Aco_ear_941702-1_15.tif - Aco_ear_941702-1_15.tif #1,941702-1,15,0bbb9ae3-5056-4a2b-97df-537675709408,Cartilage Length,Cartilage Length,Image,Polyline,173904.2,59560.8,,140011.4
+Aco_ear_941702-1_15.tif - Aco_ear_941702-1_15.tif #1,941702-1,15,1cf74170-5c7f-49ee-ba07-04c053064ffb,Cartilage Length,Cartilage Length,Image,Polyline,230757.4,125960.8,,25653.3
+Aco_ear_941702-1_15.tif - Aco_ear_941702-1_15.tif #1,941702-1,15,d15f62ca-888d-44c6-8369-286d08cc9e93,Adipocytes,Adipocytes,Image,Points,441556.6,400877.3,62,

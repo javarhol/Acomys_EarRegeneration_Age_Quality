@@ -1,0 +1,12 @@
+"0","+"
+"0","  geom_hline(yintercept=12.566,linetype=""dashed"", color=""black"")+"
+"0","  scale_y_continuous(breaks=c(0,5,10,12.566), labels=c(0,5,10,12.566))+"
+"0","  scale_color_npg()+"
+"0","  xlab(""Day Post Wounding"")+ ylab(Earhole~Area~(mm^2))+"
+"0","  labs(color=""AgeAtInjury"", linetype=""AgeAtInjury"")"
+"1","[1m[33mError[39m in `+.gg`:[22m
+[38;5;232m[33m![38;5;232m Cannot use `+` with a single argument
+[36mℹ[38;5;232m Did you accidentally put `+` on a new line?[39m
+Backtrace:
+[90m 1. [39m[1m[94mggplot2:::`+.gg`([39m[22mgeom_hline(yintercept = 12.566, linetype = ""dashed"", color = ""black"")[1m[94m)[39m[22m
+"

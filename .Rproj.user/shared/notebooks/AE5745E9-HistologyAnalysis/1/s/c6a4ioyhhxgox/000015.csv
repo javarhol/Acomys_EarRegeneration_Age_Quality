@@ -1,0 +1,7 @@
+"0","dunnTest(mean_count_area ~ AgeCat, data = adipo_means, method = ""hochberg"")
+"
+"2","Dunn (1964) Kruskal-Wallis multiple comparison
+"
+"2","  p-values adjusted with the Hochberg method.
+
+"

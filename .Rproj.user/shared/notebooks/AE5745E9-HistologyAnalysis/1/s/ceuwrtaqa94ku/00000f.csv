@@ -1,0 +1,11 @@
+"0","measures <- measures %>% "
+"0","  select(AnimalID, Slide, Name, Num.points, Length_microm) %>% "
+"0","  left_join(daystoclose[,c(2,3,7,8)]) %>% "
+"0","  mutate(AgeInMonths = (AgeAtInjury/30.417))"
+"1","[38;5;255mJoining with `by = join_by(AnimalID)`[39m
+"
+"0","measures$AgeCat[is.na(measures$AgeCat)] <- ""Uninj. Tissue"""
+"0","measures$AgeCat <- factor(measures$AgeCat, levels = c(""Uninj. Tissue"", ""3-4mo"", ""4-6mo"", ""6-9mo"", ""≥ 22mo""))"
+"0",""
+"0","muscle <- muscle %>% "
+"0","  filter(uninj.muscle == 1)"

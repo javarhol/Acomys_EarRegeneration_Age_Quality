@@ -1,0 +1,123 @@
+---
+title: "AgingEarRegen"
+author: "Justin Varholick"
+date: "2023-07-11"
+output: html_document
+---
+#packages
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(ggsci)
+library(see)
+library(cowplot)
+library(extrafont)
+
+library(lme4)
+library(lmerTest)
+
+```
+
+#import data
+```{r}
+daystoclose <- read.csv("data/EarDaysToClose_Data.csv")
+areaperday <- read.csv("data/EarAreaPerDay_Data.csv")
+areaperday <- left_join(areaperday, daystoclose, by="AnimalID")
+```
+
+#repeated measures graph, raw
+```{r}
+
+#animals to exclude due to insufficient data
+exclude <- c("925878-1", "925878-2", "1001363-1", "1001363-2", "990342-1", "990342-2")
+areaperday1 <- filter(areaperday, !AnimalID %in% exclude)
+areaperday1 <- filter(areaperday1, !DayPostWounding %in% c(0))
+areaperday1 <- mutate(areaperday1, AgeinMonths=(AgeAtInjury/30.417))
+
+ggplot(areaperday1, aes(DayPostWounding, Area, color=AgeinMonths))+
+  geom_point2(size = 3, alpha = 0.5) +
+  scale_x_continuous(breaks=seq(0,110, 5))+
+  geom_hline(yintercept=12.56637061, linetype="dashed", color="black")+
+  xlab("days post injury") + ylab(bquote("Area "(mm^2)))+
+  labs(color="Age \nin Months")+
+  theme_cowplot()+
+  scale_color_gradient2(low = "#5ec962", mid = "#21918c", high = "#3b528b", midpoint = 6) +
+  theme(axis.text.x=element_text(angle=90, vjust=0.75))
+
+ggplot(areaperday1, aes(DayPostWounding, Area, fill=AgeinMonths))+
+  geom_point(size = 2, pch = 21, color = "black") +
+  scale_x_continuous(breaks=seq(0,110, 5))+
+  geom_hline(yintercept=12.56637061, linetype="dashed", color="black")+
+  xlab("days post injury") + ylab(bquote("Area "(mm^2)))+
+  labs(fill="Age \nin Months")+
+  theme_cowplot(font_size = 8)+
+  scale_fill_gradient2(low = "#fde725", mid = "#22A884", high = "#414487", midpoint = 6) +
+  theme(axis.text.x=element_text(angle=90, vjust=0.75))
+
+ggsave("Figures/EarClose_Time_Age_viridis.pdf", dpi=300, width=180, height=90, unit="mm")
+
+```
+
+#growth model
+```{r}
+growth_data <- filter(areaperday1, DayPostWounding!=0)
+t <- poly(1:max(growth_data$DayPostWounding), 3)
+growth_data[, paste("ot", 1:3, sep="")] <- t[growth_data$DayPostWounding, 1:3]
+
+ear_gr_base <- lmer(Area ~ DayPostWounding + (DayPostWounding| CageID:AnimalID),
+                  data=growth_data, REML=FALSE)
+
+ear_gr_m0 <- lmer(Area ~ DayPostWounding + AgeAtInjury +
+                      (DayPostWounding | CageID:AnimalID),
+                    data=growth_data, REML=FALSE)
+
+ear_gr_m1 <- lmer(Area ~ DayPostWounding + AgeCat + 
+                    (DayPostWounding | CageID:AnimalID),
+                  data=growth_data, REML=FALSE)
+
+anova(ear_gr_m0) #we should go with this model
+anova(ear_gr_m1)
+```
+#growth model plot, this isn't worth it.
+```{r}
+data.comp <- data.frame(growth_data, GCA_Full=fitted(ear_gr_m1))
+
+ggplot(growth_data, aes(DayPostWounding, Area, color=AgeCat))+
+  stat_summary(fun.data=mean_se, geom="linerange", show.legend=FALSE)+
+  geom_point(stat="summary", fun=mean, size=2)+
+  stat_summary(aes(y=fitted(ear_gr_m1), linetype=AgeCat), fun=mean, geom="line", size=1.25)
+
++
+  geom_hline(yintercept=12.566,linetype="dashed", color="black")+
+  scale_y_continuous(breaks=c(0,5,10,12.566), labels=c(0,5,10,12.566))+
+  scale_color_npg()+
+  xlab("Day Post Wounding")+ ylab(Earhole~Area~(mm^2))+
+  labs(color="AgeAtInjury", linetype="AgeAtInjury")
+
+
+
+```
+#repeated measures graph, add in aged animals
+```{r}
+
+#animals to exclude due to insufficient data
+areaperday2 <- areaperday %>% 
+  filter(!DayPostWounding %in% c(0))
+
+areaperday2$AgeCat <- factor(areaperday2$AgeCat, levels = c("3 to 4 months", "4.5 to 6 months", "6.5 to 9 months", "≥ 22 months"))
+
+
+ggplot(areaperday2, aes(DayPostWounding, Area))+
+  geom_point2(aes(shape = AgeCat, color = AgeCat), size = 3, alpha = 0.5)+ 
+  scale_x_continuous(breaks=seq(0,110, 5))+
+  geom_hline(yintercept=12.56637061, linetype="dashed", color="black")+
+  xlab("days post injury") + ylab(bquote("Area "(mm^2)))+
+  labs(color="Age", shape = "Age")+
+  theme_cowplot()+
+  scale_shape_manual(values = c(16, 16, 16, 2)) +
+  scale_color_manual(values=c("#5ec962", "#21918c", "#3b528b", "#440154"))+
+  theme(axis.text.x=element_text(angle=90, vjust=0.75))
+
+ggsave("Figures/EarClose_Time_Age+Aged_viridis.png", dpi=300, width=180, height=90, unit="mm")
+```
+
