@@ -2,8 +2,8 @@
 "0","  filter(Name == ""Cartilage Length"") %>% "
 "0","  group_by(AnimalID, Slide, Slide_per, Sex, AgeInMonths, AgeCat, Name) %>% "
 "0","  summarise(Length = sum(Length_microm), Count = n())"
-"1","[38;5;255m`summarise()` has grouped output by 'AnimalID', 'Slide', 'Slide_per', 'Sex', 'AgeInMonths', 'AgeCat'. You can override using the
-`.groups` argument.[39m
+"1","[38;5;101m`summarise()` has grouped output by 'AnimalID', 'Slide', 'Slide_per', 'Sex', 'AgeInMonths', 'AgeCat'. You can override using the `.groups`
+argument.[39m
 "
 "0","  #summarise(Area = sum(Area.µm.2), Perimeter = sum(Perimeter.µm))"
 "0",""
@@ -11,15 +11,15 @@
 "0","  filter(Name == ""Regenerated Length"") %>% "
 "0","  group_by(AnimalID, Slide, Slide_per, Sex, AgeInMonths, AgeCat, Name) %>% "
 "0","  summarise(Length = sum(Length_microm), Count = n())"
-"1","[38;5;255m`summarise()` has grouped output by 'AnimalID', 'Slide', 'Slide_per', 'Sex', 'AgeInMonths', 'AgeCat'. You can override using the
-`.groups` argument.[39m
+"1","[38;5;101m`summarise()` has grouped output by 'AnimalID', 'Slide', 'Slide_per', 'Sex', 'AgeInMonths', 'AgeCat'. You can override using the `.groups`
+argument.[39m
 "
 "0","adipocytes <- measures2 %>% "
 "0","  filter(Name == ""Adipocytes"") %>% "
 "0","  group_by(AnimalID, Slide, Slide_per, Sex, AgeInMonths, AgeCat, Name) %>% "
 "0","  summarise(count = sum(Num.points))"
-"1","[38;5;255m`summarise()` has grouped output by 'AnimalID', 'Slide', 'Slide_per', 'Sex', 'AgeInMonths', 'AgeCat'. You can override using the
-`.groups` argument.[39m
+"1","[38;5;101m`summarise()` has grouped output by 'AnimalID', 'Slide', 'Slide_per', 'Sex', 'AgeInMonths', 'AgeCat'. You can override using the `.groups`
+argument.[39m
 "
 "0","cartregen <- cartilage %>% "
 "0","  left_join(regenarea, by = c(""AnimalID"", ""Slide"", ""Slide_per"", ""Sex"", ""AgeInMonths"", ""AgeCat"")) %>% "

@@ -166,11 +166,11 @@ cartregen_means <- cartregen_means %>%
 
 cmeansplot <- ggplot(cartregen_means, aes(AgeCat, mean_perc_cartregen_length)) +
   geom_bar_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
-                   pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "black",
-                   color = "black", fun = "mean", stat = "summary") +
+                   pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "lightgrey",
+                   color = "black", fun = "mean", stat = "summary", alpha = 0.8) +
   #geom_bar(fun = "mean", stat="summary", color = "black", alpha = 0.85) +
   stat_summary(geom = "errorbar", fun.data = mean_se, width = 0.25) +
-  #geom_point2(size = 4, alpha = 0.6) +
+  geom_point2(size = 3, alpha = 0.6, color = "black") +
   ylab("Mean % Cartilage in ROI") + xlab("") +
   scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.05)), limits=c(0,100), labels=function(x) paste0(x,"%")) +
@@ -223,7 +223,8 @@ cposplot2 <- ggplot(cartregen2, aes(Position, perc_cartregen_length, color = Age
   stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.2), linetype = "dashed") +
   stat_summary(fun.min = function(z) { quantile(z,0.25) },
   fun.max = function(z) { quantile(z,0.75) },
-  fun = median, position = position_dodge(width = 0.2)) +
+  fun = median, position = position_dodge(width = 0.4), shape = 15, size = 1) +
+  geom_point2(size = 3, alpha = 0.6, position = position_dodge(width = 0.4)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.05)), limits=c(0,110), breaks = c(0, 25, 50, 75, 100), labels=function(x) paste0(x,"%")) +
   ylab("% Cartilage in ROI")  + xlab("") + labs(color = "Age \nat Injury") +
   scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +
@@ -285,10 +286,10 @@ summary(cpos.0)
 ```{r}
 ccountplot <- ggplot(cartregen_means, aes(AgeCat, mean_count)) +
   geom_bar_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
-                   pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "black",
-                   color = "black", fun = "mean", stat = "summary") +
+                   pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "lightgrey",
+                   color = "black", fun = "mean", stat = "summary", alpha = 0.8) +
   stat_summary(geom = "errorbar", fun.data = mean_se, width = 0.25) +
-  #geom_point2(size = 4, alpha = 0.6) +
+  geom_point2(size = 3, alpha = 0.6, color = "black") +
   ylab("Mean Number of \nCartilage Pieces in ROI") + xlab("") +
   scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12), limits = c(0,12)) +
@@ -326,10 +327,11 @@ ccountposplot <- ggplot(cartregen2, aes(AgeCat, Count.x, fill = Position_Age)) +
 ccountposplot 
 
 ccountposplot2 <- ggplot(cartregen2, aes(Position, Count.x, color = AgeCat, group = AgeCat)) +
-  stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.2), linetype = "dashed") +
+  stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.4), linetype = "dashed") +
   stat_summary(fun.min = function(z) { quantile(z,0.25) },
   fun.max = function(z) { quantile(z,0.75) },
-  fun = median, position = position_dodge(width = 0.2)) +
+  fun = median, position = position_dodge(width = 0.4), shape = 15, size = 1) +
+  geom_point2(size = 3, alpha = 0.6, position = position_dodge(width = 0.4)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12), limits = c(0,12)) +
   ylab("Number of \nCartilage Pieces in ROI")  + xlab("") + labs(color = "Age \nat Injury", shape = "Age \nat Injury") +
   scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +
@@ -382,7 +384,8 @@ adipo_means <- adipo_means %>%
 
 acountplot <- ggplot(adipo_means, aes(AgeCat, mean_count_area)) +
     geom_boxplot_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
-                       pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "black", color = "black")+
+                       pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "lightgrey", color = "black", alpha = 0.8)+
+  geom_point2(size = 3, alpha = 0.6, color = "black") +
   ylab("Mean Number of Adipocytes \nper 100µM") + xlab("") +
   scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12,14,16,18,20), limits = c(0,20)) +
@@ -430,10 +433,11 @@ aposplot <- ggplot(adiporegen2, aes(AgeCat, count_area, fill = Position_Age)) +
 aposplot
 
 aposplot2 <- ggplot(adiporegen2, aes(Position, count_area, color = AgeCat, group = AgeCat)) +
-  stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.2), linetype = "dashed") +
+  stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.4), linetype = "dashed") +
   stat_summary(fun.min = function(z) { quantile(z,0.25) },
   fun.max = function(z) { quantile(z,0.75) },
-  fun = median, position = position_dodge(width = 0.2)) +
+  fun = median, position = position_dodge(width = 0.4), shape = 15) +
+  geom_point2(alpha = 0.6, position = position_dodge(width = 0.4)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
   ylab("Median Number of Adipocytes \nper 100µM")  + xlab("") + labs(color = "Age \nat Injury") +
   scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +
@@ -471,7 +475,8 @@ muscle_means <- muscle_means %>%
 
 mcountplot <- ggplot(muscle_means, aes(AgeCat, mean_count_area)) +
   geom_boxplot_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
-                       pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "black", color = "black")+
+                       pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "lightgrey", color = "black", alpha = 0.8) +
+  geom_point2(size = 3, alpha = 0.6, color = "black") +
   ylab("Mean Number of Muscle Fibers \nper 100µM") + xlab("") +
   scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
   #scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12,14,16,18,20), limits = c(0,20)) +
@@ -516,10 +521,12 @@ mposplot <- ggplot(muscleregen2, aes(AgeCat, count_area, fill = Position_Age)) +
 mposplot
 
 mposplot3 <- ggplot(muscleregen2, aes(Position, count_area, color = AgeCat, group = AgeCat)) +
-  stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.2), linetype = "dashed") +
+  stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.4), linetype = "dashed") +
   stat_summary(fun.min = function(z) { quantile(z,0.25) },
   fun.max = function(z) { quantile(z,0.75) },
-  fun = median, position = position_dodge(width = 0.2)) +
+  fun = median, position = position_dodge(width = 0.4),
+  shape = 15) + 
+  geom_point2(alpha = 0.6, position = position_dodge(width = 0.4)) +
   ylab("Median Number of Muscle Fibers \nper 100µM")  + xlab("") + labs(color = "Age \nat Injury") +
   scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +
   theme_cowplot(font_size = 8, font_family = "Arial")
@@ -569,7 +576,8 @@ hairs_means <- hairs_means %>%
 
 hcountplot <- ggplot(hairs_means, aes(AgeCat, mean_count_area)) +
   geom_boxplot_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
-                       pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "black", color = "black")+
+                       pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "lightgrey", color = "black", alpha = 0.8)+
+  geom_point2(size = 3, alpha = 0.6, color = "black") +
   ylab("Mean Number of Hairs \nper 100µM") + xlab("") +
   scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
   #scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12,14,16,18,20), limits = c(0,20)) +
@@ -615,10 +623,12 @@ hposplot <- ggplot(hairregen2, aes(AgeCat, count_area, fill = Position_Age)) +
 aposplot
 
 hposplot2 <- ggplot(hairregen2, aes(Position, count_area, color = AgeCat, group = AgeCat)) +
-  stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.2), linetype = "dashed") +
+  stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.4), linetype = "dashed") +
   stat_summary(fun.min = function(z) { quantile(z,0.25) },
   fun.max = function(z) { quantile(z,0.75) },
-  fun = median, position = position_dodge(width = 0.2)) +
+  fun = median, position = position_dodge(width = 0.4),
+  shape = 15) + 
+  geom_point2(alpha = 0.6, position = position_dodge(width = 0.4)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
   ylab("Median Number of Hairs \nper 100µM")  + xlab("") + labs(color = "Age \nat Injury") +
   scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +

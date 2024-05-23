@@ -1,598 +1,1811 @@
-"0","loadfonts()
+"0","#for final figures"
+"0","library(extrafont)"
+"2","Registering fonts with R
 "
-"2","Registering font with R using pdfFont(): .Keyboard
+"0","font_import()"
+"0","y"
+"2","Scanning ttf files in /Library/Fonts/, /System/Library/Fonts, /System/Library/Fonts/Supplemental, ~/Library/Fonts/ ...
 "
-"2","Registering font with R using pdfFont(): .New York
+"2","Extracting .afm files from .ttf files...
 "
-"2","Registering font with R using pdfFont(): .SF Arabic
+"2","/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+"2"," : ArialUnicodeMS already registered in fonts database. Skipping.
 "
-"2","Registering font with R using pdfFont(): .SF Arabic Rounded
+"2","/Library/Fonts/SF-Pro-Italic.ttf"
+"2"," : SFPro-RegularItalic already registered in fonts database. Skipping.
 "
-"2","Registering font with R using pdfFont(): .SF Armenian
+"2","/Library/Fonts/SF-Pro.ttf"
+"2"," : SFPro-Regular already registered in fonts database. Skipping.
 "
-"2","Registering font with R using pdfFont(): .SF Armenian Rounded
+"2","/System/Library/Fonts/Apple Braille Outline 6 Dot.ttf"
+"2"," : AppleBraille-Outline6Dot already registered in fonts database. Skipping.
 "
-"2","Registering font with R using pdfFont(): .SF Camera
+"2","/System/Library/Fonts/Apple Braille Outline 8 Dot.ttf"
+"2"," : AppleBraille-Outline8Dot already registered in fonts database. Skipping.
 "
-"2","Registering font with R using pdfFont(): .SF Compact
+"2","/System/Library/Fonts/Apple Braille Pinpoint 6 Dot.ttf"
+"2"," : AppleBraille-Pinpoint6Dot already registered in fonts database. Skipping.
 "
-"2","Registering font with R using pdfFont(): .SF Compact Rounded
+"2","/System/Library/Fonts/Apple Braille Pinpoint 8 Dot.ttf"
+"2"," : AppleBraille-Pinpoint8Dot already registered in fonts database. Skipping.
 "
-"2","Registering font with R using pdfFont(): .SF Georgian
+"2","/System/Library/Fonts/Apple Braille.ttf"
+"2"," : AppleBraille already registered in fonts database. Skipping.
 "
-"2","Registering font with R using pdfFont(): .SF Georgian Rounded
+"2","/System/Library/Fonts/Apple Symbols.ttf"
+"2","Warning in system2(enc2native(ttf2pt1), c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command ''/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Rttf2pt1/exec//ttf2pt1' -a -GfAe '/System/Library/Fonts/Apple Symbols.ttf' '/var/folders/k4/w91nhdb57hxg234rthz28rj40000gn/T//RtmpRpLEb1/fonts/Apple Symbols' 2>&1' had status 1
 "
-"2","Registering font with R using pdfFont(): .SF Hebrew
+"2"," : No FontName. Skipping.
 "
-"2","Registering font with R using pdfFont(): .SF Hebrew Rounded
+"2","/System/Library/Fonts/Geneva.ttf"
+"2","Warning in system2(enc2native(ttf2pt1), c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command ''/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Rttf2pt1/exec//ttf2pt1' -a -GfAe '/System/Library/Fonts/Geneva.ttf' '/var/folders/k4/w91nhdb57hxg234rthz28rj40000gn/T//RtmpRpLEb1/fonts/Geneva' 2>&1' had status 1
 "
-"2","Registering font with R using pdfFont(): .SF NS Mono
+"2"," : No FontName. Skipping.
 "
-"2","Registering font with R using pdfFont(): .SF NS Rounded
+"2","/System/Library/Fonts/Keyboard.ttf"
+"2"," : -Keyboard already registered in fonts database. Skipping.
 "
-"2","Registering font with R using pdfFont(): Academy Engraved LET
+"2","/System/Library/Fonts/Monaco.ttf"
+"2"," : No FontName. Skipping.
 "
-"2","Registering font with R using pdfFont(): Andale Mono
+"2","/System/Library/Fonts/NewYork.ttf"
+"2"," : -NewYork-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/NewYorkItalic.ttf"
+"2"," : -NewYork-RegularItalic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFArabic.ttf"
+"2"," : -SFArabic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFArabicRounded.ttf"
+"2"," : -SFArabicRounded-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFArmenian.ttf"
+"2"," : -SFArmenian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFArmenianRounded.ttf"
+"2"," : -SFArmenianRounded-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFCamera.ttf"
+"2"," : --SFCamera-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFCompact.ttf"
+"2"," : -SFCompact-Black already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFCompactItalic.ttf"
+"2"," : -SFCompact-BlackItalic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFCompactRounded.ttf"
+"2"," : --SFCompactRounded-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFGeorgian.ttf"
+"2"," : -SFGeorgian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFGeorgianRounded.ttf"
+"2"," : -SFGeorgianRounded-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFHebrew.ttf"
+"2"," : -SFHebrew-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFHebrewRounded.ttf"
+"2"," : -SFHebrewRounded-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFNS.ttf"
+"2"," : -SFNS-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFNSItalic.ttf"
+"2"," : -SFNS-RegularItalic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFNSMono.ttf"
+"2"," : -SFNSMono-Light already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFNSMonoItalic.ttf"
+"2"," : -SFNSMono-LightItalic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/SFNSRounded.ttf"
+"2"," : -SFNSRounded-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Academy Engraved LET Fonts.ttf"
+"2"," : AcademyEngravedLetPlain already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Academy Engraved LET Fonts.ttf"
+"2"," : AcademyEngravedLetPlain already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Andale Mono.ttf"
+"2"," : AndaleMono already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Andale Mono.ttf"
+"2"," : AndaleMono already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Apple Chancery.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Apple Chancery.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/AppleGothic.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/AppleGothic.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/AppleMyungjo.ttf"
+"2"," : AppleMyungjo already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/AppleMyungjo.ttf"
+"2"," : AppleMyungjo already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Black.ttf"
+"2"," : Arial-Black already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Black.ttf"
+"2"," : Arial-Black already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Bold Italic.ttf"
+"2"," : Arial-BoldItalicMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Bold Italic.ttf"
+"2"," : Arial-BoldItalicMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+"2"," : Arial-BoldMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+"2"," : Arial-BoldMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Italic.ttf"
+"2"," : Arial-ItalicMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Italic.ttf"
+"2"," : Arial-ItalicMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Narrow Bold Italic.ttf"
+"2"," : ArialNarrow-BoldItalic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Narrow Bold Italic.ttf"
+"2"," : ArialNarrow-BoldItalic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Narrow Bold.ttf"
+"2"," : ArialNarrow-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Narrow Bold.ttf"
+"2"," : ArialNarrow-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Narrow Italic.ttf"
+"2"," : ArialNarrow-Italic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Narrow Italic.ttf"
+"2"," : ArialNarrow-Italic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Narrow.ttf"
+"2"," : ArialNarrow already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Narrow.ttf"
+"2"," : ArialNarrow already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Rounded Bold.ttf"
+"2"," : ArialRoundedMTBold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Rounded Bold.ttf"
+"2"," : ArialRoundedMTBold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+"2"," : ArialUnicodeMS already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+"2"," : ArialUnicodeMS already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial.ttf"
+"2"," : ArialMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Arial.ttf"
+"2"," : ArialMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Ayuthaya.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Ayuthaya.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/BigCaslon.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/BigCaslon.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Bodoni 72 Smallcaps Book.ttf"
+"2"," : BodoniSvtyTwoSCITCTT-Book already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Bodoni 72 Smallcaps Book.ttf"
+"2"," : BodoniSvtyTwoSCITCTT-Book already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Bodoni Ornaments.ttf"
+"2"," : BodoniOrnamentsITCTT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Bodoni Ornaments.ttf"
+"2"," : BodoniOrnamentsITCTT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Bradley Hand Bold.ttf"
+"2"," : Bradley-Hand-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Bradley Hand Bold.ttf"
+"2"," : Bradley-Hand-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Brush Script.ttf"
+"2"," : BrushScriptMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Brush Script.ttf"
+"2"," : BrushScriptMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Chalkduster.ttf"
+"2","Warning in system2(enc2native(ttf2pt1), c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","sh: line 1: 37103 Abort trap: 6           '/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Rttf2pt1/exec//ttf2pt1' -a -GfAe '/System/Library/Fonts/Supplemental/Chalkduster.ttf' '/var/folders/k4/w91nhdb57hxg234rthz28rj40000gn/T//RtmpRpLEb1/fonts/Chalkduster' 2>&1
+"
+"2","
+ "
+"2"," running command ''/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Rttf2pt1/exec//ttf2pt1' -a -GfAe '/System/Library/Fonts/Supplemental/Chalkduster.ttf' '/var/folders/k4/w91nhdb57hxg234rthz28rj40000gn/T//RtmpRpLEb1/fonts/Chalkduster' 2>&1' had status 134
+"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Chalkduster.ttf"
+"2","sh: line 1: 37106 Abort trap: 6           '/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Rttf2pt1/exec//ttf2pt1' -a -GfAe '/System/Library/Fonts/Supplemental/Chalkduster.ttf' '/var/folders/k4/w91nhdb57hxg234rthz28rj40000gn/T//RtmpRpLEb1/fonts/Chalkduster' 2>&1
+"
+"2","Warning in system2(enc2native(ttf2pt1), c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command ''/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Rttf2pt1/exec//ttf2pt1' -a -GfAe '/System/Library/Fonts/Supplemental/Chalkduster.ttf' '/var/folders/k4/w91nhdb57hxg234rthz28rj40000gn/T//RtmpRpLEb1/fonts/Chalkduster' 2>&1' had status 134
+"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Comic Sans MS Bold.ttf"
+"2"," : ComicSansMS-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Comic Sans MS Bold.ttf"
+"2"," : ComicSansMS-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Comic Sans MS.ttf"
+"2"," : ComicSansMS already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Comic Sans MS.ttf"
+"2"," : ComicSansMS already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Courier New Bold Italic.ttf"
+"2"," : CourierNewPS-BoldItalicMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Courier New Bold Italic.ttf"
+"2"," : CourierNewPS-BoldItalicMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Courier New Bold.ttf"
+"2"," : CourierNewPS-BoldMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Courier New Bold.ttf"
+"2"," : CourierNewPS-BoldMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Courier New Italic.ttf"
+"2"," : CourierNewPS-ItalicMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Courier New Italic.ttf"
+"2"," : CourierNewPS-ItalicMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Courier New.ttf"
+"2"," : CourierNewPSMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Courier New.ttf"
+"2"," : CourierNewPSMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/DIN Alternate Bold.ttf"
+"2"," : DINAlternate-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/DIN Alternate Bold.ttf"
+"2"," : DINAlternate-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf"
+"2"," : DINCondensed-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf"
+"2"," : DINCondensed-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Diwan Thuluth.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Diwan Thuluth.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Farisi.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Farisi.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Georgia Bold Italic.ttf"
+"2"," : Georgia-BoldItalic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Georgia Bold Italic.ttf"
+"2"," : Georgia-BoldItalic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Georgia Bold.ttf"
+"2"," : Georgia-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Georgia Bold.ttf"
+"2"," : Georgia-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Georgia Italic.ttf"
+"2"," : Georgia-Italic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Georgia Italic.ttf"
+"2"," : Georgia-Italic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Georgia.ttf"
+"2"," : Georgia already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Georgia.ttf"
+"2"," : Georgia already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Gurmukhi.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Gurmukhi.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Herculanum.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Herculanum.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Hoefler Text Ornaments.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Hoefler Text Ornaments.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Impact.ttf"
+"2"," : Impact already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Impact.ttf"
+"2"," : Impact already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Khmer Sangam MN.ttf"
+"2"," : KhmerSangamMN already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Khmer Sangam MN.ttf"
+"2"," : KhmerSangamMN already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Kokonor.ttf"
+"2","sh: line 1: 37188 Abort trap: 6           '/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Rttf2pt1/exec//ttf2pt1' -a -GfAe '/System/Library/Fonts/Supplemental/Kokonor.ttf' '/var/folders/k4/w91nhdb57hxg234rthz28rj40000gn/T//RtmpRpLEb1/fonts/Kokonor' 2>&1
+"
+"2","Warning in system2(enc2native(ttf2pt1), c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command ''/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Rttf2pt1/exec//ttf2pt1' -a -GfAe '/System/Library/Fonts/Supplemental/Kokonor.ttf' '/var/folders/k4/w91nhdb57hxg234rthz28rj40000gn/T//RtmpRpLEb1/fonts/Kokonor' 2>&1' had status 134
+"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Kokonor.ttf"
+"2","sh: line 1: 37190 Abort trap: 6           '/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Rttf2pt1/exec//ttf2pt1' -a -GfAe '/System/Library/Fonts/Supplemental/Kokonor.ttf' '/var/folders/k4/w91nhdb57hxg234rthz28rj40000gn/T//RtmpRpLEb1/fonts/Kokonor' 2>&1
+"
+"2","Warning in system2(enc2native(ttf2pt1), c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command ''/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Rttf2pt1/exec//ttf2pt1' -a -GfAe '/System/Library/Fonts/Supplemental/Kokonor.ttf' '/var/folders/k4/w91nhdb57hxg234rthz28rj40000gn/T//RtmpRpLEb1/fonts/Kokonor' 2>&1' had status 134
+"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Krungthep.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Krungthep.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Lao Sangam MN.ttf"
+"2"," : LaoSangamMN already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Lao Sangam MN.ttf"
+"2"," : LaoSangamMN already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Luminari.ttf"
+"2"," : Luminari-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Luminari.ttf"
+"2"," : Luminari-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Microsoft Sans Serif.ttf"
+"2"," : MicrosoftSansSerif already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Microsoft Sans Serif.ttf"
+"2"," : MicrosoftSansSerif already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Mishafi Gold.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Mishafi Gold.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Mishafi.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Mishafi.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NISC18030.ttf"
+"2","Warning in system2(enc2native(ttf2pt1), c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command ''/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Rttf2pt1/exec//ttf2pt1' -a -GfAe '/System/Library/Fonts/Supplemental/NISC18030.ttf' '/var/folders/k4/w91nhdb57hxg234rthz28rj40000gn/T//RtmpRpLEb1/fonts/NISC18030' 2>&1' had status 1
+"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NISC18030.ttf"
+"2","Warning in system2(enc2native(ttf2pt1), c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command ''/Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Rttf2pt1/exec//ttf2pt1' -a -GfAe '/System/Library/Fonts/Supplemental/NISC18030.ttf' '/var/folders/k4/w91nhdb57hxg234rthz28rj40000gn/T//RtmpRpLEb1/fonts/NISC18030' 2>&1' had status 1
+"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansAdlam-Regular.ttf"
+"2"," : NotoSansAdlam-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansAdlam-Regular.ttf"
+"2"," : NotoSansAdlam-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansAvestan-Regular.ttf"
+"2"," : NotoSansAvestan-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansAvestan-Regular.ttf"
+"2"," : NotoSansAvestan-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansBamum-Regular.ttf"
+"2"," : NotoSansBamum-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansBamum-Regular.ttf"
+"2"," : NotoSansBamum-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansBassaVah-Regular.ttf"
+"2"," : NotoSansBassaVah-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansBassaVah-Regular.ttf"
+"2"," : NotoSansBassaVah-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansBatak-Regular.ttf"
+"2"," : NotoSansBatak-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansBatak-Regular.ttf"
+"2"," : NotoSansBatak-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansBhaiksuki-Regular.ttf"
+"2"," : NotoSansBhaiksuki-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansBhaiksuki-Regular.ttf"
+"2"," : NotoSansBhaiksuki-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansBrahmi-Regular.ttf"
+"2"," : NotoSansBrahmi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansBrahmi-Regular.ttf"
+"2"," : NotoSansBrahmi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansBuginese-Regular.ttf"
+"2"," : NotoSansBuginese-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansBuginese-Regular.ttf"
+"2"," : NotoSansBuginese-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansBuhid-Regular.ttf"
+"2"," : NotoSansBuhid-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansBuhid-Regular.ttf"
+"2"," : NotoSansBuhid-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansCarian-Regular.ttf"
+"2"," : NotoSansCarian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansCarian-Regular.ttf"
+"2"," : NotoSansCarian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansCaucasianAlbanian-Regular.ttf"
+"2"," : NotoSansCaucasianAlbanian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansCaucasianAlbanian-Regular.ttf"
+"2"," : NotoSansCaucasianAlbanian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansChakma-Regular.ttf"
+"2"," : NotoSansChakma-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansChakma-Regular.ttf"
+"2"," : NotoSansChakma-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansCham-Regular.ttf"
+"2"," : NotoSansCham-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansCham-Regular.ttf"
+"2"," : NotoSansCham-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansCoptic-Regular.ttf"
+"2"," : NotoSansCoptic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansCoptic-Regular.ttf"
+"2"," : NotoSansCoptic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansCuneiform-Regular.ttf"
+"2"," : NotoSansCuneiform-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansCuneiform-Regular.ttf"
+"2"," : NotoSansCuneiform-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansCypriot-Regular.ttf"
+"2"," : NotoSansCypriot-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansCypriot-Regular.ttf"
+"2"," : NotoSansCypriot-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansDuployan-Regular.ttf"
+"2"," : NotoSansDuployan-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansDuployan-Regular.ttf"
+"2"," : NotoSansDuployan-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansEgyptianHieroglyphs-Regular.ttf"
+"2"," : NotoSansEgyptianHieroglyphs-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansEgyptianHieroglyphs-Regular.ttf"
+"2"," : NotoSansEgyptianHieroglyphs-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansElbasan-Regular.ttf"
+"2"," : NotoSansElbasan-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansElbasan-Regular.ttf"
+"2"," : NotoSansElbasan-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansGlagolitic-Regular.ttf"
+"2"," : NotoSansGlagolitic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansGlagolitic-Regular.ttf"
+"2"," : NotoSansGlagolitic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansGothic-Regular.ttf"
+"2"," : NotoSansGothic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansGothic-Regular.ttf"
+"2"," : NotoSansGothic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansHanifiRohingya-Regular.ttf"
+"2"," : NotoSansHanifiRohingya-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansHanifiRohingya-Regular.ttf"
+"2"," : NotoSansHanifiRohingya-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansHanunoo-Regular.ttf"
+"2"," : NotoSansHanunoo-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansHanunoo-Regular.ttf"
+"2"," : NotoSansHanunoo-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansHatran-Regular.ttf"
+"2"," : NotoSansHatran-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansHatran-Regular.ttf"
+"2"," : NotoSansHatran-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansImperialAramaic-Regular.ttf"
+"2"," : NotoSansImperialAramaic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansImperialAramaic-Regular.ttf"
+"2"," : NotoSansImperialAramaic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansInscriptionalPahlavi-Regular.ttf"
+"2"," : NotoSansInscriptionalPahlavi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansInscriptionalPahlavi-Regular.ttf"
+"2"," : NotoSansInscriptionalPahlavi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansInscriptionalParthian-Regular.ttf"
+"2"," : NotoSansInscriptionalParthian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansInscriptionalParthian-Regular.ttf"
+"2"," : NotoSansInscriptionalParthian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansKaithi-Regular.ttf"
+"2"," : NotoSansKaithi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansKaithi-Regular.ttf"
+"2"," : NotoSansKaithi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansKayahLi-Regular.ttf"
+"2"," : NotoSansKayahLi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansKayahLi-Regular.ttf"
+"2"," : NotoSansKayahLi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansKharoshthi-Regular.ttf"
+"2"," : NotoSansKharoshthi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansKharoshthi-Regular.ttf"
+"2"," : NotoSansKharoshthi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansKhojki-Regular.ttf"
+"2"," : NotoSansKhojki-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansKhojki-Regular.ttf"
+"2"," : NotoSansKhojki-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansKhudawadi-Regular.ttf"
+"2"," : NotoSansKhudawadi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansKhudawadi-Regular.ttf"
+"2"," : NotoSansKhudawadi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansLepcha-Regular.ttf"
+"2"," : NotoSansLepcha-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansLepcha-Regular.ttf"
+"2"," : NotoSansLepcha-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansLimbu-Regular.ttf"
+"2"," : NotoSansLimbu-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansLimbu-Regular.ttf"
+"2"," : NotoSansLimbu-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansLinearA-Regular.ttf"
+"2"," : NotoSansLinearA-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansLinearA-Regular.ttf"
+"2"," : NotoSansLinearA-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansLinearB-Regular.ttf"
+"2"," : NotoSansLinearB-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansLinearB-Regular.ttf"
+"2"," : NotoSansLinearB-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansLisu-Regular.ttf"
+"2"," : NotoSansLisu-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansLisu-Regular.ttf"
+"2"," : NotoSansLisu-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansLycian-Regular.ttf"
+"2"," : NotoSansLycian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansLycian-Regular.ttf"
+"2"," : NotoSansLycian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansLydian-Regular.ttf"
+"2"," : NotoSansLydian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansLydian-Regular.ttf"
+"2"," : NotoSansLydian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMahajani-Regular.ttf"
+"2"," : NotoSansMahajani-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMahajani-Regular.ttf"
+"2"," : NotoSansMahajani-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMandaic-Regular.ttf"
+"2"," : NotoSansMandaic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMandaic-Regular.ttf"
+"2"," : NotoSansMandaic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansManichaean-Regular.ttf"
+"2"," : NotoSansManichaean-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansManichaean-Regular.ttf"
+"2"," : NotoSansManichaean-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMarchen-Regular.ttf"
+"2"," : NotoSansMarchen-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMarchen-Regular.ttf"
+"2"," : NotoSansMarchen-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMeeteiMayek-Regular.ttf"
+"2"," : NotoSansMeeteiMayek-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMeeteiMayek-Regular.ttf"
+"2"," : NotoSansMeeteiMayek-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMendeKikakui-Regular.ttf"
+"2"," : NotoSansMendeKikakui-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMendeKikakui-Regular.ttf"
+"2"," : NotoSansMendeKikakui-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMeroitic-Regular.ttf"
+"2"," : NotoSansMeroitic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMeroitic-Regular.ttf"
+"2"," : NotoSansMeroitic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMiao-Regular.ttf"
+"2"," : NotoSansMiao-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMiao-Regular.ttf"
+"2"," : NotoSansMiao-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansModi-Regular.ttf"
+"2"," : NotoSansModi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansModi-Regular.ttf"
+"2"," : NotoSansModi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMongolian-Regular.ttf"
+"2"," : NotoSansMongolian already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMongolian-Regular.ttf"
+"2"," : NotoSansMongolian already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMro-Regular.ttf"
+"2"," : NotoSansMro-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMro-Regular.ttf"
+"2"," : NotoSansMro-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMultani-Regular.ttf"
+"2"," : NotoSansMultani-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansMultani-Regular.ttf"
+"2"," : NotoSansMultani-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansNabataean-Regular.ttf"
+"2"," : NotoSansNabataean-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansNabataean-Regular.ttf"
+"2"," : NotoSansNabataean-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansNewa-Regular.ttf"
+"2"," : NotoSansNewa-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansNewa-Regular.ttf"
+"2"," : NotoSansNewa-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansNewTaiLue-Regular.ttf"
+"2"," : NotoSansNewTaiLue-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansNewTaiLue-Regular.ttf"
+"2"," : NotoSansNewTaiLue-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansNKo-Regular.ttf"
+"2"," : NotoSansNKo-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansNKo-Regular.ttf"
+"2"," : NotoSansNKo-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOlChiki-Regular.ttf"
+"2"," : NotoSansOlChiki-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOlChiki-Regular.ttf"
+"2"," : NotoSansOlChiki-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOldHungarian-Regular.ttf"
+"2"," : NotoSansOldHungarian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOldHungarian-Regular.ttf"
+"2"," : NotoSansOldHungarian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOldItalic-Regular.ttf"
+"2"," : NotoSansOldItalic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOldItalic-Regular.ttf"
+"2"," : NotoSansOldItalic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOldNorthArabian-Regular.ttf"
+"2"," : NotoSansOldNorthArabian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOldNorthArabian-Regular.ttf"
+"2"," : NotoSansOldNorthArabian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOldPermic-Regular.ttf"
+"2"," : NotoSansOldPermic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOldPermic-Regular.ttf"
+"2"," : NotoSansOldPermic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOldPersian-Regular.ttf"
+"2"," : NotoSansOldPersian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOldPersian-Regular.ttf"
+"2"," : NotoSansOldPersian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOldSouthArabian-Regular.ttf"
+"2"," : NotoSansOldSouthArabian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOldSouthArabian-Regular.ttf"
+"2"," : NotoSansOldSouthArabian-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOldTurkic-Regular.ttf"
+"2"," : NotoSansOldTurkic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOldTurkic-Regular.ttf"
+"2"," : NotoSansOldTurkic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOsage-Regular.ttf"
+"2"," : NotoSansOsage-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOsage-Regular.ttf"
+"2"," : NotoSansOsage-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOsmanya-Regular.ttf"
+"2"," : NotoSansOsmanya-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansOsmanya-Regular.ttf"
+"2"," : NotoSansOsmanya-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansPahawhHmong-Regular.ttf"
+"2"," : NotoSansPahawhHmong-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansPahawhHmong-Regular.ttf"
+"2"," : NotoSansPahawhHmong-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansPalmyrene-Regular.ttf"
+"2"," : NotoSansPalmyrene-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansPalmyrene-Regular.ttf"
+"2"," : NotoSansPalmyrene-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansPauCinHau-Regular.ttf"
+"2"," : NotoSansPauCinHau-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansPauCinHau-Regular.ttf"
+"2"," : NotoSansPauCinHau-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansPhagsPa-Regular.ttf"
+"2"," : NotoSansPhagsPa-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansPhagsPa-Regular.ttf"
+"2"," : NotoSansPhagsPa-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansPhoenician-Regular.ttf"
+"2"," : NotoSansPhoenician-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansPhoenician-Regular.ttf"
+"2"," : NotoSansPhoenician-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansPsalterPahlavi-Regular.ttf"
+"2"," : NotoSansPsalterPahlavi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansPsalterPahlavi-Regular.ttf"
+"2"," : NotoSansPsalterPahlavi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansRejang-Regular.ttf"
+"2"," : NotoSansRejang-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansRejang-Regular.ttf"
+"2"," : NotoSansRejang-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSamaritan-Regular.ttf"
+"2"," : NotoSansSamaritan-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSamaritan-Regular.ttf"
+"2"," : NotoSansSamaritan-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSaurashtra-Regular.ttf"
+"2"," : NotoSansSaurashtra-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSaurashtra-Regular.ttf"
+"2"," : NotoSansSaurashtra-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSharada-Regular.ttf"
+"2"," : NotoSansSharada-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSharada-Regular.ttf"
+"2"," : NotoSansSharada-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSiddham-Regular.ttf"
+"2"," : NotoSansSiddham-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSiddham-Regular.ttf"
+"2"," : NotoSansSiddham-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSoraSompeng-Regular.ttf"
+"2"," : NotoSansSoraSompeng-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSoraSompeng-Regular.ttf"
+"2"," : NotoSansSoraSompeng-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSundanese-Regular.ttf"
+"2"," : NotoSansSundanese-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSundanese-Regular.ttf"
+"2"," : NotoSansSundanese-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSylotiNagri-Regular.ttf"
+"2"," : NotoSansSylotiNagri-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSylotiNagri-Regular.ttf"
+"2"," : NotoSansSylotiNagri-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSyriac-Regular.ttf"
+"2"," : NotoSansSyriac-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansSyriac-Regular.ttf"
+"2"," : NotoSansSyriac-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTagalog-Regular.ttf"
+"2"," : NotoSansTagalog-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTagalog-Regular.ttf"
+"2"," : NotoSansTagalog-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTagbanwa-Regular.ttf"
+"2"," : NotoSansTagbanwa-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTagbanwa-Regular.ttf"
+"2"," : NotoSansTagbanwa-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTaiLe-Regular.ttf"
+"2"," : NotoSansTaiLe-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTaiLe-Regular.ttf"
+"2"," : NotoSansTaiLe-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTaiTham-Regular.ttf"
+"2"," : NotoSansTaiTham already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTaiTham-Regular.ttf"
+"2"," : NotoSansTaiTham already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTaiViet-Regular.ttf"
+"2"," : NotoSansTaiViet-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTaiViet-Regular.ttf"
+"2"," : NotoSansTaiViet-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTakri-Regular.ttf"
+"2"," : NotoSansTakri-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTakri-Regular.ttf"
+"2"," : NotoSansTakri-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansThaana-Regular.ttf"
+"2"," : NotoSansThaana-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansThaana-Regular.ttf"
+"2"," : NotoSansThaana-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTifinagh-Regular.ttf"
+"2"," : NotoSansTifinagh-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTifinagh-Regular.ttf"
+"2"," : NotoSansTifinagh-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTirhuta-Regular.ttf"
+"2"," : NotoSansTirhuta-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansTirhuta-Regular.ttf"
+"2"," : NotoSansTirhuta-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansUgaritic-Regular.ttf"
+"2"," : NotoSansUgaritic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansUgaritic-Regular.ttf"
+"2"," : NotoSansUgaritic-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansVai-Regular.ttf"
+"2"," : NotoSansVai-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansVai-Regular.ttf"
+"2"," : NotoSansVai-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansWancho-Regular.ttf"
+"2"," : NotoSansWancho-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansWancho-Regular.ttf"
+"2"," : NotoSansWancho-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansWarangCiti-Regular.ttf"
+"2"," : NotoSansWarangCiti-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansWarangCiti-Regular.ttf"
+"2"," : NotoSansWarangCiti-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansYi-Regular.ttf"
+"2"," : NotoSansYi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSansYi-Regular.ttf"
+"2"," : NotoSansYi-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSerifAhom-Regular.ttf"
+"2"," : NotoSerifAhom-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSerifAhom-Regular.ttf"
+"2"," : NotoSerifAhom-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSerifBalinese-Regular.ttf"
+"2"," : NotoSerifBalinese-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSerifBalinese-Regular.ttf"
+"2"," : NotoSerifBalinese-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSerifNyiakengPuachueHmong-Regular.ttf"
+"2"," : NotoSerifHmongNyiakeng-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/NotoSerifNyiakengPuachueHmong-Regular.ttf"
+"2"," : NotoSerifHmongNyiakeng-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/PartyLET-plain.ttf"
+"2"," : PartyLetPlain already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/PartyLET-plain.ttf"
+"2"," : PartyLetPlain already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/PlantagenetCherokee.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/PlantagenetCherokee.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Sathu.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Sathu.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Silom.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Silom.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Skia.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Skia.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/STIXTwoText-Italic.ttf"
+"2"," : STIXTwoText-Italic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/STIXTwoText-Italic.ttf"
+"2"," : STIXTwoText-Italic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/STIXTwoText.ttf"
+"2"," : STIXTwoText already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/STIXTwoText.ttf"
+"2"," : STIXTwoText already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Tahoma Bold.ttf"
+"2"," : Tahoma-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Tahoma Bold.ttf"
+"2"," : Tahoma-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Tahoma.ttf"
+"2"," : Tahoma already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Tahoma.ttf"
+"2"," : Tahoma already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Times New Roman Bold Italic.ttf"
+"2"," : TimesNewRomanPS-BoldItalicMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Times New Roman Bold Italic.ttf"
+"2"," : TimesNewRomanPS-BoldItalicMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Times New Roman Bold.ttf"
+"2"," : TimesNewRomanPS-BoldMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Times New Roman Bold.ttf"
+"2"," : TimesNewRomanPS-BoldMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Times New Roman Italic.ttf"
+"2"," : TimesNewRomanPS-ItalicMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Times New Roman Italic.ttf"
+"2"," : TimesNewRomanPS-ItalicMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Times New Roman.ttf"
+"2"," : TimesNewRomanPSMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Times New Roman.ttf"
+"2"," : TimesNewRomanPSMT already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Trattatello.ttf"
+"2"," : Trattatello already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Trattatello.ttf"
+"2"," : Trattatello already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Trebuchet MS Bold Italic.ttf"
+"2"," : Trebuchet-BoldItalic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Trebuchet MS Bold Italic.ttf"
+"2"," : Trebuchet-BoldItalic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Trebuchet MS Bold.ttf"
+"2"," : TrebuchetMS-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Trebuchet MS Bold.ttf"
+"2"," : TrebuchetMS-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Trebuchet MS Italic.ttf"
+"2"," : TrebuchetMS-Italic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Trebuchet MS Italic.ttf"
+"2"," : TrebuchetMS-Italic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Trebuchet MS.ttf"
+"2"," : TrebuchetMS already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Trebuchet MS.ttf"
+"2"," : TrebuchetMS already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Verdana Bold Italic.ttf"
+"2"," : Verdana-BoldItalic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Verdana Bold Italic.ttf"
+"2"," : Verdana-BoldItalic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Verdana Bold.ttf"
+"2"," : Verdana-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Verdana Bold.ttf"
+"2"," : Verdana-Bold already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Verdana Italic.ttf"
+"2"," : Verdana-Italic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Verdana Italic.ttf"
+"2"," : Verdana-Italic already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Verdana.ttf"
+"2"," : Verdana already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Verdana.ttf"
+"2"," : Verdana already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Webdings.ttf"
+"2"," : Webdings already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Webdings.ttf"
+"2"," : Webdings already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Wingdings 2.ttf"
+"2"," : Wingdings2 already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Wingdings 2.ttf"
+"2"," : Wingdings2 already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Wingdings 3.ttf"
+"2"," : Wingdings3 already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Wingdings 3.ttf"
+"2"," : Wingdings3 already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Wingdings.ttf"
+"2"," : Wingdings-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Wingdings.ttf"
+"2"," : Wingdings-Regular already registered in fonts database. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Zapfino.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Supplemental/Zapfino.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/Symbol.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/System/Library/Fonts/ZapfDingbats.ttf"
+"2"," : No FontName. Skipping.
+"
+"2","/Users/justinvarholick/Library/Fonts/BIZUDPGothic-Bold.ttf"
+"2"," : BIZUDPGothic-Bold already registered in fonts database. Skipping.
+"
+"2","/Users/justinvarholick/Library/Fonts/BIZUDPGothic-Regular.ttf"
+"2"," : BIZUDPGothic-Regular already registered in fonts database. Skipping.
+"
+"2","/Users/justinvarholick/Library/Fonts/PTSans-Regular.ttf"
+"2"," : PTSans-Regular already registered in fonts database. Skipping.
+"
+"2","Found FontName for 0 fonts.
+"
+"2","Scanning afm files in /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/extrafontdb/metrics
+"
+"0","loadfonts()"
+"2",".Keyboard already registered with pdfFont().
+"
+"2",".New York already registered with pdfFont().
+"
+"2",".SF Arabic already registered with pdfFont().
+"
+"2",".SF Arabic Rounded already registered with pdfFont().
+"
+"2",".SF Armenian already registered with pdfFont().
+"
+"2",".SF Armenian Rounded already registered with pdfFont().
+"
+"2",".SF Camera already registered with pdfFont().
+"
+"2",".SF Compact already registered with pdfFont().
+"
+"2",".SF Compact Rounded already registered with pdfFont().
+"
+"2",".SF Georgian already registered with pdfFont().
+"
+"2",".SF Georgian Rounded already registered with pdfFont().
+"
+"2",".SF Hebrew already registered with pdfFont().
+"
+"2",".SF Hebrew Rounded already registered with pdfFont().
+"
+"2",".SF NS Mono already registered with pdfFont().
+"
+"2",".SF NS Rounded already registered with pdfFont().
+"
+"2","Academy Engraved LET already registered with pdfFont().
+"
+"2","Andale Mono already registered with pdfFont().
 "
 "2","More than one version of regular/bold/italic found for Apple Braille. Skipping setup for this font.
 "
-"2","Registering font with R using pdfFont(): AppleMyungjo
+"2","AppleMyungjo already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Arial
+"2","Arial already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Arial Black
+"2","Arial Black already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Arial Narrow
+"2","Arial Narrow already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Arial Rounded MT Bold
+"2","Arial Rounded MT Bold already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Arial Unicode MS
+"2","Arial Unicode MS already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): BIZ UDPGothic
+"2","BIZ UDPGothic already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Bodoni 72 Smallcaps
+"2","Bodoni 72 Smallcaps already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Bodoni Ornaments
+"2","Bodoni Ornaments already registered with pdfFont().
 "
 "2","No regular (non-bold, non-italic) version of Brush Script MT. Skipping setup for this font.
 "
-"2","Registering font with R using pdfFont(): Comic Sans MS
+"2","Comic Sans MS already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Courier New
+"2","Courier New already registered with pdfFont().
 "
 "2","No regular (non-bold, non-italic) version of DIN Alternate. Skipping setup for this font.
 "
 "2","No regular (non-bold, non-italic) version of DIN Condensed. Skipping setup for this font.
 "
-"2","Registering font with R using pdfFont(): Georgia
+"2","Georgia already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Impact
+"2","Impact already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Khmer Sangam MN
+"2","Khmer Sangam MN already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Lao Sangam MN
+"2","Lao Sangam MN already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Luminari
+"2","Luminari already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Microsoft Sans Serif
+"2","Microsoft Sans Serif already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Adlam
+"2","Noto Sans Adlam already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Avestan
+"2","Noto Sans Avestan already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Bamum
+"2","Noto Sans Bamum already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Bassa Vah
+"2","Noto Sans Bassa Vah already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Batak
+"2","Noto Sans Batak already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Bhaiksuki
+"2","Noto Sans Bhaiksuki already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Brahmi
+"2","Noto Sans Brahmi already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Buginese
+"2","Noto Sans Buginese already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Buhid
+"2","Noto Sans Buhid already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Carian
+"2","Noto Sans Carian already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans CaucAlban
+"2","Noto Sans CaucAlban already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Chakma
+"2","Noto Sans Chakma already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Cham
+"2","Noto Sans Cham already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Coptic
+"2","Noto Sans Coptic already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Cuneiform
+"2","Noto Sans Cuneiform already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Cypriot
+"2","Noto Sans Cypriot already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Duployan
+"2","Noto Sans Duployan already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans EgyptHiero
+"2","Noto Sans EgyptHiero already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Elbasan
+"2","Noto Sans Elbasan already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Glagolitic
+"2","Noto Sans Glagolitic already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Gothic
+"2","Noto Sans Gothic already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans HanifiRohg
+"2","Noto Sans HanifiRohg already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Hanunoo
+"2","Noto Sans Hanunoo already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Hatran
+"2","Noto Sans Hatran already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans ImpAramaic
+"2","Noto Sans ImpAramaic already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans InsPahlavi
+"2","Noto Sans InsPahlavi already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans InsParthi
+"2","Noto Sans InsParthi already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Kaithi
+"2","Noto Sans Kaithi already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Kayah Li
+"2","Noto Sans Kayah Li already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Kharoshthi
+"2","Noto Sans Kharoshthi already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Khojki
+"2","Noto Sans Khojki already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Khudawadi
+"2","Noto Sans Khudawadi already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Lepcha
+"2","Noto Sans Lepcha already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Limbu
+"2","Noto Sans Limbu already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Linear A
+"2","Noto Sans Linear A already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Linear B
+"2","Noto Sans Linear B already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Lisu
+"2","Noto Sans Lisu already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Lycian
+"2","Noto Sans Lycian already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Lydian
+"2","Noto Sans Lydian already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Mahajani
+"2","Noto Sans Mahajani already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Mandaic
+"2","Noto Sans Mandaic already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Manichaean
+"2","Noto Sans Manichaean already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Marchen
+"2","Noto Sans Marchen already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans MeeteiMayek
+"2","Noto Sans MeeteiMayek already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Mende Kikakui
+"2","Noto Sans Mende Kikakui already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Meroitic
+"2","Noto Sans Meroitic already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Miao
+"2","Noto Sans Miao already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Modi
+"2","Noto Sans Modi already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Mongolian
+"2","Noto Sans Mongolian already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Mro
+"2","Noto Sans Mro already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Multani
+"2","Noto Sans Multani already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Nabataean
+"2","Noto Sans Nabataean already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Newa
+"2","Noto Sans Newa already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans NewTaiLue
+"2","Noto Sans NewTaiLue already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans NKo
+"2","Noto Sans NKo already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Ol Chiki
+"2","Noto Sans Ol Chiki already registered with pdfFont().
 "
 "2","No regular (non-bold, non-italic) version of Noto Sans Old Italic. Skipping setup for this font.
 "
-"2","Registering font with R using pdfFont(): Noto Sans Old Permic
+"2","Noto Sans Old Permic already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Old Turkic
+"2","Noto Sans Old Turkic already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans OldHung
+"2","Noto Sans OldHung already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans OldNorArab
+"2","Noto Sans OldNorArab already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans OldPersian
+"2","Noto Sans OldPersian already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans OldSouArab
+"2","Noto Sans OldSouArab already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Osage
+"2","Noto Sans Osage already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Osmanya
+"2","Noto Sans Osmanya already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Pahawh Hmong
+"2","Noto Sans Pahawh Hmong already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Palmyrene
+"2","Noto Sans Palmyrene already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans PauCinHau
+"2","Noto Sans PauCinHau already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans PhagsPa
+"2","Noto Sans PhagsPa already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Phoenician
+"2","Noto Sans Phoenician already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans PsaPahlavi
+"2","Noto Sans PsaPahlavi already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Rejang
+"2","Noto Sans Rejang already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Samaritan
+"2","Noto Sans Samaritan already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Saurashtra
+"2","Noto Sans Saurashtra already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Sharada
+"2","Noto Sans Sharada already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Siddham
+"2","Noto Sans Siddham already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans SoraSomp
+"2","Noto Sans SoraSomp already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Sundanese
+"2","Noto Sans Sundanese already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Syloti Nagri
+"2","Noto Sans Syloti Nagri already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Syriac
+"2","Noto Sans Syriac already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Tagalog
+"2","Noto Sans Tagalog already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Tagbanwa
+"2","Noto Sans Tagbanwa already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Tai Le
+"2","Noto Sans Tai Le already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Tai Tham
+"2","Noto Sans Tai Tham already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Tai Viet
+"2","Noto Sans Tai Viet already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Takri
+"2","Noto Sans Takri already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Thaana
+"2","Noto Sans Thaana already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Tifinagh
+"2","Noto Sans Tifinagh already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Tirhuta
+"2","Noto Sans Tirhuta already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Ugaritic
+"2","Noto Sans Ugaritic already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Vai
+"2","Noto Sans Vai already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Wancho
+"2","Noto Sans Wancho already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans WarangCiti
+"2","Noto Sans WarangCiti already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Sans Yi
+"2","Noto Sans Yi already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Serif Ahom
+"2","Noto Serif Ahom already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Serif Balinese
+"2","Noto Serif Balinese already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Noto Serif Hmong Nyiakeng
+"2","Noto Serif Hmong Nyiakeng already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Party LET
+"2","Party LET already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): PT Sans
+"2","PT Sans already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): SF Pro
+"2","SF Pro already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): STIX Two Text
+"2","STIX Two Text already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): System Font
+"2","System Font already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Tahoma
+"2","Tahoma already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Times New Roman
+"2","Times New Roman already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Trattatello
+"2","Trattatello already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Trebuchet MS
+"2","Trebuchet MS already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Verdana
+"2","Verdana already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Webdings
+"2","Webdings already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Wingdings
+"2","Wingdings already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Wingdings 2
+"2","Wingdings 2 already registered with pdfFont().
 "
-"2","Registering font with R using pdfFont(): Wingdings 3
+"2","Wingdings 3 already registered with pdfFont().
 "
-"2","Registering font with R using postscriptFont(): .Keyboard
+"2",".Keyboard already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): .New York
+"2",".New York already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): .SF Arabic
+"2",".SF Arabic already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): .SF Arabic Rounded
+"2",".SF Arabic Rounded already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): .SF Armenian
+"2",".SF Armenian already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): .SF Armenian Rounded
+"2",".SF Armenian Rounded already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): .SF Camera
+"2",".SF Camera already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): .SF Compact
+"2",".SF Compact already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): .SF Compact Rounded
+"2",".SF Compact Rounded already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): .SF Georgian
+"2",".SF Georgian already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): .SF Georgian Rounded
+"2",".SF Georgian Rounded already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): .SF Hebrew
+"2",".SF Hebrew already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): .SF Hebrew Rounded
+"2",".SF Hebrew Rounded already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): .SF NS Mono
+"2",".SF NS Mono already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): .SF NS Rounded
+"2",".SF NS Rounded already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Academy Engraved LET
+"2","Academy Engraved LET already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Andale Mono
+"2","Andale Mono already registered with postscriptFont().
 "
 "2","More than one version of regular/bold/italic found for Apple Braille. Skipping setup for this font.
 "
-"2","Registering font with R using postscriptFont(): AppleMyungjo
+"2","AppleMyungjo already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Arial
+"2","Arial already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Arial Black
+"2","Arial Black already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Arial Narrow
+"2","Arial Narrow already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Arial Rounded MT Bold
+"2","Arial Rounded MT Bold already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Arial Unicode MS
+"2","Arial Unicode MS already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): BIZ UDPGothic
+"2","BIZ UDPGothic already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Bodoni 72 Smallcaps
+"2","Bodoni 72 Smallcaps already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Bodoni Ornaments
+"2","Bodoni Ornaments already registered with postscriptFont().
 "
 "2","No regular (non-bold, non-italic) version of Brush Script MT. Skipping setup for this font.
 "
-"2","Registering font with R using postscriptFont(): Comic Sans MS
+"2","Comic Sans MS already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Courier New
+"2","Courier New already registered with postscriptFont().
 "
 "2","No regular (non-bold, non-italic) version of DIN Alternate. Skipping setup for this font.
 "
 "2","No regular (non-bold, non-italic) version of DIN Condensed. Skipping setup for this font.
 "
-"2","Registering font with R using postscriptFont(): Georgia
+"2","Georgia already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Impact
+"2","Impact already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Khmer Sangam MN
+"2","Khmer Sangam MN already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Lao Sangam MN
+"2","Lao Sangam MN already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Luminari
+"2","Luminari already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Microsoft Sans Serif
+"2","Microsoft Sans Serif already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Adlam
+"2","Noto Sans Adlam already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Avestan
+"2","Noto Sans Avestan already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Bamum
+"2","Noto Sans Bamum already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Bassa Vah
+"2","Noto Sans Bassa Vah already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Batak
+"2","Noto Sans Batak already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Bhaiksuki
+"2","Noto Sans Bhaiksuki already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Brahmi
+"2","Noto Sans Brahmi already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Buginese
+"2","Noto Sans Buginese already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Buhid
+"2","Noto Sans Buhid already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Carian
+"2","Noto Sans Carian already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans CaucAlban
+"2","Noto Sans CaucAlban already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Chakma
+"2","Noto Sans Chakma already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Cham
+"2","Noto Sans Cham already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Coptic
+"2","Noto Sans Coptic already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Cuneiform
+"2","Noto Sans Cuneiform already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Cypriot
+"2","Noto Sans Cypriot already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Duployan
+"2","Noto Sans Duployan already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans EgyptHiero
+"2","Noto Sans EgyptHiero already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Elbasan
+"2","Noto Sans Elbasan already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Glagolitic
+"2","Noto Sans Glagolitic already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Gothic
+"2","Noto Sans Gothic already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans HanifiRohg
+"2","Noto Sans HanifiRohg already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Hanunoo
+"2","Noto Sans Hanunoo already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Hatran
+"2","Noto Sans Hatran already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans ImpAramaic
+"2","Noto Sans ImpAramaic already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans InsPahlavi
+"2","Noto Sans InsPahlavi already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans InsParthi
+"2","Noto Sans InsParthi already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Kaithi
+"2","Noto Sans Kaithi already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Kayah Li
+"2","Noto Sans Kayah Li already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Kharoshthi
+"2","Noto Sans Kharoshthi already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Khojki
+"2","Noto Sans Khojki already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Khudawadi
+"2","Noto Sans Khudawadi already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Lepcha
+"2","Noto Sans Lepcha already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Limbu
+"2","Noto Sans Limbu already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Linear A
+"2","Noto Sans Linear A already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Linear B
+"2","Noto Sans Linear B already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Lisu
+"2","Noto Sans Lisu already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Lycian
+"2","Noto Sans Lycian already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Lydian
+"2","Noto Sans Lydian already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Mahajani
+"2","Noto Sans Mahajani already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Mandaic
+"2","Noto Sans Mandaic already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Manichaean
+"2","Noto Sans Manichaean already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Marchen
+"2","Noto Sans Marchen already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans MeeteiMayek
+"2","Noto Sans MeeteiMayek already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Mende Kikakui
+"2","Noto Sans Mende Kikakui already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Meroitic
+"2","Noto Sans Meroitic already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Miao
+"2","Noto Sans Miao already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Modi
+"2","Noto Sans Modi already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Mongolian
+"2","Noto Sans Mongolian already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Mro
+"2","Noto Sans Mro already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Multani
+"2","Noto Sans Multani already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Nabataean
+"2","Noto Sans Nabataean already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Newa
+"2","Noto Sans Newa already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans NewTaiLue
+"2","Noto Sans NewTaiLue already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans NKo
+"2","Noto Sans NKo already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Ol Chiki
+"2","Noto Sans Ol Chiki already registered with postscriptFont().
 "
 "2","No regular (non-bold, non-italic) version of Noto Sans Old Italic. Skipping setup for this font.
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Old Permic
+"2","Noto Sans Old Permic already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Old Turkic
+"2","Noto Sans Old Turkic already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans OldHung
+"2","Noto Sans OldHung already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans OldNorArab
+"2","Noto Sans OldNorArab already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans OldPersian
+"2","Noto Sans OldPersian already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans OldSouArab
+"2","Noto Sans OldSouArab already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Osage
+"2","Noto Sans Osage already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Osmanya
+"2","Noto Sans Osmanya already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Pahawh Hmong
+"2","Noto Sans Pahawh Hmong already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Palmyrene
+"2","Noto Sans Palmyrene already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans PauCinHau
+"2","Noto Sans PauCinHau already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans PhagsPa
+"2","Noto Sans PhagsPa already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Phoenician
+"2","Noto Sans Phoenician already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans PsaPahlavi
+"2","Noto Sans PsaPahlavi already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Rejang
+"2","Noto Sans Rejang already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Samaritan
+"2","Noto Sans Samaritan already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Saurashtra
+"2","Noto Sans Saurashtra already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Sharada
+"2","Noto Sans Sharada already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Siddham
+"2","Noto Sans Siddham already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans SoraSomp
+"2","Noto Sans SoraSomp already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Sundanese
+"2","Noto Sans Sundanese already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Syloti Nagri
+"2","Noto Sans Syloti Nagri already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Syriac
+"2","Noto Sans Syriac already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Tagalog
+"2","Noto Sans Tagalog already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Tagbanwa
+"2","Noto Sans Tagbanwa already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Tai Le
+"2","Noto Sans Tai Le already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Tai Tham
+"2","Noto Sans Tai Tham already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Tai Viet
+"2","Noto Sans Tai Viet already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Takri
+"2","Noto Sans Takri already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Thaana
+"2","Noto Sans Thaana already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Tifinagh
+"2","Noto Sans Tifinagh already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Tirhuta
+"2","Noto Sans Tirhuta already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Ugaritic
+"2","Noto Sans Ugaritic already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Vai
+"2","Noto Sans Vai already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Wancho
+"2","Noto Sans Wancho already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans WarangCiti
+"2","Noto Sans WarangCiti already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Sans Yi
+"2","Noto Sans Yi already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Serif Ahom
+"2","Noto Serif Ahom already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Serif Balinese
+"2","Noto Serif Balinese already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Noto Serif Hmong Nyiakeng
+"2","Noto Serif Hmong Nyiakeng already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Party LET
+"2","Party LET already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): PT Sans
+"2","PT Sans already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): SF Pro
+"2","SF Pro already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): STIX Two Text
+"2","STIX Two Text already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): System Font
+"2","System Font already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Tahoma
+"2","Tahoma already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Times New Roman
+"2","Times New Roman already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Trattatello
+"2","Trattatello already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Trebuchet MS
+"2","Trebuchet MS already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Verdana
+"2","Verdana already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Webdings
+"2","Webdings already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Wingdings
+"2","Wingdings already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Wingdings 2
+"2","Wingdings 2 already registered with postscriptFont().
 "
-"2","Registering font with R using postscriptFont(): Wingdings 3
+"2","Wingdings 3 already registered with postscriptFont().
 "
