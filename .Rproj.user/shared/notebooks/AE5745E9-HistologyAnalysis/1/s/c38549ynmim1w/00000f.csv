@@ -1,5 +1,46 @@
-"0","TukeyHSD(res_aov)
+"0","#oneway anova, taking the mean count for each animal across all slides/positions"
+"0","res_aov <- aov(mean_count ~ AgeCat, data = cartregen_means)"
+"0","summary(res_aov)"
+"1","           "
+"1"," Df"
+"1"," Sum Sq"
+"1"," Mean Sq"
+"1"," F value"
+"1","   Pr(>F)"
+"1","    "
+"1","
+AgeCat     "
+"1","  4"
+"1","  61.34"
+"1","  15.334"
+"1","   13.51"
+"1"," 7.33e-05"
+"1"," ***"
+"1","
+Residuals  "
+"1"," 15"
+"1","  17.03"
+"1","   1.135"
+"1","        "
+"1","         "
+"1","    "
+"1","
 "
+"1","---
+Signif. codes:  "
+"1",""
+"1","0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1"
+"1","
+"
+"0","report(res_aov)"
+"1","The ANOVA (formula: mean_count ~ AgeCat) suggests that:
+
+  - The main effect of AgeCat is statistically significant and large (F(4, 15) = 13.51, p < .001; Eta2 = 0.78, 95% CI [0.54,
+1.00])
+
+Effect sizes were labelled following Field's (2013) recommendations.
+"
+"0","TukeyHSD(res_aov)"
 "1","  Tukey multiple comparisons of means
 "
 "1","    "

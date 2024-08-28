@@ -8,24 +8,22 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
+library(readxl)
+
 library(ggbeeswarm)
+library(ggbreak)
+library(patchwork)
+library(stringr)
 library(cowplot)
 library(ggsci)
 library(see)
-library(ggpattern)
-library(stringr)
-library(readxl)
+library(svglite)
+library(extrafont)
 
 library(easystats)
 library(lme4)
 library(lmerTest)
-```
-
-```{r}
-#for final figures
-library(extrafont)
-font_import()
-loadfonts()
+library(FSA)
 ```
 
 
@@ -165,21 +163,18 @@ cartregen_means <- cartregen_means %>%
 
 
 cmeansplot <- ggplot(cartregen_means, aes(AgeCat, mean_perc_cartregen_length)) +
-  geom_bar_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
-                   pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "lightgrey",
-                   color = "black", fun = "mean", stat = "summary", alpha = 0.8) +
+  geom_bar(aes(fill = AgeCat), fun = "mean", stat = "summary", alpha = 0.8, width = 0.75) +
   #geom_bar(fun = "mean", stat="summary", color = "black", alpha = 0.85) +
   stat_summary(geom = "errorbar", fun.data = mean_se, width = 0.25) +
-  geom_point2(size = 3, alpha = 0.6, color = "black") +
-  ylab("Mean % Cartilage in ROI") + xlab("") +
-  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
+  geom_point2(size = 2, alpha = 0.6, color = "black") +
+  ylab("Mean % \nCartilage in ROI") + xlab("") +
+  #scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.05)), limits=c(0,100), labels=function(x) paste0(x,"%")) +
-  scale_fill_manual(values=c("white", "#FDE725", "#22A884", "#414487", "#440154")) +
-  scale_pattern_type_manual(values = c("hexagonal", "none", "none", "none", "none")) +
-   theme_cowplot(font_size = 8, font_family = "Arial") +
-  theme(legend.position = "none")
+  scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9", "#009E73", "#D55E00")) +
+  theme_cowplot(font_size = 8, font_family = "Arial") +
+  theme(legend.position = "none", axis.text.x=element_text(angle=45, vjust = 1, hjust = 1))
 cmeansplot
-#ggsave("Figures/CartilagePercent.png", dpi=300, width=180, height=90, unit="mm")
+ggsave("Figures/CartilagePercent.pdf", width=40, height=45, unit="mm", dpi = 300)
 #ggsave("Figures/CartilagePercent.eps", dpi=300, width=180, height=90, unit="mm")
 ```
 ## cartilage % analysis
@@ -223,14 +218,14 @@ cposplot2 <- ggplot(cartregen2, aes(Position, perc_cartregen_length, color = Age
   stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.2), linetype = "dashed") +
   stat_summary(fun.min = function(z) { quantile(z,0.25) },
   fun.max = function(z) { quantile(z,0.75) },
-  fun = median, position = position_dodge(width = 0.4), shape = 15, size = 1) +
-  geom_point2(size = 3, alpha = 0.6, position = position_dodge(width = 0.4)) +
+  fun = median, position = position_dodge(width = 0.4), shape = 3, size = 1) +
+  geom_point2(size = 2, alpha = 0.6, position = position_dodge(width = 0.4)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.05)), limits=c(0,110), breaks = c(0, 25, 50, 75, 100), labels=function(x) paste0(x,"%")) +
   ylab("% Cartilage in ROI")  + xlab("") + labs(color = "Age \nat Injury") +
-  scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#009E73", "#D55E00")) +
   theme_cowplot(font_size = 8, font_family = "Arial") + theme(legend.position = "none")
 cposplot2
-
+ggsave("Figures/CartilagePercent_position.pdf", width=80, height=45, unit="mm", dpi = 300)
 ```
 ```{r}
 ggplot(cartregen, aes(Slide_per, perc_cartregen_length, color = AgeCat)) +
@@ -285,20 +280,17 @@ summary(cpos.0)
 ## cartilage count graph
 ```{r}
 ccountplot <- ggplot(cartregen_means, aes(AgeCat, mean_count)) +
-  geom_bar_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
-                   pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "lightgrey",
-                   color = "black", fun = "mean", stat = "summary", alpha = 0.8) +
+  geom_bar(aes(fill = AgeCat), fun = "mean", stat = "summary", alpha = 0.8, width = 0.75) +
   stat_summary(geom = "errorbar", fun.data = mean_se, width = 0.25) +
-  geom_point2(size = 3, alpha = 0.6, color = "black") +
+  geom_point2(size = 2, alpha = 0.6, color = "black") +
   ylab("Mean Number of \nCartilage Pieces in ROI") + xlab("") +
-  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
+  #scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12), limits = c(0,12)) +
-  scale_fill_manual(values=c("white", "#FDE725", "#22A884", "#414487", "#440154")) +
-  scale_pattern_type_manual(values = c("hexagonal", "none", "none", "none", "none")) +
+  scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9", "#009E73", "#D55E00")) +
   theme_cowplot(font_size = 8, font_family = "Arial") +
-  theme(legend.position = "none")
+  theme(legend.position = "none", axis.text.x=element_text(angle=45, vjust = 1, hjust = 1))
 ccountplot
-ggsave("Figures/CartilageCount.png", dpi=300, width=180, height=90, unit="mm")
+ggsave("Figures/CartilageCount.pdf", dpi=300, width=40, height=45, unit="mm")
 ```
 
 ## cartilage count analysis
@@ -330,13 +322,14 @@ ccountposplot2 <- ggplot(cartregen2, aes(Position, Count.x, color = AgeCat, grou
   stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.4), linetype = "dashed") +
   stat_summary(fun.min = function(z) { quantile(z,0.25) },
   fun.max = function(z) { quantile(z,0.75) },
-  fun = median, position = position_dodge(width = 0.4), shape = 15, size = 1) +
-  geom_point2(size = 3, alpha = 0.6, position = position_dodge(width = 0.4)) +
+  fun = median, position = position_dodge(width = 0.4), shape = 3, size = 1) +
+  geom_point2(size = 2, alpha = 0.6, position = position_dodge(width = 0.4)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12), limits = c(0,12)) +
   ylab("Number of \nCartilage Pieces in ROI")  + xlab("") + labs(color = "Age \nat Injury", shape = "Age \nat Injury") +
-  scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#009E73", "#D55E00")) +
   theme_cowplot(font_size = 8, font_family = "Arial") + theme(legend.position = "none")
 ccountposplot2
+ggsave("Figures/CartilageCount_position.pdf", width=80, height=45, unit="mm", dpi = 300)
 ```
 ```{r}
 ggplot(cartregen, aes(Slide_per, Count.x, color = AgeCat)) +
@@ -366,9 +359,8 @@ summary(ccpos.base)
 ```{r}
 plot_grid(cmeansplot, cposplot2,
           ccountplot, ccountposplot2,
-          ncol = 2, labels = "AUTO",
-          label_size = 12, label_fontfamily = "Arial", label_fontface = "bold")
-ggsave("Figures/CartilagePanel.png", dpi = 300, width = 180, height = 210, unit = "mm")
+          ncol = 2, rel_widths = c(1,2,1,2),  labels = NULL)
+ggsave("Figures/CartilagePanel.png", dpi = 300, width = 100, height = 80, unit = "mm")
 ```
 
 
@@ -382,18 +374,17 @@ adipo_means <- adipo_means %>%
                              AgeCat == "≥ 22mo" ~ 0))
 
 
-acountplot <- ggplot(adipo_means, aes(AgeCat, mean_count_area)) +
-    geom_boxplot_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
-                       pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "lightgrey", color = "black", alpha = 0.8)+
-  geom_point2(size = 3, alpha = 0.6, color = "black") +
-  ylab("Mean Number of Adipocytes \nper 100µM") + xlab("") +
-  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
-  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12,14,16,18,20), limits = c(0,20)) +
-  scale_fill_manual(values=c("white", "#FDE725", "#22A884", "#414487", "#440154")) +
+acountplot <- ggplot(adipo_means, aes(AgeCat, mean_count_area, fill = AgeCat)) +
+  geom_boxplot(alpha = 0.8)+
+  geom_point2(size = 1, alpha = 0.6, color = "black") +
+  ylab("Mean Adipocytes \nper 100µM") + xlab("") +
+  #scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(0,2,4,6,8,10,12,14,16,18,20), limits = c(0,20)) +
+  scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9", "#009E73", "#D55E00")) +
   theme_cowplot(font_size = 8, font_family = "Arial") +
-  theme(legend.position = "none")
+  theme(legend.position = "none", axis.text.x=element_text(angle=45, vjust = 1, hjust = 1))
 acountplot
-ggsave("Figures/AdipoCount.png", dpi=300, width=180, height=90, unit="mm")
+ggsave("Figures/AdipoCount.pdf", dpi=300, width=40, height=45, unit="mm")
 ```
 
 ## adipocyte analysis
@@ -436,13 +427,15 @@ aposplot2 <- ggplot(adiporegen2, aes(Position, count_area, color = AgeCat, group
   stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.4), linetype = "dashed") +
   stat_summary(fun.min = function(z) { quantile(z,0.25) },
   fun.max = function(z) { quantile(z,0.75) },
-  fun = median, position = position_dodge(width = 0.4), shape = 15) +
+  fun = median, position = position_dodge(width = 0.4), shape = 3) +
   geom_point2(alpha = 0.6, position = position_dodge(width = 0.4)) +
-  scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
-  ylab("Median Number of Adipocytes \nper 100µM")  + xlab("") + labs(color = "Age \nat Injury") +
-  scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +
-  theme_cowplot(font_size = 8, font_family = "Arial")
+  scale_y_continuous(breaks = c(2,4,6,8,10)) +
+  scale_y_break(breaks = c(11, 14), scales = 0.15, ticklabels = c(15,30)) +
+  ylab("Median Adipocytes \nper 100µM")  + xlab("") + labs(color = "Age \nat Injury") +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#009E73", "#D55E00")) +
+  theme_cowplot(font_size = 8, font_family = "Arial") + theme(legend.position = "none")
 aposplot2
+ggsave("Figures/AdipoCount_position_wo_scalebreak.pdf", dpi=300, width=80, height=45, unit="mm")
 ```
 ```{r}
  ggplot(adiporegen, aes(Slide_per, count_area, color = AgeCat)) +
@@ -460,8 +453,6 @@ apos.1 <- lmer(count_area ~ Position2 + AgeCat + Position2*AgeCat + (Position2 |
 anova(apos.base, apos.0, apos.1)
 anova(apos.1)
 summary(apos.1)
-
-#nothing is significant in any model, which better represents the graph. Also, technically the graph should be individual lines to show the random effect, but that might look too confusing.
 ```
 
 ## muscle fiber graph
@@ -474,24 +465,23 @@ muscle_means <- muscle_means %>%
                              AgeCat == "≥ 22mo" ~ 0))
 
 mcountplot <- ggplot(muscle_means, aes(AgeCat, mean_count_area)) +
-  geom_boxplot_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
-                       pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "lightgrey", color = "black", alpha = 0.8) +
-  geom_point2(size = 3, alpha = 0.6, color = "black") +
-  ylab("Mean Number of Muscle Fibers \nper 100µM") + xlab("") +
-  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
+  geom_boxplot(aes(fill = AgeCat), alpha = 0.8) +
+  geom_point2(size = 1, alpha = 0.6, color = "black") +
+  ylab("Mean Muscle Fibers \nper 100µM") + xlab("") +
+  #scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
   #scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12,14,16,18,20), limits = c(0,20)) +
-  scale_fill_manual(values=c("white", "#FDE725", "#22A884", "#414487", "#440154")) +
+  scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9", "#009E73", "#D55E00")) +
   theme_cowplot(font_size = 8, font_family = "Arial") +
-  theme(legend.position = "none")
+  theme(legend.position = "none", axis.text.x=element_text(angle=45, vjust = 1, hjust = 1))
 mcountplot
-ggsave("Figures/MuscleCount.png", dpi=300, width=180, height=90, unit="mm")
+ggsave("Figures/MuscleCount.pdf", dpi=300, width=40, height=45, unit="mm")
 ```
 ## muscle analysis
 ```{r}
 #kruskal wallis, taking the mean count for each animal across all slides/positions
 hist(muscle_means$mean_count_area)
 kruskal.test(mean_count_area ~ AgeCat, data = muscle_means)
-dunnTest(mean_count_area ~ AgeCat, data = muscle_means, method = "hochberg")
+dunnTest(mean_count_area ~ AgeCat, data = muscle_means, method = "holm")
 ```
 ## muscle position graph
 ```{r}
@@ -525,12 +515,14 @@ mposplot3 <- ggplot(muscleregen2, aes(Position, count_area, color = AgeCat, grou
   stat_summary(fun.min = function(z) { quantile(z,0.25) },
   fun.max = function(z) { quantile(z,0.75) },
   fun = median, position = position_dodge(width = 0.4),
-  shape = 15) + 
+  shape = 3) + 
   geom_point2(alpha = 0.6, position = position_dodge(width = 0.4)) +
-  ylab("Median Number of Muscle Fibers \nper 100µM")  + xlab("") + labs(color = "Age \nat Injury") +
-  scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +
-  theme_cowplot(font_size = 8, font_family = "Arial")
+  scale_y_break(breaks = c(5, 5.5), scales = 0.15, ticklabels = c(6,12)) +
+  ylab("Median Muscle Fibers \nper 100µM")  + xlab("") + labs(color = "Age \nat Injury") +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#009E73", "#D55E00")) +
+  theme_cowplot(font_size = 8, font_family = "Arial") + theme(legend.position = "none")
 mposplot3
+ggsave("Figures/MuscleCount_position.pdf", dpi=300, width=80, height=45, unit="mm")
 
 #significant effect graph
 mposplot2 <- ggplot(muscleregen2, aes(Position, count_area, fill = Position)) +
@@ -575,17 +567,16 @@ hairs_means <- hairs_means %>%
                              AgeCat == "≥ 22mo" ~ 0))
 
 hcountplot <- ggplot(hairs_means, aes(AgeCat, mean_count_area)) +
-  geom_boxplot_pattern(aes(pattern_density = AgeCat2, fill = AgeCat),
-                       pattern = "stripe", pattern_spacing = 0.02, pattern_fill = "lightgrey", color = "black", alpha = 0.8)+
-  geom_point2(size = 3, alpha = 0.6, color = "black") +
-  ylab("Mean Number of Hairs \nper 100µM") + xlab("") +
-  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
+  geom_boxplot(aes(fill = AgeCat), alpha = 0.8)+
+  geom_point2(size = 1, alpha = 0.6, color = "black") +
+  ylab("Mean Hairs \nper 100µM") + xlab("") +
+  #scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
   #scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = c(2,4,6,8,10,12,14,16,18,20), limits = c(0,20)) +
-  scale_fill_manual(values=c("white", "#FDE725", "#22A884", "#414487", "#440154")) +
+  scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9", "#009E73", "#D55E00")) +
   theme_cowplot(font_size = 8, font_family = "Arial") +
-  theme(legend.position = "none")
+  theme(legend.position = "none", axis.text.x=element_text(angle=45, vjust = 1, hjust = 1))
 hcountplot
-ggsave("Figures/HairCount.png", dpi=300, width=180, height=90, unit="mm")
+ggsave("Figures/HairCount.pdf", dpi=300, width=40, height=45, unit="mm")
 ```
 ## hair analysis
 ```{r}
@@ -620,20 +611,21 @@ hposplot <- ggplot(hairregen2, aes(AgeCat, count_area, fill = Position_Age)) +
                                "#21918c", "#90e6e2", "#d0f4f3",
                                "#3b528b", "#a0b0d7", "#d7deee")) +
   theme_cowplot() + theme(legend.position = "none")
-aposplot
+
 
 hposplot2 <- ggplot(hairregen2, aes(Position, count_area, color = AgeCat, group = AgeCat)) +
   stat_summary(geom = "line", fun = "median", position = position_dodge(width = 0.4), linetype = "dashed") +
   stat_summary(fun.min = function(z) { quantile(z,0.25) },
   fun.max = function(z) { quantile(z,0.75) },
   fun = median, position = position_dodge(width = 0.4),
-  shape = 15) + 
+  shape = 3) + 
   geom_point2(alpha = 0.6, position = position_dodge(width = 0.4)) +
-  scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
+  scale_y_break(breaks = c(1.67,1.68), scale = 0.25, ticklabels = c(1.7, 2.0)) +
   ylab("Median Number of Hairs \nper 100µM")  + xlab("") + labs(color = "Age \nat Injury") +
-  scale_color_manual(values=c("#FDE725", "#22A884", "#414487", "#440154")) +
-  theme_cowplot(font_size = 8, font_family = "Arial")
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#009E73", "#D55E00")) +
+  theme_cowplot(font_size = 8, font_family = "Arial") + theme(legend.position = "none")
 hposplot2
+ggsave("Figures/HairCount_position.pdf", dpi=300, width=80, height=45, unit="mm")
 ```
 ```{r}
 ggplot(hairregen, aes(Slide_per, count_area, color = AgeCat)) +
@@ -659,9 +651,8 @@ summary(hpos.base)
 plot_grid(acountplot, aposplot2 + theme(legend.position = "none"),
           mcountplot, mposplot3 + theme(legend.position = "none"),
           hcountplot, hposplot2 + theme(legend.position = "none"),
-          ncol = 2, labels = "AUTO",
-          label_size = 12, label_fontfamily = "Arial", label_fontface = "bold")
-ggsave("Figures/AMHPanel.png", dpi = 300, width = 180, height = 210, unit = "mm")
+          ncol = 2, labels = NULL)
+ggsave("Figures/AMHPanel.png", dpi = 300, width = 134, height = 150, unit = "mm")
 ```
 
 

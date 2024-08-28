@@ -1,8 +1,0 @@
-"0","data.comp <- data.frame(growth_data, GCA_Full=fitted(ear_gr_m1))"
-"0",""
-"0","ggplot(growth_data, aes(DayPostWounding, Area, color=AgeCat))+"
-"0","  stat_summary(fun.data=mean_se, geom=""linerange"", show.legend=FALSE)+"
-"0","  geom_point(stat=""summary"", fun=mean, size=2)+"
-"0","  stat_summary(aes(y=fitted(ear_gr_m1), linetype=AgeCat), fun=mean, geom=""line"", size=1.25)"
-"2","Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
-Please use `linewidth` instead."
